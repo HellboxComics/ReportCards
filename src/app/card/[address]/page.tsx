@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import type { CSSProperties } from "react";
+import { cache, type CSSProperties } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Candles } from "@/components/Candles";
@@ -29,6 +29,11 @@ type Props = {
   searchParams: Promise<{ name?: string; term?: string }>;
 };
 
+/** One provider fetch per request, shared by generateMetadata and the page. */
+const getCard = cache((address: string, name?: string, term?: string) =>
+  loadReportCard(address, { name, term }),
+);
+
 function cardQuery(sp: { name?: string; term?: string }) {
   const q = new URLSearchParams();
   if (sp.name) q.set("name", sp.name);
@@ -41,7 +46,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const { address } = await params;
   if (!isAddress(address)) return {};
   const sp = await searchParams;
-  const card = await loadReportCard(address, sp);
+  const card = await getCard(address, sp.name, sp.term);
   const worst = worstSubject(card.subjects);
   const title = `${worst ? `${gradeLine(worst)} · ` : ""}${card.status}`;
   const description = `“${card.teacherComments[0]}” — Harrow. Show me your grades.`;
@@ -71,7 +76,7 @@ export default async function CardPage({ params, searchParams }: Props) {
   const { address } = await params;
   if (!isAddress(address)) notFound();
   const sp = await searchParams;
-  const card = await loadReportCard(address, sp);
+  const card = await getCard(address, sp.name, sp.term);
   const origin = await siteOrigin();
 
   const cardUrl = `${origin}/card/${address}${cardQuery(sp)}`;
