@@ -39,3 +39,8 @@ export function daysInSession(s: Semester, now: number): number {
 export function isLocked(s: Semester, now: number): boolean {
   return now >= s.end;
 }
+
+/** Whole days until the semester locks (0 once it has). */
+export function daysUntilLock(s: Semester, now: number): number {
+  return Math.max(0, Math.ceil((s.end - now) / DAY_MS));
+}

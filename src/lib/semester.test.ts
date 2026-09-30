@@ -1,5 +1,13 @@
 import { describe, expect, it } from "vitest";
-import { GENESIS, SEMESTER_DAYS, daysInSession, isLocked, semesterAt, semesterByIndex } from "./semester";
+import {
+  GENESIS,
+  SEMESTER_DAYS,
+  daysInSession,
+  daysUntilLock,
+  isLocked,
+  semesterAt,
+  semesterByIndex,
+} from "./semester";
 
 const DAY = 86_400_000;
 
@@ -28,5 +36,12 @@ describe("semesters", () => {
     expect(isLocked(s, s.end)).toBe(true);
     expect(daysInSession(s, s.start + 3.5 * DAY)).toBe(4);
     expect(daysInSession(s, s.end + 100 * DAY)).toBe(44);
+  });
+
+  it("counts down whole days until the semester locks", () => {
+    const s = semesterByIndex(2);
+    expect(daysUntilLock(s, s.start)).toBe(44);
+    expect(daysUntilLock(s, s.end - 1)).toBe(1);
+    expect(daysUntilLock(s, s.end + DAY)).toBe(0);
   });
 });
