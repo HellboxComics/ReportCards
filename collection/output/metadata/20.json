@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #20",
+  "description": "Student #0020 was sent home from Bagholder Valley Regional High with this in Winter 1994. Nobody at home was ready. The A+ in Holding Bags reflects a locker full of tokens that died in September. GPA: 1.56. Technically a number. Final standing: ACADEMIC PROBATION, which the student has already tried to leverage.",
+  "image": "ipfs://__IMAGES_CID__/20.png",
+  "edition": 20,
+  "dna": "2adb46ca510e94248ae0a8136eb77ec7886008a7274b94f36158a93ffde343a4",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cafeteria Tray (Mystery Slot)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Absent 31 days. Doctor's note was a screenshot of a chart."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.56,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 852,
+      "max_value": 3333
+    }
+  ]
+}

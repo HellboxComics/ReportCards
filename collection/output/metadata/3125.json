@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3125",
+  "description": "Harrow uncapped a fresh red pen for Student #3125 in Winter 1994. It did not survive. Only an F in Chasing Memes, which makes this student the only person here who has read a whitepaper. Also enclosed: a cafeteria notice for a negative lunch balance, spent entirely on gas fees. Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/3125.png",
+  "edition": 3125,
+  "dna": "29dc9c02bc3caf7998c13f42fc76ed424b9d4899c57b420b1313df2878ce9ebd",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Principal's Carpet (Seen Things)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Spent lunch money on gas fees. Ate a ketchup packet for protein."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Diamond Hands (Six Fingers)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Lunch Debt (Gas Fees)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.72,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2147,
+      "max_value": 3333
+    }
+  ]
+}

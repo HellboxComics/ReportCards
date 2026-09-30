@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2807",
+  "description": "Report card, Bagholder Valley Regional High, Winter 2004. STUDENT ID #2807. Prognosis: see below. Only an F in Selling Too Early; stayed for the whole movie, including the good part. GPA: 0.89. The decimal point is doing a lot of work. ACADEMIC PROBATION. The ice is thin and the student is doing donuts on it.",
+  "image": "ipfs://__IMAGES_CID__/2807.png",
+  "edition": 2807,
+  "dna": "470fe8f85d2144bbc69fa55446dbc3edf643d503b71f575ae7c7990dabaa019f",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Green Candle Trading Floor"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Only comes to school on green days."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Yacht ('ME IN 2 WEEKS')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.89,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1980,
+      "max_value": 3333
+    }
+  ]
+}

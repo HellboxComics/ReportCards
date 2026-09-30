@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1627",
+  "description": "Student #1627's parents asked the district to lose this one. The district said no. Took a C+ in Chasing Memes; the classroom posters have been removed for everyone's safety. Stapled through the corner: a referral for a cafeteria fight over the market cap of a tot. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/1627.png",
+  "edition": 1627,
+  "dna": "e24c31f8b66a758cea2a867011d932ccf166c7ad39c3842dffa184e51e433d18",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Signs every assignment 'not financial advice.' It's a spelling test."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.17,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 711,
+      "max_value": 3333
+    }
+  ]
+}

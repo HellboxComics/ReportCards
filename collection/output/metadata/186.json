@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #186",
+  "description": "Filed in the principal's office under DO NOT HIRE: Student #0186, Paper Hands Preparatory Academy, Fall 1994. Scored an A+ in Buying the Top and has been asked to stop describing it as 'good timing.' In the margin: a rocket ship headed for the moon. At the bottom: a muddy paw print where the parent signature should be. On everything: a chocolate milk leak. MOST LIKELY TO BECOME EXIT LIQUIDITY. Already has. The yearbook just made it official.",
+  "image": "ipfs://__IMAGES_CID__/186.png",
+  "edition": 186,
+  "dna": "77c41fae73ab3987c24d4961e6d7dc16dfd295ee57ee9182f3fcf94942f44c9c",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picture Day Lasers"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Explained leverage to the kindergarteners. Two are now liquidated."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Dog"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 837,
+      "max_value": 3333
+    }
+  ]
+}

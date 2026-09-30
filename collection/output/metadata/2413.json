@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2413",
+  "description": "There is a drawer at St. Satoshi of the Perpetual Dip for cards like this. Student #2413's is on top. Earned an F in Taking Profit, a subject the student describes as 'optional.' Paper-clipped to it: a confiscated note reading '100x, tell no one,' passed to 31 people. Status: HELD BACK. See you next semester. And the one after that.",
+  "image": "ipfs://__IMAGES_CID__/2413.png",
+  "edition": 2413,
+  "dna": "c3b30b25e077c289203a85256c3007c4e9cce2f9fadb1f520f8d0edfd201c95b",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bus 7 (Late Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Prepared for Y2K by buying a coin called $Y2K. The computers survived. The coin did not."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Booger (Fresh-ish)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Confiscated Note ('100x')"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.72,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 498,
+      "max_value": 3333
+    }
+  ]
+}

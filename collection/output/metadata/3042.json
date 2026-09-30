@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3042",
+  "description": "Harrow uncapped a fresh red pen for Student #3042 in Winter 1987. It did not survive. Posted an A+ in Buying the Top; classmates now use this student's buys as their sell signal. GPA: 0.00. The decimal point is doing a lot of work. Voted MOST LIKELY TO BECOME EXIT LIQUIDITY, unanimously, by everyone who sold to them.",
+  "image": "ipfs://__IMAGES_CID__/3042.png",
+  "edition": 3042,
+  "dna": "c183d6ea037c583e21e1d269733cce9a8e4c596b2a153ed79ae7523cbfdd5ecd",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picture Day Lasers"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Asked if the pop quiz had a presale."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Nosebleed (Watched It Dump)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2199,
+      "max_value": 3333
+    }
+  ]
+}

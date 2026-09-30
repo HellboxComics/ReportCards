@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2611",
+  "description": "Every school has one. At Mt. Rugmore Junior High, in Winter 1999, it was Student #2611. Earned an F in Buying the Top, meaning they have never once bought the top. We checked twice. It came back with Dad's furious, illegible signature and dried tear stains, which is more than most of this student's positions came back with. Status: HONOR ROLL. The wallet has been sent to the office for a random search.",
+  "image": "ipfs://__IMAGES_CID__/2611.png",
+  "edition": 2611,
+  "dna": "8552d4b73cfe9d5cd8cd8574316b684fb8af9538623e6667b07c348d1a9c7993",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bathroom Stall (Graffiti)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Excellent term. Wallet has been sent to the office for a random search."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Star (Double-Checked)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Tear Stains (Dried)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 3.17,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2311,
+      "max_value": 3333
+    }
+  ]
+}

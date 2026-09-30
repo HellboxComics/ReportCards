@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2306",
+  "description": "This is the permanent record of Student #2306. It is permanent. That was always the threat. Posted a B+ in Buying the Top; classmates now use this student's buys as their sell signal. The parent signature section contains a parent signature that just says 'gm'. The district has questions. Final standing: HELD BACK, repeating the grade and the exact same trade.",
+  "image": "ipfs://__IMAGES_CID__/2306.png",
+  "edition": 2306,
+  "dna": "aa5311eeefb9a084422939322a225cd4c6c2fc2c1edc3ea3b92857d33fc72f67",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cafeteria Tray (Mystery Slot)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Wen Moon Vocational & Technical"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Physically present. Mentally watching a one-minute chart."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Wrote 'gm'"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.72,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1828,
+      "max_value": 3333
+    }
+  ]
+}

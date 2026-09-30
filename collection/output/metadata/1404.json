@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1404",
+  "description": "Printed on tractor-feed dot-matrix paper and mailed home in Spring 1994, this card has caused three family meetings. Earned an F in Risk Management; the college fund is now a coin with a hamster on it. GPA: 1.33. Technically a number. HELD BACK. The student is now the tallest kid in class and still buying the top.",
+  "image": "ipfs://__IMAGES_CID__/1404.png",
+  "edition": 1404,
+  "dna": "11cc3d5a3687979654bf8bc7c9f486e7e0b68a1aa41c84bbf8f74343ec572426",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Wall (Combo Forgotten)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Does not work well with others. Works even worse alone."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 3235,
+      "max_value": 3333
+    }
+  ]
+}

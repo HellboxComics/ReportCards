@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1705",
+  "description": "Harrow uncapped a fresh red pen for Student #1705 in Fall 1994. It did not survive. Took an A in Chasing Memes; the classroom posters have been removed for everyone's safety. Forensics found a hallway shoe print, 'HODL' in shaded 3D bubble letters and a '?!?' in the margin. ACADEMIC PROBATION. The ice is thin and the student is doing donuts on it.",
+  "image": "ipfs://__IMAGES_CID__/1705.png",
+  "edition": 1705,
+  "dna": "151b41f609fa8c35a01cac051963b9ed89edbb5931552031240baecef778f619",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Launched a token called $RECESS during recess. Recess has been canceled."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.56,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1656,
+      "max_value": 3333
+    }
+  ]
+}

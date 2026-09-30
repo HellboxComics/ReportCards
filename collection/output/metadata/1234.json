@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1234",
+  "description": "Photographed as evidence on the detention room floor: the Fall 1994 report card of Student #1234. Earned a C in Chasing Memes by buying anything with a cartoon animal on it. Under a black light it shows creases from being folded into eighths and hidden in a sock and, faintly, a crying stick figure labeled 'ME'. Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/1234.png",
+  "edition": 1234,
+  "dna": "b915c92fd9f62ad1ed242159a69e988c7578909c6f2399d3181afb3fb0fd1b6d",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Only comes to school on green days."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.39,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2350,
+      "max_value": 3333
+    }
+  ]
+}

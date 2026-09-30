@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3174",
+  "description": "Dear Parent or Guardian: enclosed are the grades of Student #3174. Please sit down first. The B- in Buying the Top was earned the hard way: at the exact high, every single time. Tucked underneath is a forged permission slip for a 100x leverage field trip. The bus has not returned. Status: SUSPENDED. Three days at home; traded all three.",
+  "image": "ipfs://__IMAGES_CID__/3174.png",
+  "edition": 3174,
+  "dna": "86fd2c81152cb9247745d534bd54103a206528e905918f91a411b8dbcfdeed3a",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Suspended"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picture Day Lasers"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Office of Student Discipline"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Banned from the computer lab until further notice. And the calculator."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Permission Slip (100x Field Trip)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 729,
+      "max_value": 3333
+    }
+  ]
+}

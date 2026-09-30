@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1026",
+  "description": "Filed in the principal's office under DO NOT HIRE: Student #1026, summer school, Summer 1987. Took an F in Taking Profit; the sell button is still in its original packaging. Forensics found dried tear stains, no doodles whatsoever, for once and a SEE ME in letters an inch tall. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/1026.png",
+  "edition": 1026,
+  "dna": "39e76e39018df6c8e06f7e380e62fac92212142ba8c0dab3e169c2a3e9a79ff0",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picture Day Lasers"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Never buys the top. Buys the floor, then the basement, then the crawlspace."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "None (Paid Attention?)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Tear Stains (Dried)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.89,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 187,
+      "max_value": 3333
+    }
+  ]
+}

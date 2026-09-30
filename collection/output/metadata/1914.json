@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1914",
+  "description": "Report card, Wen Moon Vocational & Technical, Winter 1982. STUDENT ID #1914. Prognosis: see below. Posted an A+ in Holding Bags with positions older than the lunch lady. Forensics found a grape juice box explosion, a crying stick figure labeled 'ME' and a red arrow from Buying the Top to the word WHY. Status: MOST LIKELY TO BECOME EXIT LIQUIDITY. The class thanks you for your service.",
+  "image": "ipfs://__IMAGES_CID__/1914.png",
+  "edition": 1914,
+  "dna": "561d575465f28417d037702e61e71ee6a1a0fed8c80b348f129f4513ba379d89",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bus 7 (Late Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Mimeograph Purple"
+    },
+    {
+      "trait_type": "School",
+      "value": "Wen Moon Vocational & Technical"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1982"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "A generous student. Absorbs everyone's sell orders. Never complains."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Arrow To 'WHY'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 576,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1817",
+  "description": "Harrow graded Student #1817 in Winter 1994 and has not been the same since. Posted an A+ in Selling Too Early and left the field trip right before the good part. The parent signature section contains a poorly forged parent signature. The district has questions. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/1817.png",
+  "edition": 1817,
+  "dna": "29f418e165d96fb034db18c3e2547325cb55c93cd12580904f9c067e56680f37",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Takes profit like an adult. We have notified the authorities."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.11,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 694,
+      "max_value": 3333
+    }
+  ]
+}

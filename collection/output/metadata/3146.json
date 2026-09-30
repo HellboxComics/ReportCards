@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3146",
+  "description": "The grades of Student #3146 were posted in Summer 2004. The market reacted. Earned an A in Buying the Top, which the school board has asked us to stop calling a gift. The parent signature section contains seventeen signatures from the group chat. The district has questions. Status: MOST LIKELY TO BECOME EXIT LIQUIDITY. The class thanks you for your service.",
+  "image": "ipfs://__IMAGES_CID__/3146.png",
+  "edition": 3146,
+  "dna": "a5f9a2a3b7b3c38f2af0b92a0f6eb9b1f48921d497e60d00823e7536ae1fbbdf",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Summer school again. Tan lines are from the monitor."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Dream Car (Three Wheels)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Group Chat"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.89,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 92,
+      "max_value": 3333
+    }
+  ]
+}

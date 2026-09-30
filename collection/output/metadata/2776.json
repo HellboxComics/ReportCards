@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2776",
+  "description": "The grades of Student #2776 were posted in Winter 1999. The market reacted. Earned an F in Holding Bags, having thrown out every dead position before it started to smell. A gold Gifted & Talented sticker was applied after the student moved the market during snack time. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/2776.png",
+  "edition": 2776,
+  "dna": "67843fe516c8a0bd7adf100847003ac0a35ec4a0f361a8a72acc4aea1b63144f",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Diamond Hands Magnet School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Could be a B student if the B didn't stand for 'bags.'"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Red Pen Exploded"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Gifted & Talented (Whale)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.28,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2448,
+      "max_value": 3333
+    }
+  ]
+}

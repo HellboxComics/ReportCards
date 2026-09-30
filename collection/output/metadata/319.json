@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #319",
+  "description": "Harrow uncapped a fresh red pen for Student #0319 in Spring 2004. It did not survive. Posted an A+ in Chasing Memes, including a coin named after the cafeteria fish sticks. Harrow's only written comment: \"Uses the word 'conviction' to describe forgetting their password.\" Voted MOST LIKELY TO BECOME EXIT LIQUIDITY, unanimously, by everyone who sold to them.",
+  "image": "ipfs://__IMAGES_CID__/319.png",
+  "edition": 319,
+  "dna": "1c9b9bdc9651266100ad09477d26f2f3a917be18b55c5c4790ccbe2679fea520",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Uses the word 'conviction' to describe forgetting their password."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.39,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1598,
+      "max_value": 3333
+    }
+  ]
+}

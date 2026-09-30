@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1744",
+  "description": "Student #1744's parents asked the district to lose this one. The district said no. The A in Buying the Top was earned the hard way: at the exact high, every single time. In the margin: the pointy S every kid in America draws. At the bottom: Grandma's signature and a note asking what a memecoin is. On everything: a coffee ring from Harrow's fourth cup. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/1744.png",
+  "edition": 1744,
+  "dna": "9649634a617cd52f049e572f3f5a3da768128da104ca063e7d6de6b863ced8de",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Overhead Projector (Left On)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Traded the class field trip fund. This year's field trip is the parking lot."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The S (You Know The One)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Grandma (Has Questions)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.44,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 673,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #950",
+  "description": "Recovered from the bottom of a backpack, under a banana from Winter 2004: the report card of Student #0950. The A+ in Buying the Top was earned the hard way: at the exact high, every single time. GPA: 0.00, which Harrow notes is also roughly the win rate. MOST LIKELY TO BECOME EXIT LIQUIDITY. Already has. The yearbook just made it official.",
+  "image": "ipfs://__IMAGES_CID__/950.png",
+  "edition": 950,
+  "dna": "c86090b6edb4a2f36700940c057ce956cfa6a94a54b8fa40516e9e661f6fc404",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Leverage Heights Middle School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Bought a coin named after the cafeteria fish sticks. It 10x'd. Worst possible lesson."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Arrow To 'WHY'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 903,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #140",
+  "description": "Recovered from the bottom of a backpack, under a banana from Fall 1994: the report card of Student #0140. Pulled an F in Taking Profit after riding a 50x all the way back down to the bus stop. A nurse's pass is taped to it: rugged, ice pack administered, sent back to class. MOST LIKELY TO BECOME EXIT LIQUIDITY. Already has. The yearbook just made it official.",
+  "image": "ipfs://__IMAGES_CID__/140.png",
+  "edition": 140,
+  "dna": "9f310aa2e9c1ba775031660b70f5983120843bf75927fead5ebdbc9f03f82ed6",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Voted 'Most Likely.' Already did it. Before the yearbook came out."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Arrow To 'WHY'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Scorched (Tried To Burn It)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Nurse's Pass (Rugged)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.22,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 532,
+      "max_value": 3333
+    }
+  ]
+}

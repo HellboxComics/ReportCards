@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1822",
+  "description": "Student #1822 attended Bagholder Valley Regional High in Spring 1987 and made it everyone's problem. Earned a C+ in Holding Bags; the nurse has concerns about the student's spine. GPA: 1.17. Technically a number. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/1822.png",
+  "edition": 1822,
+  "dna": "d744a8f07f0ec427ec5d3053e3b1d3565c2f3fc03733221438f3b0b471bb2b80",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Principal's Carpet (Seen Things)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Put the college fund into a coin with a hamster on the logo."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.17,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2822,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2350",
+  "description": "The grades of Student #2350 were posted in Winter 2004. The market reacted. Scored an A in Buying the Top and has been asked to stop describing it as 'good timing.' Harrow's only written comment: \"Buys the top with the precision of a sniper who is also the target.\" Final standing: HELD BACK, repeating the grade and the exact same trade.",
+  "image": "ipfs://__IMAGES_CID__/2350.png",
+  "edition": 2350,
+  "dna": "7d1a2df364d4f51245f762db95e57578ff0c6196c17c70f82512a5cd65bef85a",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bathroom Stall (Graffiti)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Buys the top with the precision of a sniper who is also the target."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Arrow To 'WHY'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Laser Eyes Self-Portrait"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Scorched (Tried To Burn It)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.61,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 358,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2722",
+  "description": "Student #2722 was sent home from St. Satoshi of the Perpetual Dip with this in Spring 2004. Nobody at home was ready. Posted an A+ in Buying the Top; classmates now use this student's buys as their sell signal. GPA: 0.33. The decimal point is doing a lot of work. Status: MOST LIKELY TO BECOME EXIT LIQUIDITY. The class thanks you for your service.",
+  "image": "ipfs://__IMAGES_CID__/2722.png",
+  "edition": 2722,
+  "dna": "5bed24b1244b0c9440a77a2cdb17733d75df1289cf07a2b1cc1e55fbc59c2390",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Sticker-Bombed Desk"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Only buys after Grandma asks about it. Grandma always asks at the top."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2654,
+      "max_value": 3333
+    }
+  ]
+}

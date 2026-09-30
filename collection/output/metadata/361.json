@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #361",
+  "description": "Exhibit A in the matter of Bagholder Valley Regional High v. Student #0361, Fall 1982. Scored an A+ in Buying the Top and has been asked to stop describing it as 'good timing.' A disciplinary referral is stapled on: twelve trades in one lunch period and one thrown tray. Final standing: HELD BACK, repeating the grade and the exact same trade.",
+  "image": "ipfs://__IMAGES_CID__/361.png",
+  "edition": 361,
+  "dna": "72a4a1476be603e57e500fd6a81547cac32da010978893d6b183d4b3179a037d",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Mimeograph Purple"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1982"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Calls the cafeteria 'the trenches.' It is a cafeteria. There is pudding."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1765,
+      "max_value": 3333
+    }
+  ]
+}

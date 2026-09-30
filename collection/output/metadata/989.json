@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #989",
+  "description": "Filed in the principal's office under DO NOT HIRE: Student #0989, Exit Liquidity Charter Academy, Fall 1994. Earned an A- in Buying the Top, which the school board has asked us to stop calling a gift. Harrow's only written comment: \"Bought the high of the year. Twice. Same coin. Same afternoon.\" MOST LIKELY TO BECOME EXIT LIQUIDITY. Already has. The yearbook just made it official.",
+  "image": "ipfs://__IMAGES_CID__/989.png",
+  "edition": 989,
+  "dna": "01f0925de17e2584611114541d15f517adf8072c61be6c0f23896c28ccdf7d4b",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Wall (Combo Forgotten)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Bought the high of the year. Twice. Same coin. Same afternoon."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Arrow To 'WHY'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Laser Eyes Self-Portrait"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 708,
+      "max_value": 3333
+    }
+  ]
+}

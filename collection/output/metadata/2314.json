@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2314",
+  "description": "Student #2314 was sent home from Mt. Rugmore Junior High with this in Spring 1999. Nobody at home was ready. Pulled an F in Taking Profit after riding a 50x all the way back down to the bus stop. Forensics found a hallway shoe print, a crying stick figure labeled 'ME' and a SEE ME in letters an inch tall. Final standing: ACADEMIC PROBATION, which the student has already tried to leverage.",
+  "image": "ipfs://__IMAGES_CID__/2314.png",
+  "edition": 2314,
+  "dna": "a41a86d67f3cf5d5ce1f2607d76a7b9c82ec4d8ba4e9a4d49f56bbc72ade82e2",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bus 7 (Late Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Draws candles instead of taking notes. All red. At least it's honest."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.5,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2615,
+      "max_value": 3333
+    }
+  ]
+}

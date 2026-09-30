@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1190",
+  "description": "For the record, and it is a permanent record: Student #1190, Robinhood Chain Public School No. 46, Fall 1999. Only an F in Chasing Memes, which makes this student the only person here who has read a whitepaper. Harrow's only written comment: \"Took profit, managed risk, went to bed. We don't know what to do with this child.\" HONOR ROLL. Grandma has already bought the frame.",
+  "image": "ipfs://__IMAGES_CID__/1190.png",
+  "edition": 1190,
+  "dna": "d3fce41c5da22259a87d12888100d7160fa0776565f278b5407a6ba4815f9bef",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cafeteria Tray (Mystery Slot)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Took profit, managed risk, went to bed. We don't know what to do with this child."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Star (Double-Checked)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "None (Paid Attention?)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.61,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1929,
+      "max_value": 3333
+    }
+  ]
+}

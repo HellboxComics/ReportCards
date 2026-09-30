@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1342",
+  "description": "Photographed as evidence on a desk someone carved WAGMI into: the Winter 1999 report card of Student #1342. Got an F in Risk Management after setting slippage to 49% 'to be safe.' Harrow added an F circled so hard the pen went through; the student added a self-portrait with laser eyes. Neither helped. NEEDS IMPROVEMENT. Mother requested conference.",
+  "image": "ipfs://__IMAGES_CID__/1342.png",
+  "edition": 1342,
+  "dna": "9d0df677f3cf39b8b887812dddd06a8e8bdc3ac1e44bcae5ace67be701bd505d",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Uses the word 'conviction' to describe forgetting their password."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Laser Eyes Self-Portrait"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.89,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 3263,
+      "max_value": 3333
+    }
+  ]
+}

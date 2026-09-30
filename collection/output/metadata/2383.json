@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2383",
+  "description": "Harrow graded Student #2383 in Fall 2004 and has not been the same since. Taking Profit came back Incomplete; the student says the assignment is 'still vesting.' GPA: 0.00. The decimal point is doing a lot of work. MOST LIKELY TO BECOME EXIT LIQUIDITY. Already has. The yearbook just made it official.",
+  "image": "ipfs://__IMAGES_CID__/2383.png",
+  "edition": 2383,
+  "dna": "a784699567e6009f8b34fb21a33e3d2a6b957ad74ba9f057ccdf57d1c0c7d558",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Wall (Combo Forgotten)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Leverage Heights Middle School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "I"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "I"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Buys anything with a cartoon animal on it. We removed the classroom posters."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Pristine (Never Shown To Parents)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 316,
+      "max_value": 3333
+    }
+  ]
+}

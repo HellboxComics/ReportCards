@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #844",
+  "description": "Report card, Wen Moon Vocational & Technical, Spring 1982. STUDENT ID #0844. Prognosis: see below. Selling Too Early: Incomplete. The work is, according to the student, 'still in the mempool.' Stapled through the corner: a referral for a cafeteria fight over the market cap of a tot. Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/844.png",
+  "edition": 844,
+  "dna": "d47edcefca237c7a14c67476ca846243686f763333bfd8fe2bb55d43046e6753",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Mimeograph Purple"
+    },
+    {
+      "trait_type": "School",
+      "value": "Wen Moon Vocational & Technical"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1982"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "I"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Sold into a green candle. Classmates think it's witchcraft. Nobody sits near them."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1182,
+      "max_value": 3333
+    }
+  ]
+}

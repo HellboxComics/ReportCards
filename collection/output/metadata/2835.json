@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2835",
+  "description": "Harrow graded Student #2835 in Spring 1999 and has not been the same since. Posted an A+ in Buying the Top; classmates now use this student's buys as their sell signal. It comes with a nurse's pass, because a developer pulled the rug and the student hit the floor. MOST LIKELY TO BECOME EXIT LIQUIDITY. Already has. The yearbook just made it official.",
+  "image": "ipfs://__IMAGES_CID__/2835.png",
+  "edition": 2835,
+  "dna": "8bf1658f5b6e31d25cb3b1a8eb27dd63292f25cb384eef68875d91f901ad1445",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "A joy to have in class when absent. Which is always."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Grade Changed B To F"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Harrow With Devil Horns"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Nurse's Pass (Rugged)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 414,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2740",
+  "description": "Student #2740's parents asked the district to lose this one. The district said no. The B+ in Chasing Memes was locked in the day the student bought a coin called $RECESS. Harrow added not one drop of red ink, out of pure exhaustion; the student added 'HODL' in shaded 3D bubble letters. Neither helped. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/2740.png",
+  "edition": 2740,
+  "dna": "e51b2ad348d24b5e459bf000e9d9855e1c8d44ef5627c8cd8f0ff0ff735b0848",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Principal's Carpet (Seen Things)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Mimeograph Purple"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1982"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Was found running with scissors. Leveraged scissors."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.5,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 3006,
+      "max_value": 3333
+    }
+  ]
+}

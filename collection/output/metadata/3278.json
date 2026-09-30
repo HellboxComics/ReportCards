@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3278",
+  "description": "Every school has one. At Robinhood Chain Public School No. 46, in Fall 1999, it was Student #3278. The B- in Holding Bags reflects a locker full of tokens that died in September. It came back with 'MOM' forged in green crayon and a coffee ring from Harrow's fourth cup, which is more than most of this student's positions came back with. ACADEMIC PROBATION. The ice is thin and the student is doing donuts on it.",
+  "image": "ipfs://__IMAGES_CID__/3278.png",
+  "edition": 3278,
+  "dna": "1da64a3397e6afbfe53b8643dfb2a39e67772174992c01eee7d713061b40c4f8",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "On thin ice. Currently trying to open a leveraged position on the ice."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The S (You Know The One)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1879,
+      "max_value": 3333
+    }
+  ]
+}

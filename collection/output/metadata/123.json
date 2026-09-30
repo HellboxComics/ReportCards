@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #123",
+  "description": "Exhibit A in the matter of FOMO Falls Elementary v. Student #0123, Spring 2004. Got an F in Risk Management after setting slippage to 49% 'to be safe.' It was recovered from a bathroom stall wall. The custodian has declined to discuss a smear of mystery cafeteria gravy. ACADEMIC PROBATION. The ice is thin and the student is doing donuts on it.",
+  "image": "ipfs://__IMAGES_CID__/123.png",
+  "edition": 123,
+  "dna": "0710f1474f5ef0156e548a69699405a160c3c9c0418fde8cb010b5f58b88ee25",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bathroom Stall (Graffiti)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Tried to pay for the field trip in a coin that no longer exists."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The S (You Know The One)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Grandma (Has Questions)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.44,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2306,
+      "max_value": 3333
+    }
+  ]
+}

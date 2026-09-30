@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1815",
+  "description": "Every school has one. At Mt. Rugmore Junior High, in Winter 1994, it was Student #1815. Posted an A- in Chasing Memes, including a coin named after the cafeteria fish sticks. Paper-clipped to it: a confiscated note reading '100x, tell no one,' passed to 31 people. ACADEMIC PROBATION. The ice is thin and the student is doing donuts on it.",
+  "image": "ipfs://__IMAGES_CID__/1815.png",
+  "edition": 1815,
+  "dna": "1b0245fa1726854e7aabadf3ab031195913494b3b66a7765025faaf9837c9953",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Calls the cafeteria 'the trenches.' It is a cafeteria. There is pudding."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Booger (Fresh-ish)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Confiscated Note ('100x')"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.61,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2723,
+      "max_value": 3333
+    }
+  ]
+}

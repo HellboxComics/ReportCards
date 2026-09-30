@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1018",
+  "description": "This is the permanent record of Student #1018. It is permanent. That was always the threat. Scored a C- in Buying the Top and has been asked to stop describing it as 'good timing.' Harrow's only written comment: \"Talks a lot in class about 'generational wealth.' Has $11.\" Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/1018.png",
+  "edition": 1018,
+  "dna": "eb671a24eca0cab5561f6b18cea37d406783f9afc61606c9495f92663c4c6b0b",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Wall (Combo Forgotten)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Talks a lot in class about 'generational wealth.' Has $11."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Harrow With Devil Horns"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Ketchup (Hopefully)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.61,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2110,
+      "max_value": 3333
+    }
+  ]
+}

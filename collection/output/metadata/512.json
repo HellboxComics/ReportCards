@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #512",
+  "description": "For the record, and it is a permanent record: Student #0512, Paper Hands Preparatory Academy, Fall 1982. The A+ in Chasing Memes was locked in the day the student bought a coin called $RECESS. GPA: 0.17. The decimal point is doing a lot of work. Status: SUSPENDED. Three days at home; traded all three.",
+  "image": "ipfs://__IMAGES_CID__/512.png",
+  "edition": 512,
+  "dna": "ffaa07670b7ec7b662f701e15acaeff46c0dd49845af468c1a149138d871533f",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Suspended"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Overhead Projector (Left On)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Mimeograph Purple"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1982"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "C"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "D"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Uses 50x leverage 'to be safe.'"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Grade Changed B To F"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Scorched (Tried To Burn It)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Group Chat"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.17,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 466,
+      "max_value": 3333
+    }
+  ]
+}

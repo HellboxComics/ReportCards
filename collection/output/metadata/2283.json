@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2283",
+  "description": "Filed in the principal's office under DO NOT HIRE: Student #2283, Robinhood Chain Public School No. 46, Spring 1999. Only an F in Selling Too Early; stayed for the whole movie, including the good part. GPA: 3.00. Please stop telling the other students. HONOR ROLL. Grandma has already bought the frame.",
+  "image": "ipfs://__IMAGES_CID__/2283.png",
+  "edition": 2283,
+  "dna": "899c9f2c2c6d548e7bb84973a8d6f2cb11bfbfd3e89d8fd2ddc7e7d2f467a165",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "A pleasure to have in class. We are frankly suspicious."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 3,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2643,
+      "max_value": 3333
+    }
+  ]
+}

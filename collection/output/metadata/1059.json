@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1059",
+  "description": "Dear Parent or Guardian: enclosed are the grades of Student #1059. Please sit down first. The F in Risk Management was hand-delivered by the nurse, who has seen things. Withdrawal paperwork is clipped to the front. Reason for withdrawal: LIQUIDATED. Final standing: EXPELLED. Do not readmit. Do not accept the same student with a different wallet.",
+  "image": "ipfs://__IMAGES_CID__/1059.png",
+  "edition": 1059,
+  "dna": "c8c153d633f228e0f649859f562e649a91cb5951e92d9512090ad9078b2a9bff",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Expelled"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Ran with scissors, into traffic, on 50x. The scissors are fine."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Dream Car (Three Wheels)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Withdrawal Notice (Liquidated)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 923,
+      "max_value": 3333
+    }
+  ]
+}

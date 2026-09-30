@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #161",
+  "description": "Found folded into a Summer 1994 textbook nobody ever returned: the grades of Student #0161. Only an F in Chasing Memes, which makes this student the only person here who has read a whitepaper. A disciplinary referral is stapled on: twelve trades in one lunch period and one thrown tray. Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/161.png",
+  "edition": 161,
+  "dna": "57cd4be8dbedc016e44bd32bee05849a418b63761ae2953a48942c56c592ba51",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Keeps a spreadsheet. Was stuffed in a locker for it. The locker was hedged."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 973,
+      "max_value": 3333
+    }
+  ]
+}

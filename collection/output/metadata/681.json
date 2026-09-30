@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #681",
+  "description": "Harrow uncapped a fresh red pen for Student #0681 in Fall 1999. It did not survive. The C+ in Buying the Top was earned the hard way: at the exact high, every single time. Harrow added a red pen that exploded mid-comment; the student added a self-portrait with laser eyes. Neither helped. ACADEMIC PROBATION. The ice is thin and the student is doing donuts on it.",
+  "image": "ipfs://__IMAGES_CID__/681.png",
+  "edition": 681,
+  "dna": "ff7922c57934c959b9994171c341f39dbc22c634cb7ce41f30fb09eb4034a38b",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "I"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Traded the class field trip fund. This year's field trip is the parking lot."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Red Pen Exploded"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Laser Eyes Self-Portrait"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Tear Stains (Dried)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Grandma (Has Questions)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.07,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 77,
+      "max_value": 3333
+    }
+  ]
+}

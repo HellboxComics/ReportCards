@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2175",
+  "description": "Student #2175 enrolled at Leverage Heights Middle School with lunch money and a dream. Only one made it to Winter 1987. Got an F in Risk Management after setting slippage to 49% 'to be safe.' Stapled through the corner: a referral for a cafeteria fight over the market cap of a tot. Final standing: HELD BACK, repeating the grade and the exact same trade.",
+  "image": "ipfs://__IMAGES_CID__/2175.png",
+  "edition": 2175,
+  "dna": "04b92bc52b28bfeeef9e0ed375d21dba7f0981688e6b63f12525e890f3bf7cf8",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bus 7 (Late Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Leverage Heights Middle School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Twelve trades in one lunch period. A tray was thrown. So was a chart."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Flat-Mouth Smiley"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Dream Car (Three Wheels)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.06,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 256,
+      "max_value": 3333
+    }
+  ]
+}

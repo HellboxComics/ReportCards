@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #330",
+  "description": "Found folded into a Fall 1987 textbook nobody ever returned: the grades of Student #0330. Pulled an F in Taking Profit after riding a 50x all the way back down to the bus stop. Harrow added not one drop of red ink, out of pure exhaustion; the student added the 3D cube every kid draws. Neither helped. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/330.png",
+  "edition": 330,
+  "dna": "72c92608a62409abe8533dc395f46c8fad5612f8e235c6e75e90faf24e53f6d5",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Holds 40% stables. The most boring child I have ever loved."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1426,
+      "max_value": 3333
+    }
+  ]
+}

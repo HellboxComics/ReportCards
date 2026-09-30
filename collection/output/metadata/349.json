@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #349",
+  "description": "Exhibit A in the matter of Mt. Rugmore Junior High v. Student #0349, Spring 1982. Earned an A+ in Buying the Top, which the school board has asked us to stop calling a gift. Forensics found a smear of mystery cafeteria gravy, long division trying to find a liquidation price and three underlines under the worst grade. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/349.png",
+  "edition": 349,
+  "dna": "c06abc6ad1f06e53135ce300a917a6a42af4b2c2a55ba6b56b932421d7d4fe94",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bathroom Stall (Graffiti)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Mimeograph Purple"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1982"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Must learn to raise hand before speaking. And before buying."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Liquidation Price Math"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed At 3:12 AM"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2266,
+      "max_value": 3333
+    }
+  ]
+}

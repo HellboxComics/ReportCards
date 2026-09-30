@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3110",
+  "description": "Student #3110 was sent home from FOMO Falls Elementary with this in Spring 2004. Nobody at home was ready. The F in Taking Profit is technically unrealized, like everything else here. A nurse's pass is taped to it: rugged, ice pack administered, sent back to class. Final standing: SUSPENDED, pending a search of the student's locker and wallet.",
+  "image": "ipfs://__IMAGES_CID__/3110.png",
+  "edition": 3110,
+  "dna": "433b5706f9fe7473a1c973959293a8b92921b97f1b5c881e1ffd7e1ed7100e5c",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Suspended"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "A natural top signal. Other students check this card before selling."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Arrow To 'WHY'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Scorched (Tried To Burn It)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Nurse's Pass (Rugged)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1297,
+      "max_value": 3333
+    }
+  ]
+}

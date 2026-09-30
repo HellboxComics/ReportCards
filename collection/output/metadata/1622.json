@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1622",
+  "description": "Recovered from the bottom of a backpack, under a banana from Fall 1996: the report card of Student #1622. Just an F in Selling Too Early. Held through the scary part. Did not cry. Much. In the margin: a rocket ship headed for the moon. At the bottom: Mom's disappointed cursive. On everything: a grape juice box explosion. Status: HONOR ROLL. The wallet has been sent to the office for a random search.",
+  "image": "ipfs://__IMAGES_CID__/1622.png",
+  "edition": 1622,
+  "dna": "ca0e61d646fc78b016e93fa79d6b3b498cb618a45d2f00c65f4d70865c8b8796",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picture Day Lasers"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Gold Foil (Fridge Tier)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1996"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Bright student. Refuses to learn."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Star (Double-Checked)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 68,
+      "max_value": 3333
+    }
+  ]
+}

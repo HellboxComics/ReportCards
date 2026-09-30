@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1225",
+  "description": "Student #1225's parents asked the district to lose this one. The district said no. Earned an A+ in Risk Management by wearing a helmet to every recess, including indoor recess. A gold Gifted & Talented sticker was applied after the student moved the market during snack time. NEEDS IMPROVEMENT. Mother requested conference.",
+  "image": "ipfs://__IMAGES_CID__/1225.png",
+  "edition": 1225,
+  "dna": "6c159f1f16dc0171d8f3f2d6f6c834cc89b7866bf81c0976c37d3d0528d90c00",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Referred to Gifted & Talented. Parents are advised to hide their wallets."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Tear Stains (Dried)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Gifted & Talented (Whale)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.5,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1063,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1065",
+  "description": "Student #1065's parents asked the district to lose this one. The district said no. The A in Buying the Top was earned the hard way: at the exact high, every single time. Harrow's only written comment: \"Carries bags so heavy the nurse is worried about their posture.\" Voted MOST LIKELY TO BECOME EXIT LIQUIDITY, unanimously, by everyone who sold to them.",
+  "image": "ipfs://__IMAGES_CID__/1065.png",
+  "edition": 1065,
+  "dna": "e086dd92128b63edb880e0594f7f54107a1751ee718b6f361bd0f95db3d60009",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Carries bags so heavy the nurse is worried about their posture."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Scorched (Tried To Burn It)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1567,
+      "max_value": 3333
+    }
+  ]
+}

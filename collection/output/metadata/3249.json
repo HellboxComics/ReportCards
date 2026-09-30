@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3249",
+  "description": "Harrow graded Student #3249 in Spring 1999 and has not been the same since. Took an F in Taking Profit; the sell button is still in its original packaging. A nurse's pass is taped to it: rugged, ice pack administered, sent back to class. Status: EXPELLED. Please collect belongings from the front office. It's one bag. It's down 98%.",
+  "image": "ipfs://__IMAGES_CID__/3249.png",
+  "edition": 3249,
+  "dna": "95a329ff5b3fdb5f5724507ea9146aee745dabf2fec7423fbc2e7fbbeb4de589",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Expelled"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Wall (Combo Forgotten)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "The district has asked me to stop writing 'good riddance.' Good riddance."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Grade Changed B To F"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Nurse's Pass (Rugged)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1039,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #408",
+  "description": "Student #0408 attended Paper Hands Preparatory Academy in Fall 1987 and made it everyone's problem. The F in Risk Management was hand-delivered by the nurse, who has seen things. In the margin: the 3D cube every kid draws. At the bottom: Dad's furious, illegible signature. On everything: a red splatter the nurse insists is ketchup. EXPELLED. The district asked Harrow to stop writing 'good riddance.' Harrow has not stopped.",
+  "image": "ipfs://__IMAGES_CID__/408.png",
+  "edition": 408,
+  "dna": "c7923fa0fbf2b33c425d7d370561a9d5532ecbbceb99beb1e6a6274ae4e9a986",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Expelled"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bathroom Stall (Graffiti)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Was seen trading during the fire drill. From inside the building."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Ketchup (Hopefully)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1323,
+      "max_value": 3333
+    }
+  ]
+}

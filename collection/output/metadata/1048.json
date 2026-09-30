@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1048",
+  "description": "Report card, Robinhood Chain Public School No. 46, Fall 2004. STUDENT ID #1048. Prognosis: see below. Took an A+ in Chasing Memes; the classroom posters have been removed for everyone's safety. GPA: 1.78, rounded up out of pity. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/1048.png",
+  "edition": 1048,
+  "dna": "af5135e0ffc5d30cde8726a55b3b2931acf6854684c580b9cac4516a95871fb2",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Does not believe in stop-losses. Believes in prayer and ALL CAPS."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Grade Changed B To F"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Dream Car (Three Wheels)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Dog"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.78,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1869,
+      "max_value": 3333
+    }
+  ]
+}

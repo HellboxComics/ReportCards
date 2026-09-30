@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #411",
+  "description": "Report card, the Diamond Hands Magnet School for the Gifted, Winter 1999. STUDENT ID #0411. Prognosis: see below. The F in Taking Profit is technically unrealized, like everything else here. Also attached: a hall pass, used once, to transfer everything to 'a friend.' Status: MOST LIKELY TO BECOME EXIT LIQUIDITY. The class thanks you for your service.",
+  "image": "ipfs://__IMAGES_CID__/411.png",
+  "edition": 411,
+  "dna": "e112022f53ad523a51b4c47f2200f8ccbba26ae718415a97473c29327882c2de",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Diamond Hands Magnet School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Buys the top with the precision of a sniper who is also the target."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Red Pen Exploded"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Diamond Hands (Six Fingers)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Is Also Down Bad"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Hall Pass (Never Came Back)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 648,
+      "max_value": 3333
+    }
+  ]
+}

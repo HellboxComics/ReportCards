@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2451",
+  "description": "For the record, and it is a permanent record: Student #2451, Mt. Rugmore Junior High, Fall 1999. Scored an A+ in Holding Bags and now calls it 'long-term investing.' It came back with Mom's disappointed cursive and a coffee ring from Harrow's fourth cup, which is more than most of this student's positions came back with. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/2451.png",
+  "edition": 2451,
+  "dna": "4c3a1b959c941118c650c8c6a8f24023b14ecd0e06903a7b65644fc6380a6714",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Overhead Projector (Left On)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Asked if the pop quiz had a presale."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Grade Changed B To F"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Dream Car (Three Wheels)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.28,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2786,
+      "max_value": 3333
+    }
+  ]
+}

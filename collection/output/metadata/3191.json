@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3191",
+  "description": "Every school has one. At Bagholder Valley Regional High, in Winter 1987, it was Student #3191. The F in Taking Profit is technically unrealized, like everything else here. A nurse's pass is taped to it: rugged, ice pack administered, sent back to class. Status: MOST LIKELY TO BECOME EXIT LIQUIDITY. The class thanks you for your service.",
+  "image": "ipfs://__IMAGES_CID__/3191.png",
+  "edition": 3191,
+  "dna": "fb0041375b3efa2f61399bbde3d9b69e0294e4ee98ed0f13dd1c1a9d47965996",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Sticker-Bombed Desk"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Arrives at every party exactly when the cops do."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Harrow With Devil Horns"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Nurse's Pass (Rugged)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2437,
+      "max_value": 3333
+    }
+  ]
+}

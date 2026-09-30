@@ -1,0 +1,13 @@
+{
+  "name": "Report Cards",
+  "symbol": "GRADES",
+  "description": "3,333 report cards for the students of Robinhood Chain, graded by Harrow: a burned-out homeroom teacher with a red pen, a fourth cup of coffee and no mercy left. Every card grades six subjects of degenerate trading by how much you DO the thing, so an A+ in Buying the Top means you are elite at buying the top. Then comes the stamp, anywhere from HONOR ROLL to EXPELLED to MOST LIKELY TO BECOME EXIT LIQUIDITY, and whatever the backpack did to the paper: cafeteria gravy, forged signatures, nurse's passes, withdrawal paperwork. 33 are one-of-ones pulled from the permanent record they always threatened you with. RETURN SIGNED BY MONDAY.",
+  "tagline": "Your permanent record. Onchain. Graded in red pen.",
+  "about": "3,333 report cards. 33 one-of-ones. 0 students who took profit on time.",
+  "image": "ipfs://__IMAGES_CID__/collection.png",
+  "max_supply": 3333,
+  "one_of_ones": 33,
+  "seller_fee_basis_points": 0,
+  "fee_recipient": "0x0000000000000000000000000000000000000000",
+  "seed": "report-cards/harrow/3333/v1"
+}

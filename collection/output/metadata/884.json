@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #884",
+  "description": "Harrow graded Student #0884 in Spring 1994 and has not been the same since. The A in Chasing Memes was locked in the day the student bought a coin called $RECESS. Harrow added the letters NGMI in the margin; the student added long division trying to find a liquidation price. Neither helped. Status: HELD BACK. See you next semester. And the one after that.",
+  "image": "ipfs://__IMAGES_CID__/884.png",
+  "edition": 884,
+  "dna": "87a677bdb869d8b52c3bcb584cf35f5f1836ca9daf62ce950a46606057af256a",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Cannot be left alone near anything with a dog on it."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Liquidation Price Math"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Ketchup (Hopefully)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.61,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1532,
+      "max_value": 3333
+    }
+  ]
+}

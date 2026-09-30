@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #266",
+  "description": "Filed in the principal's office under DO NOT HIRE: Student #0266, Wen Moon Vocational & Technical, Winter 2004. Pulled an A- in Risk Management: holds stables, owns a spreadsheet, has no friends. Harrow's only written comment: \"Pays attention in class. The other children find this deeply upsetting.\" HONOR ROLL. Grandma has already bought the frame.",
+  "image": "ipfs://__IMAGES_CID__/266.png",
+  "edition": 266,
+  "dna": "48d32b6582e763eed90082ddca042da3ee69ee0472f4a21aca1b3961b775843a",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Wen Moon Vocational & Technical"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Pays attention in class. The other children find this deeply upsetting."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Star (Double-Checked)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'WEN MOON' Written 40 Times"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Tear Stains (Dried)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Grandma (Has Questions)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.89,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 366,
+      "max_value": 3333
+    }
+  ]
+}

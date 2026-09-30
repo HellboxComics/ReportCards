@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1241",
+  "description": "This is the permanent record of Student #1241. It is permanent. That was always the threat. Got an F in Risk Management after setting slippage to 49% 'to be safe.' Stapled through the corner: a referral for a cafeteria fight over the market cap of a tot. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/1241.png",
+  "edition": 1241,
+  "dna": "a89271f2fb31b026713ba1d58057ff0498b03f2cdbc2167f64bdfe2c0b6099db",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bathroom Stall (Graffiti)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "I"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Could be a B student if the B didn't stand for 'bags.'"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Flat-Mouth Smiley"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Yacht ('ME IN 2 WEEKS')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Nosebleed (Watched It Dump)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.6,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 658,
+      "max_value": 3333
+    }
+  ]
+}

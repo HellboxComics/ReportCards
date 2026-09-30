@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1866",
+  "description": "Harrow graded Student #1866 in Winter 1999 and has not been the same since. Posted an A in Chasing Memes, including a coin named after the cafeteria fish sticks. Paper-clipped to it: a confiscated note reading '100x, tell no one,' passed to 31 people. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/1866.png",
+  "edition": 1866,
+  "dna": "91fdbb382859642192a962ad1893c3141aef853e6a2653c9c5a312ab6b1e48e1",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Traded a milk-cap collection for a memecoin. The milk caps are up."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'WEN MOON' Written 40 Times"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Square Pizza Grease"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Dog"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Confiscated Note ('100x')"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.78,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2115,
+      "max_value": 3333
+    }
+  ]
+}

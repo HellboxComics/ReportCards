@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2266",
+  "description": "Photographed as evidence on a desk someone carved WAGMI into: the Fall 1999 report card of Student #2266. Earned an F in Taking Profit, a subject the student describes as 'optional.' Stapled through the corner: a referral for a cafeteria fight over the market cap of a tot. Status: ACADEMIC PROBATION. One more rug and we call home.",
+  "image": "ipfs://__IMAGES_CID__/2266.png",
+  "edition": 2266,
+  "dna": "9192db2bdc19b4c5a440f1482b1cea950288e1666767e5c6f666446255bd8cad",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Leverage Heights Middle School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Does not work well with others. Works even worse alone."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.83,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 3220,
+      "max_value": 3333
+    }
+  ]
+}

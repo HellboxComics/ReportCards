@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1616",
+  "description": "The school does not usually send these by certified mail. For Student #1616, Paper Hands Preparatory Academy made an exception. Only an F in Holding Bags; travels light, sleeps well, is hated by the lunch table. Harrow's only written comment: \"Took profit, managed risk, went to bed. We don't know what to do with this child.\" Status: HONOR ROLL. The wallet has been sent to the office for a random search.",
+  "image": "ipfs://__IMAGES_CID__/1616.png",
+  "edition": 1616,
+  "dna": "10054148e54abb1ac651f9dbe7b5e428165105b72e4b3d41d6ea9dbc83d129f3",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Wall (Combo Forgotten)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Gold Foil (Fridge Tier)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1996"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Took profit, managed risk, went to bed. We don't know what to do with this child."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Star (Double-Checked)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Ketchup (Hopefully)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 3.39,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 49,
+      "max_value": 3333
+    }
+  ]
+}

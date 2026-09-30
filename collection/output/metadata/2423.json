@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2423",
+  "description": "Every school has one. At St. Satoshi of the Perpetual Dip, in Spring 1999, it was Student #2423. Got an F in Risk Management after setting slippage to 49% 'to be safe.' Stapled through the corner: a referral for a cafeteria fight over the market cap of a tot. Final standing: ACADEMIC PROBATION, which the student has already tried to leverage.",
+  "image": "ipfs://__IMAGES_CID__/2423.png",
+  "edition": 2423,
+  "dna": "96e4217b8e08c40ad35e071b6d0faadb005574ec3a2f9df38524c6f2cf0ea6f4",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Twelve trades in one lunch period. A tray was thrown. So was a chart."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Pristine (Never Shown To Parents)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Dog"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.78,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 345,
+      "max_value": 3333
+    }
+  ]
+}

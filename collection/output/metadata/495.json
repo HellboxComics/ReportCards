@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #495",
+  "description": "Printed on streaky out-of-cyan inkjet paper and mailed home in Spring 2004, this card has caused three family meetings. The C+ in Buying the Top was earned the hard way: at the exact high, every single time. It came back with a poorly forged parent signature and a grape juice box explosion, which is more than most of this student's positions came back with. Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/495.png",
+  "edition": 495,
+  "dna": "4a049383f9814efeb9d54b3fe906c2d75a40a948b786d1a67cc2e2944d8e2d71",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Diamond Hands Magnet School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Talks a lot in class about 'generational wealth.' Has $11."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Harrow With Devil Horns"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1490,
+      "max_value": 3333
+    }
+  ]
+}

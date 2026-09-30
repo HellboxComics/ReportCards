@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #49",
+  "description": "The school does not usually send these by certified mail. For Student #0049, Leverage Heights Middle School made an exception. Posted an A+ in Holding Bags with positions older than the lunch lady. GPA: 0.83. The decimal point is doing a lot of work. Final standing: ACADEMIC PROBATION, which the student has already tried to leverage.",
+  "image": "ipfs://__IMAGES_CID__/49.png",
+  "edition": 49,
+  "dna": "59ece460e0e97750084ba7ca43251e31a1599b4daac11a7a5fa4097d30aa8fa0",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Leverage Heights Middle School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Does not believe in stop-losses. Believes in prayer and ALL CAPS."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "No Marks (Harrow Gave Up)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Grandma (Has Questions)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.83,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2426,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2088",
+  "description": "Student #2088 attended summer school in Summer 1994 and made it everyone's problem. Took an F in Taking Profit; the sell button is still in its original packaging. The Gifted & Talented sticker on the corner means one thing: parents, hide your wallets. Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/2088.png",
+  "edition": 2088,
+  "dna": "b6fd20612b508e375f52bee712fde5c6927d87f13b6ba5d6a88297166edb17a8",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Shows promise when supervised. Is never supervised."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Grandma (Has Questions)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Gifted & Talented (Whale)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.11,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2325,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #866",
+  "description": "Student #0866 enrolled at Exit Liquidity Charter Academy with lunch money and a dream. Only one made it to Winter 1994. Posted an A in Buying the Top; classmates now use this student's buys as their sell signal. The parent signature section contains a poorly forged parent signature. The district has questions. Voted MOST LIKELY TO BECOME EXIT LIQUIDITY, unanimously, by everyone who sold to them.",
+  "image": "ipfs://__IMAGES_CID__/866.png",
+  "edition": 866,
+  "dna": "dafea7117f51a927472787c61688e23d524d24bd62466df5e82b01134b96d2ab",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Most Likely to Become Exit Liquidity"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cafeteria Tray (Mystery Slot)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Always the last one holding the ball when the music stops."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.22,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1235,
+      "max_value": 3333
+    }
+  ]
+}

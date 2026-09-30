@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #445",
+  "description": "Recovered from the bottom of a backpack, under a banana from Winter 2004: the report card of Student #0445. Scored an A- in Taking Profit and did not post about it, which is how we know it's real. A gold Gifted & Talented sticker was applied after the student moved the market during snack time. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/445.png",
+  "edition": 445,
+  "dna": "b0e5a3dc85f31bd7d726706153575d411cbd4bee877f3a624bdec03092e94232",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Principal's Carpet (Seen Things)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Brought a chart to show-and-tell. Three classmates cried. One sold."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Flat-Mouth Smiley"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The S (You Know The One)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Both Parents (Rare Alliance)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Gifted & Talented (Whale)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.39,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1437,
+      "max_value": 3333
+    }
+  ]
+}

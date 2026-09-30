@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1502",
+  "description": "Student #1502 brought this home in Winter 1999 and tried to pass it off as a receipt. Pulled an F in Taking Profit after riding a 50x all the way back down to the bus stop. GPA: 0.00, which Harrow notes is also roughly the win rate. Final standing: EXPELLED. Do not readmit. Do not accept the same student with a different wallet.",
+  "image": "ipfs://__IMAGES_CID__/1502.png",
+  "edition": 1502,
+  "dna": "80945725e89b96538b376dbd85fcf95e9c95d8af73026fca98d65f43acc227db",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Expelled"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cafeteria Tray (Mystery Slot)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Wen Moon Vocational & Technical"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Always here early. Brings the chart to homeroom like it's the class pet."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Grade Changed B To F"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1526,
+      "max_value": 3333
+    }
+  ]
+}

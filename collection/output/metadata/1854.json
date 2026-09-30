@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1854",
+  "description": "The school does not usually send these by certified mail. For Student #1854, summer school made an exception. Scored an A+ in Taking Profit and did not post about it, which is how we know it's real. The parent signature section contains Mom's disappointed cursive. The district has questions. HONOR ROLL. Grandma has already bought the frame.",
+  "image": "ipfs://__IMAGES_CID__/1854.png",
+  "edition": 1854,
+  "dna": "a7627cf1afc1bb7d25339c50e033b035a629f5d403e4f4c3bdd575e749ed5ba6",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Carved 'WAGMI'"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "I"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Excellent term. Wallet has been sent to the office for a random search."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crying Stick Figure ('ME')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.6,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 439,
+      "max_value": 3333
+    }
+  ]
+}

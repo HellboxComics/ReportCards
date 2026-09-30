@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #88",
+  "description": "Found folded into a Spring 1987 textbook nobody ever returned: the grades of Student #0088. No grade in Holding Bags, because the student turned in a blank page and called it a stealth launch. It was recovered from the floor of Bus 7. The custodian has declined to discuss a chocolate milk leak. HELD BACK. The student is now the tallest kid in class and still buying the top.",
+  "image": "ipfs://__IMAGES_CID__/88.png",
+  "edition": 88,
+  "dna": "0a908f603f403f2f65705a8033d6b832f30ef4c3a25ac1c5cbf748f3f53db4c2",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bus 7 (Late Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "I"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Launched a token called $RECESS during recess. Recess has been canceled."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'?!?' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 105,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1151",
+  "description": "This is the permanent record of Student #1151. It is permanent. That was always the threat. Posted an A+ in Chasing Memes, including a coin named after the cafeteria fish sticks. Paper-clipped to it: a confiscated note reading '100x, tell no one,' passed to 31 people. ACADEMIC PROBATION. The ice is thin and the student is doing donuts on it.",
+  "image": "ipfs://__IMAGES_CID__/1151.png",
+  "edition": 1151,
+  "dna": "4913d80812cd5ea0d8243e424bfe1ef9935a19143e2de19380291a8d53d7bc14",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Overhead Projector (Left On)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "C"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Summer school again. Tan lines are from the monitor."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Flat-Mouth Smiley"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart Only Goes Up"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Tear Stains (Dried)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Confiscated Note ('100x')"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.72,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 205,
+      "max_value": 3333
+    }
+  ]
+}

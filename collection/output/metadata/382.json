@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #382",
+  "description": "In Winter 2004, Mt. Rugmore Junior High tried to educate Student #0382. Student #0382 tried to trade. Selling Too Early: Incomplete. The work is, according to the student, 'still in the mempool.' Stapled through the corner: a referral for a cafeteria fight over the market cap of a tot. HELD BACK. The student is now the tallest kid in class and still buying the top.",
+  "image": "ipfs://__IMAGES_CID__/382.png",
+  "edition": 382,
+  "dna": "4313866591f308ba56b9f0aefc1e14a2ab4acd5b60218c3fd0d3b4ebd10e9ffb",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Sticker-Bombed Desk"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "I"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Green Days Only)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Twelve trades in one lunch period. A tray was thrown. So was a chart."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Flat-Mouth Smiley"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'WEN MOON' Written 40 Times"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Dad (Illegible, Furious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 93,
+      "max_value": 3333
+    }
+  ]
+}

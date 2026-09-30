@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3074",
+  "description": "Exhibit A in the matter of St. Satoshi of the Perpetual Dip v. Student #3074, Spring 1999. Pulled an A+ in Risk Management: holds stables, owns a spreadsheet, has no friends. It came back with a muddy paw print where the parent signature should be and a booger of unknown vintage, which is more than most of this student's positions came back with. Status: NEEDS IMPROVEMENT, the factory setting of the human spirit.",
+  "image": "ipfs://__IMAGES_CID__/3074.png",
+  "edition": 3074,
+  "dna": "a03f152a660dc9f03d802b4e3758279a80b8f268e4f514ff9d4f341531a4b42f",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picture Day Lasers"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "D"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Never buys the top. Buys the floor, then the basement, then the crawlspace."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Grade Changed B To F"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Booger (Fresh-ish)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Dog"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.56,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 613,
+      "max_value": 3333
+    }
+  ]
+}

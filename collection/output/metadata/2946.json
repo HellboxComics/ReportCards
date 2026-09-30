@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2946",
+  "description": "Filed in the principal's office under DO NOT HIRE: Student #2946, St. Satoshi of the Perpetual Dip, Spring 1999. Received an F in Risk Management for running with scissors, on leverage, toward the pool. A disciplinary referral is stapled on: twelve trades in one lunch period and one thrown tray. Status: SUSPENDED. Three days at home; traded all three.",
+  "image": "ipfs://__IMAGES_CID__/2946.png",
+  "edition": 2946,
+  "dna": "66df921bfc99109e8799e8a69700da80707e7db66823fbb4e46cfff67e063ccb",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Suspended"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Wall (Combo Forgotten)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Sells at the first sign of green. Also red. Also lunch."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "'NGMI' In The Margin"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Harrow With Devil Horns"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Fight In Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1427,
+      "max_value": 3333
+    }
+  ]
+}

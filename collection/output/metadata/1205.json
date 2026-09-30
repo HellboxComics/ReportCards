@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1205",
+  "description": "This is the permanent record of Student #1205. It is permanent. That was always the threat. Posted an A- in Holding Bags with positions older than the lunch lady. Forensics found a nosebleed from watching the chart dump, a stick figure on a yacht captioned 'ME IN 2 WEEKS' and an F circled so hard the pen went through. NEEDS IMPROVEMENT. Mother requested conference.",
+  "image": "ipfs://__IMAGES_CID__/1205.png",
+  "edition": 1205,
+  "dna": "595078a8aa6178547e6858660f20b9c73230788c68d96ddb8be89d5af082c64f",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent (Chart Note)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Calls the cafeteria 'the trenches.' It is a cafeteria. There is pudding."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Yacht ('ME IN 2 WEEKS')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Nosebleed (Watched It Dump)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2668,
+      "max_value": 3333
+    }
+  ]
+}

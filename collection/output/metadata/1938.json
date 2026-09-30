@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1938 — Substitute Teacher",
+  "description": "Harrow was out for one day. The substitute didn't know what any of the subjects meant, assumed an A in Buying the Top was good, gave every student straight A's and put on a movie. For one glorious afternoon, the whole class made honor roll. Harrow came back the next morning and has not taken a sick day since.",
+  "image": "ipfs://__IMAGES_CID__/1938.png",
+  "edition": 1938,
+  "dna": "06d0b15ac8846840a79c1182704127540ac820ddd38852a2d36823c2e8bb14fb",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "HONOR ROLL (UNDER REVIEW)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "TV Cart (Movie Day)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Sub Didn't Take Roll"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Great job everyone!! — Sub"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Green Pen Smiley + Harrow's 'NO.'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Sub's Flower"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Popcorn Butter"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed Immediately (Suspicious)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Harrow Was Out Sick"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 4,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Grader",
+      "value": "Substitute (Name Unknown)"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 6,
+      "max_value": 3333
+    }
+  ]
+}

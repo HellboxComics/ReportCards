@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2938",
+  "description": "Every school has one. At summer school, in Summer 1999, it was Student #2938. Earned an A in Holding Bags; the nurse has concerns about the student's spine. It came back with no signature, which the student describes as 'pending' and a coffee ring from Harrow's fourth cup, which is more than most of this student's positions came back with. Final standing: SUSPENDED, pending a search of the student's locker and wallet.",
+  "image": "ipfs://__IMAGES_CID__/2938.png",
+  "edition": 2938,
+  "dna": "01a5117786ea46b2c3811caedb2c8eb38d77693eb9aa3328af0324e032164586",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Suspended"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cafeteria Tray (Mystery Slot)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Showed Up (Still Rugged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Lost the permission slip, the library book and 80% of the college fund."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Coffee Ring (Harrow's)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unsigned ('Pending')"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 200,
+      "max_value": 3333
+    }
+  ]
+}

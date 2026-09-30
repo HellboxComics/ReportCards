@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1606",
+  "description": "The grades of Student #1606 were posted in Spring 1994. The market reacted. Selling Too Early: Incomplete. The work is, according to the student, 'still in the mempool.' Harrow added a red pen that exploded mid-comment; the student added a rocket ship headed for the moon. Neither helped. HELD BACK. The student is now the tallest kid in class and still buying the top.",
+  "image": "ipfs://__IMAGES_CID__/1606.png",
+  "edition": 1606,
+  "dna": "7f72f9f1473fbd2dc3b34c9415eab525668af3e6538075ff9979267b70da013d",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "I"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Incomplete. Student says the assignment is 'vesting.'"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Red Pen Exploded"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket To The Moon"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Square Pizza Grease"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Green Crayon)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 598,
+      "max_value": 3333
+    }
+  ]
+}

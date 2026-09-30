@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #407",
+  "description": "Student #0407 attended St. Satoshi of the Perpetual Dip in Fall 1987 and made it everyone's problem. Earned an F in Risk Management; the college fund is now a coin with a hamster on it. Withdrawal paperwork is clipped to the front. Reason for withdrawal: LIQUIDATED. Final standing: EXPELLED. Do not readmit. Do not accept the same student with a different wallet.",
+  "image": "ipfs://__IMAGES_CID__/407.png",
+  "edition": 407,
+  "dna": "36a3ac335bb36238c9002c30c8c0aa282ff7ec1082cba65501e7167555838316",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Expelled"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cafeteria Tray (Mystery Slot)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "The district has asked me to stop writing 'good riddance.' Good riddance."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Arrow To 'WHY'"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Yacht ('ME IN 2 WEEKS')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed At 3:12 AM"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Withdrawal Notice (Liquidated)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.45,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 530,
+      "max_value": 3333
+    }
+  ]
+}

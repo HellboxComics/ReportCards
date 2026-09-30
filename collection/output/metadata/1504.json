@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1504",
+  "description": "Student #1504 enrolled at St. Satoshi of the Perpetual Dip with lunch money and a dream. Only one made it to Winter 2004. The A- in Holding Bags reflects a locker full of tokens that died in September. Harrow's only written comment: \"On thin ice. Currently trying to open a leveraged position on the ice.\" Final standing: ACADEMIC PROBATION, which the student has already tried to leverage.",
+  "image": "ipfs://__IMAGES_CID__/1504.png",
+  "edition": 1504,
+  "dna": "307209be4d08c1ed8709b9bd53ed6f9f8cb1f332443baf72eb457f27d5cb7286",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Academic Probation"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Detention Room (Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Body Present)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "On thin ice. Currently trying to open a leveraged position on the ice."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Yacht ('ME IN 2 WEEKS')"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Grape Juice Box Explosion"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.89,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 992,
+      "max_value": 3333
+    }
+  ]
+}

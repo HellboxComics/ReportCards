@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #3314",
+  "description": "Student #3314's parents asked the district to lose this one. The district said no. Earned an A+ in Risk Management by wearing a helmet to every recess, including indoor recess. It came back with Grandma's signature and a note asking what a memecoin is and a red splatter the nurse insists is ketchup, which is more than most of this student's positions came back with. Status: HONOR ROLL. The wallet has been sent to the office for a random search.",
+  "image": "ipfs://__IMAGES_CID__/3314.png",
+  "edition": 3314,
+  "dna": "62fc740a45e6eb521186796e76a119ce03f4562277bb60b384d4c3f39548866f",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Honor Roll"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Principal's Carpet (Seen Things)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Actually sold something. The class gave a standing ovation. One child wept."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Red Pen Exploded"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Ketchup (Hopefully)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Grandma (Has Questions)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 3.17,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 955,
+      "max_value": 3333
+    }
+  ]
+}

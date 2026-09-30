@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1335",
+  "description": "Student #1335 enrolled at St. Satoshi of the Perpetual Dip with lunch money and a dream. Only one made it to Spring 1982. Earned a B in Selling Too Early by selling at 2x the week before it went 40x. Also attached: a hall pass, used once, to transfer everything to 'a friend.' Final standing: HELD BACK, repeating the grade and the exact same trade.",
+  "image": "ipfs://__IMAGES_CID__/1335.png",
+  "edition": 1335,
+  "dna": "15f51fb83816661a2dc7e84d0993ed9a159fea9214155bd8635b60e6c846c8fb",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Held Back"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Floor (Dodgeball Zone)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Mimeograph Purple"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1982"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "D+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Refers to lunch money as 'dry powder.'"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Mystery Cafeteria Gravy"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Hall Pass (Never Came Back)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.94,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1721,
+      "max_value": 3333
+    }
+  ]
+}

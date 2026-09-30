@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2536",
+  "description": "Harrow graded Student #2536 in Fall 1999 and has not been the same since. Got an F in Risk Management after setting slippage to 49% 'to be safe.' Attached is a notice of withdrawal. Collateral has been returned to the district. EXPELLED. The district asked Harrow to stop writing 'good riddance.' Harrow has not stopped.",
+  "image": "ipfs://__IMAGES_CID__/2536.png",
+  "edition": 2536,
+  "dna": "e82b892c19aaf86739739d47a1056a46824e176069c56b4547723940a2ab3354",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Expelled"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bus 7 (Late Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Y2K Ready)"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Perfect attendance. Has not slept since the chain launched."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Circled F (Tore The Paper)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chocolate Milk Leak"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Both Parents (Rare Alliance)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Withdrawal Notice (Liquidated)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 404,
+      "max_value": 3333
+    }
+  ]
+}

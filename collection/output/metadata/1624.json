@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1624",
+  "description": "Report card, Paper Hands Preparatory Academy, Spring 2004. STUDENT ID #1624. Prognosis: see below. Took an F in Taking Profit; the sell button is still in its original packaging. Also enclosed: a cafeteria notice for a negative lunch balance, spent entirely on gas fees. Final standing: NEEDS IMPROVEMENT. Please see Harrow. Then please see a financial advisor.",
+  "image": "ipfs://__IMAGES_CID__/1624.png",
+  "edition": 1624,
+  "dna": "a5cb40d2def74967e98300088de9c2e2e6051f758487140877391c1f92d270eb",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Needs Improvement"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Overhead Projector (Left On)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet (Out Of Cyan)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Could be a B student if the B didn't stand for 'bags.'"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Underlined Three Times"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "'HODL' Bubble Letters"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Folded Into Eighths"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Both Parents (Rare Alliance)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Lunch Debt (Gas Fees)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.67,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2388,
+      "max_value": 3333
+    }
+  ]
+}

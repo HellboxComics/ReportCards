@@ -1,0 +1,8 @@
+{
+  "seed": "report-cards/harrow/3333/v1",
+  "maxSupply": 3333,
+  "count": 3333,
+  "algorithm": "sha256",
+  "provenanceHash": null,
+  "note": "images not rendered yet: run collection:generate without --no-images"
+}

@@ -1,0 +1,53 @@
+# Report Cards — Foundry config.
+# `npm test` / `npm run build` go through tools/forge.mjs, which uses the npm-pinned forge and solc.
+# Plain `forge test` also works if you have Foundry installed (it downloads the solc pinned below).
+
+[profile.default]
+src = "src"
+test = "test"
+script = "script"
+out = "out"
+cache_path = "cache"
+libs = ["node_modules"]
+auto_detect_remappings = false
+remappings = [
+  "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+  # forge-std v1.9.7, vendored unmodified in an npm package so installs never touch GitHub.
+  "forge-std/=node_modules/@layerzerolabs/toolbox-foundry/lib/forge-std/",
+]
+solc_version = "0.8.34"
+auto_detect_solc = false
+# Robinhood Chain is an EVM L2; Cancun (PUSH0, MCOPY, transient storage) is the conservative target.
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 1000
+bytecode_hash = "ipfs"
+# Deterministic builds: same inputs, same bytes.
+sparse_mode = false
+# forge-std 1.9.7 uses a natspec memory-safe-assembly comment that solc >= 0.8.30 flags as
+# deprecated (hundreds of times, then warning 4591 "more than 256 warnings"). Not our code.
+ignored_warnings_from = ["node_modules"]
+ignored_error_codes = ["license", "code-size", "init-code-size", "transient-storage", 4591]
+
+[fuzz]
+runs = 1000
+# Fixed seed so a red CI run is reproducible on your laptop. Bump it to explore new cases.
+seed = "0x3333"
+
+[invariant]
+runs = 64
+depth = 128
+fail_on_revert = true
+
+[fmt]
+line_length = 120
+tab_width = 4
+bracket_spacing = false
+int_types = "long"
+number_underscore = "preserve"
+quote_style = "double"
+sort_imports = true
+
+[rpc_endpoints]
+# Never hardcoded: set ROBINHOOD_CHAIN_RPC_URL in your shell or contracts/.env.
+robinhood = "${ROBINHOOD_CHAIN_RPC_URL}"

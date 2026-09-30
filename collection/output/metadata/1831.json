@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1831 — Signed Yearbook",
+  "description": "Voted Most Likely To Become Exit Liquidity, and the whole class signed the page. 'Never change.' 'Stay the same forever.' 'Please keep buying.' Every message is from someone who sold to them. Several included price targets.",
+  "image": "ipfs://__IMAGES_CID__/1831.png",
+  "edition": 1831,
+  "dna": "04d28591390a13e0609e258f3480e0408dc477129606553ef3f85b1f6c86b37f",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EXIT LIQUIDITY (SIGNED)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yearbook Spread"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Glossy Yearbook Stock"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1998"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (For Them)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Never change. The market needs you exactly as you are."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Signed By Harrow Too"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Hearts From Sellers"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Gel Pen Bleed"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Also Signed The Yearbook"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Superlative"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.2,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Signatures",
+      "value": "Everyone Who Sold"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 17,
+      "max_value": 3333
+    }
+  ]
+}

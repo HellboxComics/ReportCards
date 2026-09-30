@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #2276 — Wallet-Sized",
+  "description": "Picture day order form, Package C: eight wallet-sized prints. The only time this student has ever filled a wallet. The photographer said 'say profit.' Nobody knew the word. Retake scheduled.",
+  "image": "ipfs://__IMAGES_CID__/2276.png",
+  "edition": 2276,
+  "dna": "53df5e1bd4fabede97847c669bbc0b9f6735ca46c287f61aabbe9bec0c4e6f9d",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "RETAKE"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picture Day Lasers (Studio)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Glossy Photo Paper"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1993"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Picture Day Only"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Blinked. Retake scheduled. Also blinked at every top this year."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "RETAKE"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Pocket Comb"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Fingerprints On Gloss"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Ordered Package C"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Blinked"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.9,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Wallets",
+      "value": "8"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 14,
+      "max_value": 3333
+    }
+  ]
+}

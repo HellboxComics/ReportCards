@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #550 — Expelled From The Blockchain",
+  "description": "Most students get expelled from a school. This one got expelled from a distributed ledger, which nobody knew was possible. The validators held a meeting. The vote was unanimous. The card was physically kicked out of the chain and now lies on the sidewalk outside it, still stamped, still warm.",
+  "image": "ipfs://__IMAGES_CID__/550.png",
+  "edition": 550,
+  "dna": "507105d2baf083793e98fad26d62b4b8308e948657241ed262662302b02ae8e1",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EXPELLED FROM THE BLOCKCHAIN"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Outside The Chain"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Kicked"
+    },
+    {
+      "trait_type": "School",
+      "value": "The Blockchain (Formerly)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Every Block"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Banned"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "I did not know this was possible. The validators did not either."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Boot Print"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chain (Broken)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Sidewalk Grit"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Rejected"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Removed By Validators"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Validator Vote",
+      "value": "Unanimous"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 10,
+      "max_value": 3333
+    }
+  ]
+}

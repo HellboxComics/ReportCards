@@ -8,7 +8,13 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "collection:layers": "tsx collection/art/build.ts",
+    "collection:sample": "tsx collection/src/cli/sample.ts",
+    "collection:layer-sheet": "tsx collection/src/cli/layer-sheet.ts",
+    "collection:generate": "tsx collection/src/cli/generate.ts",
+    "collection:validate": "tsx collection/src/cli/validate.ts",
+    "collection:set-base-uri": "tsx collection/src/cli/set-base-uri.ts"
   },
   "dependencies": {
     "next": "^16.3.8",

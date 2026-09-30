@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #2107 — Snow Day",
+  "description": "School was closed. The market was not. There are no grades on this card because the district never printed them: the buses were stuck, Harrow was stuck, and the only thing still moving was the chart. It is the best report card in the collection by a mile. It is completely blank.",
+  "image": "ipfs://__IMAGES_CID__/2107.png",
+  "edition": 2107,
+  "dna": "f8fe2646d8e0d00c804998f02fba7a12b1ef371dcf640dabe51542f562e8980c",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "SNOW DAY"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Blizzard"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Blank (Never Printed)"
+    },
+    {
+      "trait_type": "School",
+      "value": "All Districts (Closed)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter (Canceled)"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "—"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "—"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "—"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "—"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "—"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "—"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "School Closed"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "No comment. Harrow is stuck in a ditch on Route 9."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Frozen Pen"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Snow Angel"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Slush"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Not Required"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Act Of Nature"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 4,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "GPA (Printed)",
+      "value": "N/A (Snow)"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 4,
+      "max_value": 3333
+    }
+  ]
+}

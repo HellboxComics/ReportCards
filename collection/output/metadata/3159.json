@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #3159 — Hall Monitor",
+  "description": "Wore the orange sash. Carried the clipboard. Took down the name of every classmate who bought the top and reported them to the office. Made zero trades personally, which is why they are the only student in school history with a positive return. Nobody sits with them at lunch. They have a clipboard. They are fine.",
+  "image": "ipfs://__IMAGES_CID__/3159.png",
+  "edition": 3159,
+  "dna": "8aff05641e0c36d9259f18ab9ef0b9f1e18340118f357ca9e5fe4938230a7e47",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "HONOR ROLL (SNITCH)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Locker Hallway (Patrolled)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Clipboard Carbon"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Patrolling)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Reports classmates' trades to the office. Accurate. Deeply unpopular."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Checkmarks (Hall Monitor's)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "List Of Names"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "None (Too Careful)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed Promptly"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Filed 212 Reports"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 4,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Trades Made",
+      "value": "0"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 12,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #2061",
+  "description": "Harrow graded Student #2061 in Winter 1996 and has not been the same since. Earned an F in Holding Bags, having thrown out every dead position before it started to smell. It came back with a poorly forged parent signature and a hallway shoe print, which is more than most of this student's positions came back with. Status: VALEDICTORIAN. Sold the top, bought the bottom, took the bus home. First one in 34 years.",
+  "image": "ipfs://__IMAGES_CID__/2061.png",
+  "edition": 2061,
+  "dna": "e10cbe5bcb1b2f154e5a2560ef8a2bc8ecb72cd3f437cdda2f07797c3d2fd612",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Valedictorian"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bus 7 (Late Again)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Gold Foil (Fridge Tier)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1996"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Trades In Homeroom)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "The only student who ever listened. I framed this card. I do not frame things."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Hearts Around The A+"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Cube (Mandatory)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Poorly)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "None (Allegedly)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 4.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 34,
+      "max_value": 3333
+    }
+  ]
+}

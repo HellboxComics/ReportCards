@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1874 — Laminated By Mom",
+  "description": "Mom laminated it and put it on the fridge, between the takeout menu and a magnet shaped like a strawberry. She did not read it. She has never read one. It says EXPELLED in letters two inches tall, and she put a gold star on top of the stamp. Every guest who comes over sees it. Mom tells them it's a certificate.",
+  "image": "ipfs://__IMAGES_CID__/1874.png",
+  "edition": 1874,
+  "dna": "a6edb895553cbc25dc13fcbec21d745e8ac80b15766a90c55e4fe51dac2e0977",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EXPELLED (LAMINATED)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Avocado Fridge Door"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Laminated (By Mom)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Chronically Absent"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Please have a parent read this. Any parent. Please."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Star (Added By Mom)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Crayon Heart (Mom's)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Laminate Bubble"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Did Not Read It)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Displayed Publicly"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Fridge Rating",
+      "value": "10/10"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 3,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1698 — Confiscated Pager",
+  "description": "Confiscated from the student's belt clip during a 1997 science test. It buzzed forty times. Every page said the same thing: BUY. Harrow kept it in the desk drawer for thirty years. It is still buzzing. It still says BUY.",
+  "image": "ipfs://__IMAGES_CID__/1698.png",
+  "edition": 1698,
+  "dna": "fb89bd774077da416b312f381123286779b4181f0400289d43bf3c99316697f2",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "CONFISCATED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Harrow's Desk Drawer"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "Leverage Heights Middle School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1997"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Pager On)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Pager went off 40 times during the test. It said BUY. It still says BUY."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "CONFISCATED Tag"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Pager Code 143"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Drawer Dust"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Never Came To Pick It Up"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Confiscated"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Pages Received",
+      "value": "40"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 22,
+      "max_value": 3333
+    }
+  ]
+}

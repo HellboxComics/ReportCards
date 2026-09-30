@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #3329 — Harrow's Own Report Card",
+  "description": "Seventh period got hold of the red pen. This is Harrow's report card, graded by the students. It turns out Harrow has been holding the same position since 1987, buys the top every payday, and every 'coffee break' since 1994 has been a chart break.",
+  "image": "ipfs://__IMAGES_CID__/3329.png",
+  "edition": 3329,
+  "dna": "354bf5b49896fb3dee6c942288d47dc72e3304f6769703bcc5953b7ba91c7e7e",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "SEE US AFTER CLASS"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bulletin Board"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Construction Paper"
+    },
+    {
+      "trait_type": "School",
+      "value": "Faculty (Graded By 7th Period)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Every Semester Since 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+ (SINCE 1987)"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (No Choice)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Holds one position since 1987. Calls it 'tenure.' See us after class."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Stickers (Sarcastic)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Harrow With Devil Horns (Original)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "The Coffee Ring"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By The Principal (Worse)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Red Pen Stolen"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.8,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Grader",
+      "value": "7th Period"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 27,
+      "max_value": 3333
+    }
+  ]
+}

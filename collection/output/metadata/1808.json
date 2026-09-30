@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1808 — Grade 10, Attempt 26",
+  "description": "Held back twenty-six times. Now older than Harrow. Drives to school. Has a mortgage, reading glasses and a pension-shaped hole in the portfolio. Still in tenth grade. Still buying the top.",
+  "image": "ipfs://__IMAGES_CID__/1808.png",
+  "edition": 1808,
+  "dna": "fc7fc3ba3e6131d4eef6845b8c55fe54d3e740816dcc40ceea16d9ed9f07395a",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "HELD BACK (26)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Tiny Desk, Lumbar Pillow"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "26th Carbon Copy"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall (Again)"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Excellent (Drives Self)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Please stop calling me by my first name. We are not colleagues. Yet."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "26 Tally Marks"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Mortgage Math"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Reading Glasses Smudge"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By Own Kid"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Mortgage Past Due"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.2,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Attempts",
+      "value": "26"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 19,
+      "max_value": 3333
+    }
+  ]
+}

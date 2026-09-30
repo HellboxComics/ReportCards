@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #772 — Nurse's Punch Card",
+  "description": "Rugged so many times that the school nurse started a loyalty program. Every rug gets a punch. The tenth ice pack is free. The student has redeemed it four times and is two rugs away from a fifth.",
+  "image": "ipfs://__IMAGES_CID__/772.png",
+  "edition": 772,
+  "dna": "864a55260c60540d9c45e5fa75fd820a1b106e3815a16d1232f3d44658256025",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "RUGGED (LOYALTY MEMBER)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Nurse's Office Cot"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Loyalty Card Stock"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Nurse's Office (Mostly)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Spends more time with the nurse than with me. The nurse agrees."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Hole Punch"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Bandage Rocket"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Ice Pack Condensation"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Nurse Signed It"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Rugged (x48)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.6,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Free Ice Packs Redeemed",
+      "value": "4"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 21,
+      "max_value": 3333
+    }
+  ]
+}

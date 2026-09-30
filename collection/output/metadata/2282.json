@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #2282 — Gifted & Talented (Whale Division)",
+  "description": "Referred to the Gifted & Talented program after buying the cafeteria, the gym and the vice principal's parking spot during snack time. The sticker ran out of room. The district drew the student as a whale for the file because, frankly, they could not fit the portfolio through the door.",
+  "image": "ipfs://__IMAGES_CID__/2282.png",
+  "edition": 2282,
+  "dna": "ef7a92f970b554760410418351603a713f5751878d080797fa01ec3091692123",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "GIFTED & TALENTED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "The Ocean"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Waterproof"
+    },
+    {
+      "trait_type": "School",
+      "value": "Diamond Hands Magnet School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "C"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Owns The Building)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Bought the cafeteria. I do not know how to discipline a shareholder."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Too Big To Mark"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Spout"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Seawater"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By Accountant"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Bought The Cafeteria"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 2.5,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Division",
+      "value": "Whale"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 20,
+      "max_value": 3333
+    }
+  ]
+}

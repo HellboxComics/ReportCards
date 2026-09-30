@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #893 — I Will Not Buy The Top",
+  "description": "Assigned to write 'I will not buy the top' one hundred times on the chalkboard. Wrote it ninety-nine times in perfect handwriting. The hundredth line says 'I will buy the top.' Harrow was standing right there. Harrow watched it happen.",
+  "image": "ipfs://__IMAGES_CID__/893.png",
+  "edition": 893,
+  "dna": "5b48da99d2cded52a7298f47e35d02decabc1d9b2b1458dc0d8e246451b867db",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "DETENTION (LINES)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Lines)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Masking-Taped To The Board"
+    },
+    {
+      "trait_type": "School",
+      "value": "Robinhood Chain Public School 46"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A++"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Detention (Mandatory)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Ninety-nine out of a hundred. I was standing right there."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Chalk Dust"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Line 100"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Chalk Handprint"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Written On The Board"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Lines"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.7,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Lines Written",
+      "value": "99 + 1"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 23,
+      "max_value": 3333
+    }
+  ]
+}

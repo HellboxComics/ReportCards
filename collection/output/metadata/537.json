@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #537 — Parent-Teacher Conference",
+  "description": "Mother requested conference. Mother arrived with her own chart. It was worse. The conference ran two hours over and ended with Harrow consoling both of them. All three now share a watchlist.",
+  "image": "ipfs://__IMAGES_CID__/537.png",
+  "edition": 537,
+  "dna": "54ea2474920ab3971363ecf7b3959cad5a1a90338f7b3dde3ee35fa1b1dbd0c7",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "CONFERENCE REQUESTED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Empty Classroom, 6:47 PM"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1994 Dot Matrix"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "D"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Mother requested conference."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Agenda (Crossed Out)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Mom's Chart (Worse)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Tissues"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Also Down)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Conference Ran Two Hours Over"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Shared Watchlist",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 18,
+      "max_value": 3333
+    }
+  ]
+}

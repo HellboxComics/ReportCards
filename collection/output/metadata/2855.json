@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #2855 — The Rug Pull",
+  "description": "Every other rug pull in history happened on a screen. This one happened in the principal's office, with an actual rug. A kid in a gray hoodie nobody could describe grabbed the corner and yanked. The report card went airborne. The rug has never been found. Neither has the kid.",
+  "image": "ipfs://__IMAGES_CID__/2855.png",
+  "edition": 2855,
+  "dna": "b0354bc1c104aab2694b6a5e73d6ac9abe57d8782d0a397d180a423f5053ff9a",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "RUGGED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "The Void Where The Rug Was"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Airborne"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Present (Floor: Absent)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "The floor was pulled out from under this student. Literally, this time."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Motion Blur"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket (Mid-Fall)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Carpet Burn"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Fell Off"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "An Actual Rug"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rug Location",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 5,
+      "max_value": 3333
+    }
+  ]
+}

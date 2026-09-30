@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #3045 — Made It To The Moon",
+  "description": "The only student who actually made it to the moon. The report card came too, planted in the dust like a flag. It still says F in Taking Profit, because there is nowhere to sell on the moon. The student has been up there for three years asking how to get down.",
+  "image": "ipfs://__IMAGES_CID__/3045.png",
+  "edition": 3045,
+  "dna": "641abf858dc71929264c7301e017d88843beb7bf5f67a415b22eff9c2f5b6a37",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "MOON (NO EXIT)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "The Actual Moon"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Flag"
+    },
+    {
+      "trait_type": "School",
+      "value": "Wen Moon Vocational & Technical"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Launch Day"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "D"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "384,400 km Away"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Congratulations on reaching the moon. Please come back for your final exam."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Zero Gravity Scribble"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Rocket (Landed)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Moon Dust"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Out Of Range"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "No Way Down"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.5,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Altitude",
+      "value": "Moon"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 28,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Report Card #2554 — Science Fair Volcano",
+  "description": "Hypothesis: number go up. Method: baking soda and vinegar. Results: see attached. The volcano erupted red lava all over the gym floor, the judges' table and the report card. It received an honorable mention for realism.",
+  "image": "ipfs://__IMAGES_CID__/2554.png",
+  "edition": 2554,
+  "dna": "346c68ee6211e43dc696dfd036681515a756cf1ace09943ac72d6772309ebc99",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "HONORABLE MENTION"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gym Science Fair"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Tri-Fold Poster Board"
+    },
+    {
+      "trait_type": "School",
+      "value": "Wen Moon Vocational & Technical"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "The volcano was the only accurate forecast in the gym. B+ for effort, F for outcome."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Judge's Scorecard"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Glitter Glue Rocket"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Lava (Vinegar)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Did The Project"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Eruption"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.1,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 16,
+      "max_value": 3333
+    }
+  ]
+}

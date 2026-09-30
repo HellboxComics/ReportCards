@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1697 — Scratch And Sniff",
+  "description": "Harrow ran out of gold stars and used the scratch-and-sniff stickers from the back of the drawer. Every grade has its own smell. Holding Bags smells like a gym locker. Chasing Memes smells like fake grape. Taking Profit has no smell at all, because nobody has ever scratched it.",
+  "image": "ipfs://__IMAGES_CID__/1697.png",
+  "edition": 1697,
+  "dna": "9ff2066b5d0775cd600fdf4db8e86a44d10718014291f679a61f3e19b9fde470",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "SMELLS LIKE LOSS"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Sticker Sheet"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Scented"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1989"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Smells like loss. Scratch Taking Profit. Go on. Nothing."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Stickers Instead"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Smell Lines"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Fake Grape"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom Sniffed It"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Out Of Gold Stars"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1.1,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Scent",
+      "value": "Loss"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 30,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Dependencies (installed from package-lock.json)
+node_modules/
+
+# Foundry build output
+out/
+cache/
+
+# Deployment transcripts (contain RPC-specific data; keep the ones you care about elsewhere)
+broadcast/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Coverage
+lcov.info
+coverage/

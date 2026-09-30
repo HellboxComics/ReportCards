@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1515 — The Dog Ate It",
+  "description": "For once, it's true. The family dog ate the report card, but only the bottom half: Holding Bags, Chasing Memes, Selling Too Early and the parent signature. The top half, with the A+ in Buying the Top and the F in Taking Profit, was left untouched, because even the dog didn't want that. Harrow accepted the excuse and gave the dog a B+.",
+  "image": "ipfs://__IMAGES_CID__/1515.png",
+  "edition": 1515,
+  "dna": "4100e46c8510d752d56852781c656012b0610fdb4d559b1f6559db8dea3f69b6",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EXCUSE ACCEPTED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Checkerboard Kitchen Floor"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Half A Card"
+    },
+    {
+      "trait_type": "School",
+      "value": "Mt. Rugmore Junior High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "EATEN"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "EATEN"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "EATEN"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty (Dog: Perfect)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Excuse accepted. The dog has better judgment than the student."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Eaten"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Eaten"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Dog Slobber (Fresh)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Eaten"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Actually Eaten By Dog"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.44,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Dog's Grade",
+      "value": "B+"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 2,
+      "max_value": 3333
+    }
+  ]
+}

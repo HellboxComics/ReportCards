@@ -1,0 +1,15 @@
+{
+  "name": "Report Card — Grades Not Posted",
+  "description": "GRADES NOT POSTED YET. Harrow is still grading. Do not call the school. Do not email the school. Do not have your mother call the school; she already called, and Harrow let it ring. The envelope stays sealed until reveal. Opening it early is an automatic F.",
+  "image": "ipfs://__IMAGES_CID__/unrevealed.png",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Grades Not Posted"
+    },
+    {
+      "trait_type": "Envelope",
+      "value": "Sealed (Smells Like Coffee)"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Report Card #1827 — The Class Hamster",
+  "description": "The class hamster's report card. Made zero trades all year. Ran on the wheel, ate the whitepaper, slept through every crash, and finished the semester as the only member of the class with a positive return. Harrow put it on the honor roll. Several parents have filed complaints.",
+  "image": "ipfs://__IMAGES_CID__/1827.png",
+  "edition": 1827,
+  "dna": "438fba73015fedc0fc37710658b7f8c1e4f25d147077fcc89641cdefc2e28aa3",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "HONOR ROLL (RODENT)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Hamster Cage"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Shredded (Bedding)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Room 14 (Class Pet)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "All Year"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "I"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Lives Here)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Best student in the room. Ate the whitepaper, which is more than the rest of you did."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Star (Earned)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Paw Prints"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Wood Shavings"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "N/A (Hamster)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Ate The Whitepaper"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 4,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Species",
+      "value": "Hamster"
+    },
+    {
+      "trait_type": "Trades Made",
+      "value": "0"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 26,
+      "max_value": 3333
+    }
+  ]
+}

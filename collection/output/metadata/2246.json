@@ -1,0 +1,101 @@
+{
+  "name": "Report Card #2246 — Summer School Lifer",
+  "description": "Has attended summer school every summer since 1987. Knows the janitor by name. Has a reserved desk with a cushion. Buys the top every July like clockwork and every June is right back here, sunburned, holding the same bags in a different beach tote.",
+  "image": "ipfs://__IMAGES_CID__/2246.png",
+  "edition": 2246,
+  "dna": "97e9587de13dff9fa005fc72645d4e3cbb4ff65dc4177cb4d19455317f3eac87",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "HELD BACK (x40)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Heat Haze"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "40 Summers Of Paper"
+    },
+    {
+      "trait_type": "School",
+      "value": "Summer School (Remedial Finance)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Summer 1987-2026"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Every Summer"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Welcome back. Your desk is where you left it. So is your position."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Forty Years Of SEE ME"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Palm Tree"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Sunscreen"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parents Retired To Florida"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Tenure"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.5,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 13,
+      "max_value": 3333
+    }
+  ]
+}

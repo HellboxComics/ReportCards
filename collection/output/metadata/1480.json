@@ -1,0 +1,101 @@
+{
+  "name": "Report Card #1480 — Bubble Sheet Masterpiece",
+  "description": "Instead of answering the final exam, the student filled in the bubbles to draw a candlestick chart. It goes down. It is, by every account, the most accurate thing anyone turned in all year. The grading machine gave it a 34 and then made a noise nobody had heard before.",
+  "image": "ipfs://__IMAGES_CID__/1480.png",
+  "edition": 1480,
+  "dna": "40cd48804c4d74bdcc7e4e16c8db24c92322ed2bc2b6013073f38c656c880035",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "ART, TECHNICALLY"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bubble Answer Sheet"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Machine-Readable"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 1996"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Present For The Test"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Did not answer one question. Drew the chart. The chart was correct."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Machine Score: 34"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "The Whole Test"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Graphite Smudge"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Filled In As A Bubble"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Broke The Grading Machine"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.34,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 15,
+      "max_value": 3333
+    }
+  ]
+}

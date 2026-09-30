@@ -1,0 +1,101 @@
+{
+  "name": "Report Card #3072 — The Principal's Own Wallet",
+  "description": "Found in the staff parking lot: the principal's own wallet, and folded inside it, the principal's own report card. It is worse than any student's. The principal has asked for it back three times over the PA system. It will not be returned.",
+  "image": "ipfs://__IMAGES_CID__/3072.png",
+  "edition": 3072,
+  "dna": "8c94bb158331cafa8a046f68a8bd052913c29b5ca22a904ca122e88cb66b577d",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EXIT LIQUIDITY (FACULTY)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Staff Parking Lot"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Folded In Quarters"
+    },
+    {
+      "trait_type": "School",
+      "value": "Faculty Division"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Every Payday"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Unfortunately)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Staff member is not a student and should know better. Does not."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Harrow's Revenge"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Retirement Countdown"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Parking Lot Puddle"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed By Superintendent (Disappointed)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Lost Wallet"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 11,
+      "max_value": 3333
+    }
+  ]
+}

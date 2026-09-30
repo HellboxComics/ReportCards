@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #2317 — Sent To The Corner",
+  "description": "Sent to sit in the corner for buying the top during a math test. Traded from the corner. The corner is now down 70%. The dunce cap has been rugged twice and is on its third developer.",
+  "image": "ipfs://__IMAGES_CID__/2317.png",
+  "edition": 2317,
+  "dna": "bf20baf280d2883aa07561bd1d5d395b31d7c87d4b1c1dc5e6b6cc48dce51661",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "SENT TO THE CORNER"
+    },
+    {
+      "trait_type": "Background",
+      "value": "The Corner"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy"
+    },
+    {
+      "trait_type": "School",
+      "value": "St. Satoshi of the Perpetual Dip"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1988"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "In The Corner"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Face the wall. Not the chart."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Taped Note"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Chart On The Wall"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Stool Splinters"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Signed From The Doorway"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Cone Hat (Third Developer)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.6,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Corner Performance",
+      "value": "-70%"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 33,
+      "max_value": 3333
+    }
+  ]
+}

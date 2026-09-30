@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #3147 — Show And Tell",
+  "description": "Brought a seed phrase for show-and-tell and wrote all twelve words on the whiteboard so everyone could see. The class loved it. The wallet was empty by recess. Harrow says it was the most educational thing that happened all year, just not for this student.",
+  "image": "ipfs://__IMAGES_CID__/3147.png",
+  "edition": 3147,
+  "dna": "7e77ed807f5980351338cb901138dc489e573902628e9b9f48cc82f49d06b6a0",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EDUCATIONAL"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Whiteboard Easel"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "2004 Inkjet"
+    },
+    {
+      "trait_type": "School",
+      "value": "FOMO Falls Elementary"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F-"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "C"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "D"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Present (Wallet: Not)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Very educational for the other 29 students."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Dry-Erase Smudge"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Twelve Words"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Marker On Hands"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Parent Also Took A Photo"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Seed Phrase Shared"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.5,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Wallet Balance",
+      "value": "0"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 25,
+      "max_value": 3333
+    }
+  ]
+}

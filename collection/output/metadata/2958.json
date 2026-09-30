@@ -1,0 +1,101 @@
+{
+  "name": "Report Card #2958 — Fire Drill",
+  "description": "The student pulled the fire alarm to get out of a math test, then traded through the entire evacuation from the parking lot. The card was left on a desk next to a space heater. It is mostly ash now. What remains is still down 60%.",
+  "image": "ipfs://__IMAGES_CID__/2958.png",
+  "edition": 2958,
+  "dna": "dfa70c37b83e89379e098864203c72f329de2d46d1f29c525d7dc66b0293af4d",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EVACUATED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Evacuation Parking Lot"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Ash"
+    },
+    {
+      "trait_type": "School",
+      "value": "Leverage Heights Middle School"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1994"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "ASH"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "ASH"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "ASH"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "ASH"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "ASH"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Outside (Evacuated)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Pulled the alarm to skip the test. Traded the whole evacuation. See me. From outside."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Burned Off"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Burned Off"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Smoke Damage"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Burned Off"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Pulled The Fire Alarm"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 7,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1957 — Stuck Under The Desk",
+  "description": "Stuck to the underside of desk 14 since 1994 by thirty-eight pieces of chewed gum. Like every position this student has ever opened: sticky, fossilized and impossible to exit. The custodian tried a putty knife in 2003. The putty knife is also still there.",
+  "image": "ipfs://__IMAGES_CID__/1957.png",
+  "edition": 1957,
+  "dna": "70cce306862ad73bf93a87e5f7f137848e9013b64865b64ff7e808a3ea67e4cf",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "STUCK"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Underside Of Desk 14"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Gum-Laminated"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1994 (Still)"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A++"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Never Left"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Cannot exit a position. Cannot exit the desk. We are looking into both."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "None (Can't Reach)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "38 Pieces Of Gum"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Gum (All Of It)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Stuck Under Gum"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Putty Knife Failed"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.9,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Gum Count",
+      "value": "38"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 29,
+      "max_value": 3333
+    }
+  ]
+}

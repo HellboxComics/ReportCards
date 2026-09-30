@@ -1,0 +1,34 @@
+{
+  "name": "report-cards-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Report Cards ERC-721: 3,333 students, one teacher, zero chance of honor roll.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "forge": "node tools/forge.mjs",
+    "build": "node tools/forge.mjs build",
+    "test": "node tools/forge.mjs test",
+    "test:gas": "node tools/forge.mjs test --gas-report",
+    "sizes": "node tools/forge.mjs build --sizes",
+    "abi": "node tools/forge.mjs build && node tools/abi.mjs",
+    "lint": "node tools/forge.mjs lint",
+    "fmt": "node tools/forge.mjs fmt",
+    "fmt:check": "node tools/forge.mjs fmt --check",
+    "check": "npm run fmt:check && npm run lint && node tools/forge.mjs test --force",
+    "deploy:simulate": "node tools/forge.mjs script script/Deploy.s.sol:Deploy --rpc-url robinhood"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.6.1"
+  },
+  "devDependencies": {
+    "@foundry-rs/forge": "1.7.1",
+    "@layerzerolabs/toolbox-foundry": "0.1.13",
+    "solc": "0.8.34"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  }
+}

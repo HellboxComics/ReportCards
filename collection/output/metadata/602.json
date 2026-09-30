@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #602 — Y2K Time Capsule",
+  "description": "Buried behind the gym by the Class of 1999, to be opened in 2026. Inside: one report card, one floppy disk labeled MY PORTFOLIO, and a note reading 'if the computers survive, sell.' The computers survived. Nobody sold. The floppy disk is corrupted, which makes it the most accurate portfolio in the collection.",
+  "image": "ipfs://__IMAGES_CID__/602.png",
+  "edition": 602,
+  "dna": "72d3392f4dff0363991376baf97233ac8432f929f4331ac7ddc86798a562fe18",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "COMPUTERS SURVIVED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Dirt Behind The Gym"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1999 Office Laser (Buried)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Class Of 1999"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Fall 1999 (Opened 2026)"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "ERROR"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "ERROR"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "ERROR"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "ERROR"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "ERROR"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "ERROR"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "01/01/1900"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "To whoever opens this: if the computers survived, sell. — H., 1999"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Faded"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Millennium Bug"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "27 Years Of Dirt"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Illegible (Water Damage)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Buried"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "GPA (Printed)",
+      "value": "NaN"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 8,
+      "max_value": 3333
+    }
+  ]
+}

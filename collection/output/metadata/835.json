@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #835 — The Permanent Record",
+  "description": "Every teacher since 1962 threatened you with it: this is going on your permanent record. Nobody ever saw it. It exists. It is four inches thick, chained shut, and it contains every top you ever bought, including the ones you only bought in your head. The district keeps it in a vault under the gym, next to the good dodgeballs.",
+  "image": "ipfs://__IMAGES_CID__/835.png",
+  "edition": 835,
+  "dna": "87dbe023bbf6e4c0e466b9cc994f0142e9d1769516c1c3487512d8493fcd8550",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "ON YOUR PERMANENT RECORD"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Museum Vault Spotlight"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Carbon, Four Inches Thick"
+    },
+    {
+      "trait_type": "School",
+      "value": "District Archive (Sub-Basement)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "All Of Them"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "On File"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "This is going on your permanent record. This is it. You're looking at it."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Every Mark Ever Made"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Confiscated"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Sixty Years Of Coffee"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Required In Triplicate"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "All Of Them"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Artifact",
+      "value": "The Actual Permanent Record"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 1,
+      "max_value": 3333
+    }
+  ]
+}

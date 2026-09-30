@@ -1,0 +1,97 @@
+{
+  "name": "Report Card #1081",
+  "description": "Report card, Bagholder Valley Regional High, Winter 1987. STUDENT ID #1081. Prognosis: see below. Only an F in Buying the Top: waits for dips like an adult, which the other kids find creepy. Also enclosed: a cafeteria notice for a negative lunch balance, spent entirely on gas fees. Status: VALEDICTORIAN. Sold the top, bought the bottom, took the bus home. First one in 34 years.",
+  "image": "ipfs://__IMAGES_CID__/1081.png",
+  "edition": 1081,
+  "dna": "11ca9e0f5b9e35da27fb9de03b6918257ceba866bedb8ef666affb46d5d479f6",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Valedictorian"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Chalkboard (Chart Never Erased)"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "1987 Carbon Copy (Pink)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Bagholder Valley Regional High"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Perfect (Never Logs Off)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Graduation speech will be one word long. The word is 'sell.'"
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Hearts Around The A+"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Diamond Hands (Six Fingers)"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Hallway Shoe Print"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Mom (Disappointed Cursive)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Lunch Debt (Gas Fees)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 4.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 35,
+      "max_value": 3333
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1047 — The Kid Who Sold The Top",
+  "description": "Every school has a legend: a kid who sold the exact top, to the minute, walked out the front door and was never seen again. Nobody has met this student. Everyone's cousin knew them. The card was found in a locker that has been welded shut ever since, and Harrow will only talk about it after the second coffee.",
+  "image": "ipfs://__IMAGES_CID__/1047.png",
+  "edition": 1047,
+  "dna": "87800e74911ee91032934f2b44869a181f892220642a58df7e2d318535e2c008",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "VALEDICTORIAN (MYTHICAL)"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Heavenly Light"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Gold Foil (Glowing)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Unknown (Records Sealed)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "The Top"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "F"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "F"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "F"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "F"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Left At The Top"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "I only had one who listened. I never saw them again."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Gold Ink Only"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "A Perfect Chart"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "None (Untouchable)"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unnecessary"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Sold The Top"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 4.33,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Sightings",
+      "value": "0"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 9,
+      "max_value": 3333
+    }
+  ]
+}

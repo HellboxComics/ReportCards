@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #525 — The Forgery Kit",
+  "description": "Turned every F into a B with one careful pen stroke. Turned the D into a B. Practiced Mom's signature forty times on the back. Could not figure out what to do about the EXPELLED stamp, so they changed one letter and it now says EXCELLED. It almost worked.",
+  "image": "ipfs://__IMAGES_CID__/525.png",
+  "edition": 525,
+  "dna": "27ea031c9b64bc7fa7a2e9a008da5b72537b8ff04127cddad8bed932949da6d3",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "EXCELLED"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Desk Lamp, Midnight"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Doctored"
+    },
+    {
+      "trait_type": "School",
+      "value": "Paper Hands Preparatory Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Spring 2004"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "B (FORGED)"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "B (FORGED)"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "B (FORGED)"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B (FORGED)"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "B (FORGED)"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "B (FORGED)"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Satisfactory (Forged)"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Nice try. Every B has a tail. Also, it says EXCELLED."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Correction Fluid"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Forty Practice Signatures"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Correction Fluid Drip"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forged (Almost Good)"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Forgery"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 3,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Actual GPA",
+      "value": "0.00"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 24,
+      "max_value": 3333
+    }
+  ]
+}

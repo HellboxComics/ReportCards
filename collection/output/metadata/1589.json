@@ -1,0 +1,105 @@
+{
+  "name": "Report Card #1589 — Chain Letter",
+  "description": "THIS REPORT CARD HAS BEEN SENT TO YOU FOR GOOD LUCK. The original is in 1987. It has gone around the school nine times. Forward it to ten classmates within 24 hours or your bags will never recover. One student broke the chain in 1994 and bought the top the very next morning. Do not break the chain.",
+  "image": "ipfs://__IMAGES_CID__/1589.png",
+  "edition": 1589,
+  "dna": "3e16aece0e0601c666a64f27147afdf2816f0c5ab3fdc15761a1445f8d87d8fd",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "DO NOT BREAK THE CHAIN"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Photocopier Glass"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Copy Of A Copy Of A Copy"
+    },
+    {
+      "trait_type": "School",
+      "value": "Every School (Forwarded)"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Since 1987"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "D"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "A"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "C+"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Forwarded"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Whoever started this: I know it was you. I also forwarded it. I'm scared."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "SEND TO 10 FRIENDS (Circled)"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Four-Leaf Clover"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Toner Streaks"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Forwarded To 10 Parents"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Chain Unbroken"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 1,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "Copies",
+      "value": "10"
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 32,
+      "max_value": 3333
+    }
+  ]
+}

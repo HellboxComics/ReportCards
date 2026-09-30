@@ -1,0 +1,101 @@
+{
+  "name": "Report Card #3192 — The Airdrop",
+  "description": "Folded into a paper airplane during fifth period and airdropped to the whole class. It did two loops, clipped the ceiling fan and landed directly in the trash can, which Harrow says is where every airdrop ends up eventually.",
+  "image": "ipfs://__IMAGES_CID__/3192.png",
+  "edition": 3192,
+  "dna": "a876b65997638e7e66565a1416f5c427cc0da3059dad74e58ea6325ee036ffc3",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "CLAIMED BY TRASH"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fifth Period Airspace"
+    },
+    {
+      "trait_type": "Paper",
+      "value": "Folded (Airplane)"
+    },
+    {
+      "trait_type": "School",
+      "value": "Exit Liquidity Charter Academy"
+    },
+    {
+      "trait_type": "Semester",
+      "value": "Winter 1999"
+    },
+    {
+      "trait_type": "Buying the Top",
+      "value": "A"
+    },
+    {
+      "trait_type": "Taking Profit",
+      "value": "F"
+    },
+    {
+      "trait_type": "Risk Management",
+      "value": "F"
+    },
+    {
+      "trait_type": "Holding Bags",
+      "value": "B"
+    },
+    {
+      "trait_type": "Chasing Memes",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Selling Too Early",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Attendance",
+      "value": "Spotty"
+    },
+    {
+      "trait_type": "Teacher Comment",
+      "value": "Airdropped to the whole class. Claimed by the trash can. As they all are."
+    },
+    {
+      "trait_type": "Pen Marks",
+      "value": "Crease Lines"
+    },
+    {
+      "trait_type": "Doodle",
+      "value": "Flight Path"
+    },
+    {
+      "trait_type": "Stain",
+      "value": "Trash Can Juice"
+    },
+    {
+      "trait_type": "Parent Signature",
+      "value": "Unclaimed"
+    },
+    {
+      "trait_type": "Incident",
+      "value": "Airdropped"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "GPA",
+      "value": 0.4,
+      "max_value": 4.33
+    },
+    {
+      "trait_type": "1 of 1",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "1 of 1"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Rank",
+      "value": 31,
+      "max_value": 3333
+    }
+  ]
+}

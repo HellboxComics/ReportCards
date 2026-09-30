@@ -1,0 +1,106 @@
+/**
+ * Seeded, platform-independent PRNG (cyrb128 string hash -> sfc32). Pure
+ * 32-bit integer math, so the same seed gives the same stream in Node, the
+ * browser and the Next.js runtime. Never use Math.random in the collection.
+ */
+
+/** 128-bit string hash (cyrb128). */
+export function hash128(str: string): [number, number, number, number] {
+  let h1 = 1779033703;
+  let h2 = 3144134277;
+  let h3 = 1013904242;
+  let h4 = 2773480762;
+  for (let i = 0; i < str.length; i++) {
+    const k = str.charCodeAt(i);
+    h1 = h2 ^ Math.imul(h1 ^ k, 597399067);
+    h2 = h3 ^ Math.imul(h2 ^ k, 2869860233);
+    h3 = h4 ^ Math.imul(h3 ^ k, 951274213);
+    h4 = h1 ^ Math.imul(h4 ^ k, 2716044179);
+  }
+  h1 = Math.imul(h3 ^ (h1 >>> 18), 597399067);
+  h2 = Math.imul(h4 ^ (h2 >>> 22), 2869860233);
+  h3 = Math.imul(h1 ^ (h3 >>> 17), 951274213);
+  h4 = Math.imul(h2 ^ (h4 >>> 19), 2716044179);
+  h1 ^= h2 ^ h3 ^ h4;
+  h2 ^= h1;
+  h3 ^= h1;
+  h4 ^= h1;
+  return [h1 >>> 0, h2 >>> 0, h3 >>> 0, h4 >>> 0];
+}
+
+export interface Rng {
+  /** Uniform in [0, 1). */
+  next(): number;
+  /** Integer in [min, max], inclusive. */
+  int(min: number, max: number): number;
+  /** Float in [min, max). */
+  float(min: number, max: number): number;
+  chance(p: number): boolean;
+  pick<T>(items: readonly T[]): T;
+  /** Weighted pick; weights need not sum to 1. */
+  weighted<T>(items: readonly T[], weights: readonly number[]): T;
+  /** Returns a new shuffled array (Fisher-Yates). */
+  shuffle<T>(items: readonly T[]): T[];
+  /** Standard normal (Box-Muller). */
+  gauss(): number;
+}
+
+function sfc32(a: number, b: number, c: number, d: number): () => number {
+  return () => {
+    a >>>= 0;
+    b >>>= 0;
+    c >>>= 0;
+    d >>>= 0;
+    let t = (a + b) | 0;
+    a = b ^ (b >>> 9);
+    b = (c + (c << 3)) | 0;
+    c = (c << 21) | (c >>> 11);
+    d = (d + 1) | 0;
+    t = (t + d) | 0;
+    c = (c + t) | 0;
+    return (t >>> 0) / 4294967296;
+  };
+}
+
+/** A stream seeded from the joined parts, e.g. rng(seed, "token", 417). */
+export function rng(...parts: (string | number)[]): Rng {
+  const [a, b, c, d] = hash128(parts.join("|"));
+  const next = sfc32(a, b, c, d);
+  // Warm up so similar seeds diverge.
+  for (let i = 0; i < 12; i++) next();
+  const self: Rng = {
+    next,
+    int: (min, max) => min + Math.floor(next() * (max - min + 1)),
+    float: (min, max) => min + next() * (max - min),
+    chance: (p) => next() < p,
+    pick: (items) => {
+      if (items.length === 0) throw new Error("rng.pick on empty list");
+      return items[Math.floor(next() * items.length)];
+    },
+    weighted: (items, weights) => {
+      const total = weights.reduce((s, w) => s + w, 0);
+      let r = next() * total;
+      for (let i = 0; i < items.length; i++) {
+        r -= weights[i];
+        if (r < 0) return items[i];
+      }
+      return items[items.length - 1];
+    },
+    shuffle: (items) => {
+      const out = items.slice();
+      for (let i = out.length - 1; i > 0; i--) {
+        const j = Math.floor(next() * (i + 1));
+        const tmp = out[i];
+        out[i] = out[j];
+        out[j] = tmp;
+      }
+      return out;
+    },
+    gauss: () => {
+      const u = 1 - next();
+      const v = next();
+      return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+    },
+  };
+  return self;
+}
