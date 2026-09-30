@@ -64,7 +64,10 @@ Code map:
 - `src/lib/semester.ts` — 44-day semesters from genesis (2026-01-01 UTC)
 - `src/lib/reportCard.ts` — assembles a card (era, school, comments)
 - `src/lib/providers/` — where wallet activity comes from
-- `src/components/ReportCardView.tsx`, `src/app/globals.css` — the paperwork
+- `src/lib/share.ts` — which grade gets circled ("SEE ME"), stamp line breaks, the prefilled post
+- `src/components/ReportCardView.tsx`, `src/app/globals.css` — the paperwork and the stage around it
+- `src/app/card/[address]/opengraph-image.tsx` — the card as a 1200x630 unfurl image (also "SAVE IMAGE")
+- `assets/fonts/` — self-hosted fonts, used by the pages (`next/font/local`) and the OG renderer
 
 ## Data providers
 
@@ -94,7 +97,7 @@ npm run typecheck
 
 1. **Real grades:** historical prices + cost basis (DEX pool indexing or a price API) so every
    subject is graded; lending-protocol liquidation detection.
-2. **Share:** OG image per card so links unfurl as the card itself; one-tap "post your grades".
+2. **Share:** ~~OG image per card; one-tap "post your grades"~~ (done). Next: native share sheet with the image.
 3. **Wallet connect** instead of pasting an address.
 4. **Lock & mint:** at semester end, mint the locked card as a permanent onchain snapshot.
 5. **Later, still stupid:** detention slips for horrible trades, hall passes for transfers,

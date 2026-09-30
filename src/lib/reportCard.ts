@@ -24,7 +24,7 @@ export function buildReportCard(
   // One seed per wallet per semester: the same card prints every time.
   const rand = mulberry32(hashString(`${activity.address.toLowerCase()}:${semester.index}`));
   const studentName = opts.studentName?.trim() || shortAddress(activity.address);
-  const firstName = opts.studentName?.trim().split(/\s+/)[0] || "This student";
+  const firstName = opts.studentName?.trim().split(/\s+/)[0] || studentName;
 
   const subjects = gradeSubjects(activity);
   const standing = academicStanding(subjects);
