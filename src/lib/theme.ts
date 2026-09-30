@@ -15,10 +15,11 @@ export interface StatusTheme {
 }
 
 export const STATUS_THEME: Record<Status, StatusTheme> = {
-  "HONOR ROLL": { key: "honor", bg: "#16804b", bg2: "#04170c", hot: "#c8ff3d", ink: "#0b7a36" },
+  // blue ribbon + gold star (never neon lime on green: that's a brokerage's look, not a school's)
+  "HONOR ROLL": { key: "honor", bg: "#2448d8", bg2: "#040b2e", hot: "#ffd23f", ink: "#0b7a36" },
   "NEEDS IMPROVEMENT": { key: "needs", bg: "#ff9500", bg2: "#2e1200", hot: "#fff4d6", ink: "#d25d00" },
   "ACADEMIC PROBATION": { key: "probation", bg: "#ff5717", bg2: "#2c0800", hot: "#ffe600", ink: "#d8141c" },
-  "HELD BACK": { key: "heldback", bg: "#3b4bff", bg2: "#08062b", hot: "#ffe600", ink: "#1f3bb8" },
+  "HELD BACK": { key: "heldback", bg: "#0aa5a0", bg2: "#021a1c", hot: "#ffe600", ink: "#1f3bb8" },
   SUSPENDED: { key: "suspended", bg: "#e5157a", bg2: "#2a0017", hot: "#ffe600", ink: "#c3106b" },
   EXPELLED: { key: "expelled", bg: "#f0141f", bg2: "#2e0003", hot: "#ffe600", ink: "#d8141c" },
   "MOST LIKELY TO BECOME EXIT LIQUIDITY": {

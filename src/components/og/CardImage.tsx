@@ -1,17 +1,19 @@
 import { ImageResponse } from "next/og";
+import { marginNotes, type MarginNote } from "@/lib/notes";
 import { FORM_TITLES, SCHOOL_NAMES, headlineComment } from "@/lib/paperwork";
 import { shortAddress } from "@/lib/reportCard";
 import {
   INCIDENT_LABEL,
   customName,
   isBackhanded,
+  leadSubject,
   statusLines,
   textWidth,
   withArticle,
   worstSubject,
 } from "@/lib/share";
 import { statusTheme } from "@/lib/theme";
-import type { LetterGrade, ReportCard, SubjectGrade } from "@/lib/types";
+import type { Incident, LetterGrade, ReportCard, SubjectGrade } from "@/lib/types";
 import { ogAssets } from "./assets";
 
 /*
@@ -27,6 +29,7 @@ const C = {
   ink: "#24211d",
   mimeo: "#5a3d96",
   pen: "#d3170f",
+  green: "#0e8a3c",
   rule: "rgba(36,33,29,0.26)",
   hazard: "#ffd400",
   black: "#0a0a0a",
@@ -79,7 +82,21 @@ function PenLoop({ w, h }: { w: number; h: number }) {
   );
 }
 
-function GradeCell({ s, i, worst }: { s: SubjectGrade; i: number; worst: boolean }) {
+function Check({ size }: { size: number }) {
+  return (
+    <svg width={size} height={size * 0.8} viewBox="0 0 30 24" style={{ marginRight: 4 }}>
+      <path
+        d="M3 13 C 7 15, 9 18, 11 21 C 15 12, 21 6, 28 2"
+        fill="none"
+        stroke={C.green}
+        strokeWidth={3.6}
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+function GradeCell({ s, i, worst, note }: { s: SubjectGrade; i: number; worst: boolean; note?: MarginNote }) {
   const backhanded = isBackhanded(s);
   return (
     <div
@@ -120,20 +137,23 @@ function GradeCell({ s, i, worst }: { s: SubjectGrade; i: number; worst: boolean
           >
             {backhanded ? "SEE ME (not a compliment)" : "SEE ME →"}
           </div>
-        ) : backhanded ? (
+        ) : note ? (
           <div
             style={{
               display: "flex",
+              alignItems: "center",
+              whiteSpace: "nowrap",
               fontFamily: "Nanum Pen Script",
-              fontSize: 25,
-              color: C.pen,
-              marginTop: 2,
-              transform: "rotate(-4deg)",
+              fontSize: Math.min(27, Math.floor(172 / (note.text.length * 0.4 + (note.tone === "green" ? 2 : 0)))),
+              lineHeight: 1,
+              color: note.tone === "green" ? C.green : C.pen,
+              marginTop: 4,
+              transform: `rotate(${note.tone === "green" ? -3 : -4}deg)`,
             }}
           >
-            not a compliment
-          </div>
-        ) : (
+            {note.tone === "green" && <Check size={22} />}
+            {note.text}
+          </div>        ) : (
           <div style={{ display: "flex", fontSize: 14, opacity: 0.62, marginTop: 3 }}>{s.remark}</div>
         )}
       </div>
@@ -166,10 +186,10 @@ function GradeCell({ s, i, worst }: { s: SubjectGrade; i: number; worst: boolean
   );
 }
 
-function Stamp({ card }: { card: ReportCard }) {
+function Stamp({ card, width }: { card: ReportCard; width: number }) {
   const { kicker, main } = statusLines(card.status);
   const ink = statusTheme(card.status).ink;
-  const fit = fitStatus(main, 236, 62, 62);
+  const fit = fitStatus(main, width, 62, 62);
   return (
     <div
       style={{
@@ -179,7 +199,8 @@ function Stamp({ card }: { card: ReportCard }) {
         borderRadius: 12,
         color: ink,
         transform: "rotate(-7deg)",
-        opacity: 0.9,
+        opacity: 0.92,
+        backgroundColor: `${ink}1c`,
       }}
     >
       <div
@@ -210,8 +231,28 @@ function Stamp({ card }: { card: ReportCard }) {
   );
 }
 
+/** "0x0000…0002" with the ellipsis lifted off the baseline (it reads as "_" otherwise). */
+function Addr({ value, size }: { value: string; size: number }) {
+  const [a, b] = value.split("…");
+  if (b === undefined) return <div style={{ display: "flex" }}>{value}</div>;
+  return (
+    <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }}>{a}</div>
+      <div style={{ display: "flex", transform: `translateY(${-Math.round(size * 0.3)}px)`, letterSpacing: -1 }}>…</div>
+      <div style={{ display: "flex" }}>{b}</div>
+    </div>
+  );
+}
+
+/** Which attachment gets clipped to the share image: the rarest one. */
+const SLIP_ORDER: Incident[] = ["LIQUIDATED", "FIGHT_IN_CAFETERIA", "RUGGED"];
+
 function Paper({ card, paper }: { card: ReportCard; paper: string }) {
   const worst = worstSubject(card.subjects);
+  const notes = marginNotes(card, { skip: worst?.key, prefer: leadSubject(card)?.key });
+  const slip = SLIP_ORDER.find((i) => card.incidents.includes(i));
+  const whale = card.incidents.includes("WHALE");
+  const honor = card.status === "HONOR ROLL";
   const name = customName(card);
   const comment = headlineComment(card.teacherComments);
   const hole = statusTheme(card.status).bg2;
@@ -325,20 +366,29 @@ function Paper({ card, paper }: { card: ReportCard; paper: string }) {
           justifyContent: "space-between",
           fontSize: 17,
           marginTop: 5,
-          padding: "6px 0 5px",
+          padding: whale ? "6px 58px 5px 0" : "6px 0 5px",
           borderTop: `4px solid ${C.ink}`,
           borderBottom: `1px solid ${C.ink}`,
         }}
       >
         <div style={{ display: "flex" }}>
-          STUDENT:&nbsp;<b style={{ fontWeight: 700 }}>{name ? name.toUpperCase() : shortAddress(card.address)}</b>
+          STUDENT:&nbsp;
+          <div style={{ display: "flex", fontWeight: 700 }}>
+            {name ? name.toUpperCase() : <Addr value={shortAddress(card.address)} size={17} />}
+          </div>
         </div>
         <div style={{ display: "flex" }}>{`${card.semester.label} · TERM ${card.semester.term}`}</div>
       </div>
 
       <div style={{ display: "flex", flexShrink: 0, flexWrap: "wrap", justifyContent: "space-between", marginTop: 0 }}>
         {ORDER.map((i) => (
-          <GradeCell key={i} s={card.subjects[i]} i={i} worst={card.subjects[i] === worst} />
+          <GradeCell
+            key={i}
+            s={card.subjects[i]}
+            i={i}
+            worst={card.subjects[i] === worst}
+            note={notes[card.subjects[i].key]}
+          />
         ))}
       </div>
 
@@ -373,14 +423,14 @@ function Paper({ card, paper }: { card: ReportCard; paper: string }) {
         </div>
       </div>
 
-      <div style={{ display: "flex", flexGrow: 1, alignItems: "center", justifyContent: "space-between", paddingTop: 4 }}>
-        <div style={{ display: "flex", flexDirection: "column", width: 300 }}>
+      <div style={{ display: "flex", flexGrow: 1, alignItems: "center", paddingTop: 4 }}>
+        <div style={{ display: "flex", flexDirection: "column", width: slip ? 262 : 300 }}>
           <div style={{ display: "flex", fontSize: 12, fontWeight: 700, letterSpacing: 3 }}>TEACHER COMMENTS</div>
           <div
             style={{
               display: "flex",
               fontFamily: "Nanum Pen Script",
-              fontSize: comment.length > 64 ? 27 : 31,
+              fontSize: comment.length > 64 ? (slip ? 25 : 27) : 31,
               lineHeight: 0.95,
               color: C.pen,
               marginTop: 4,
@@ -389,7 +439,148 @@ function Paper({ card, paper }: { card: ReportCard; paper: string }) {
             {`${comment} — Harrow`}
           </div>
         </div>
-        <Stamp card={card} />
+        <div style={{ display: "flex", flexGrow: 1, justifyContent: slip ? "flex-start" : "flex-end", marginLeft: 10 }}>
+          <div style={{ display: "flex", position: "relative" }}>
+            <Stamp card={card} width={slip ? 190 : 236} />
+            {honor && (
+              <div style={{ display: "flex", position: "absolute", left: -30, top: -34 }}>
+                <GoldStar size={74} rot={-14} />
+              </div>
+            )}
+            {honor && (
+              <div style={{ display: "flex", position: "absolute", right: -18, bottom: -16 }}>
+                <GoldStar size={44} rot={16} />
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const burstPoints = (n: number, r1: number, r2: number, c: number) =>
+  Array.from({ length: n * 2 }, (_, i) => {
+    const r = i % 2 ? r2 : r1;
+    const a = (i / (n * 2)) * Math.PI * 2 - Math.PI / 2;
+    return `${(c + Math.cos(a) * r).toFixed(1)},${(c + Math.sin(a) * r).toFixed(1)}`;
+  }).join(" ");
+
+function GoldStar({ size, rot }: { size: number; rot: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 100 100" style={{ transform: `rotate(${rot}deg)` }}>
+      <defs>
+        <linearGradient id="gs" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor="#fff6b0" />
+          <stop offset="0.4" stopColor="#ffc400" />
+          <stop offset="0.55" stopColor="#fff3a0" />
+          <stop offset="0.85" stopColor="#d18a00" />
+        </linearGradient>
+      </defs>
+      <polygon points={burstPoints(5, 48, 20, 50)} fill="url(#gs)" stroke="#9a5a00" strokeWidth={2} />
+    </svg>
+  );
+}
+
+/** The gold WHALE seal, slapped over the paper's top-right corner. */
+function WhaleSeal() {
+  const size = 150;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: 566,
+        top: 22,
+        width: size,
+        height: size,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        transform: "rotate(-12deg)",
+      }}
+    >
+      <svg width={size} height={size} viewBox="0 0 150 150" style={{ position: "absolute", left: 0, top: 0 }}>
+        <defs>
+          <radialGradient id="foil" cx="0.36" cy="0.3" r="0.8">
+            <stop offset="0" stopColor="#fffbd0" />
+            <stop offset="0.34" stopColor="#ffd84a" />
+            <stop offset="0.66" stopColor="#f4a90c" />
+            <stop offset="1" stopColor="#b86a00" />
+          </radialGradient>
+          <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0.55">
+            <stop offset="0.3" stopColor="#fff" stopOpacity="0" />
+            <stop offset="0.45" stopColor="#fff" stopOpacity="0.85" />
+            <stop offset="0.56" stopColor="#fff" stopOpacity="0" />
+          </linearGradient>
+        </defs>
+        <polygon points={burstPoints(20, 75, 64, 75)} fill="#5a2c00" opacity="0.45" transform="translate(3 6)" />
+        <polygon points={burstPoints(20, 73, 62, 75)} fill="url(#foil)" />
+        <polygon points={burstPoints(20, 73, 62, 75)} fill="url(#shine)" />
+        <circle cx="75" cy="75" r="47" fill="none" stroke="#5a2c00" strokeOpacity="0.55" strokeWidth="2.5" strokeDasharray="5 5" />
+      </svg>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          fontFamily: "Anton",
+          color: "#4a2400",
+          lineHeight: 0.95,
+        }}
+      >
+        <div style={{ display: "flex", fontSize: 14 }}>GIFTED &amp; TALENTED</div>
+        <div style={{ display: "flex", fontSize: 44 }}>WHALE</div>
+        <div style={{ display: "flex", fontSize: 13, letterSpacing: 2 }}>DIVISION</div>
+      </div>
+    </div>
+  );
+}
+
+const SLIPS: Record<Exclude<Incident, "WHALE">, { bg: string; title: string; body: string; pen: string }> = {
+  RUGGED: { bg: "#ffd3dc", title: "NURSE'S OFFICE PASS", body: "Dizzy. The floor was pulled out.", pen: "Ice pack. Back to class.\u00a0—\u00a0RN" },
+  LIQUIDATED: { bg: "#ffffff", title: "NOTICE OF WITHDRAWAL", body: "Collateral kept by the district.", pen: "Reason: LIQUIDATED" },
+  FIGHT_IN_CAFETERIA: { bg: "#ffc47f", title: "DISCIPLINARY REFERRAL", body: "CAFETERIA. 12+ trades in one lunch.", pen: "Parent conference required." },
+};
+
+/** One attachment stapled to the paper's bottom-right corner, hanging off the edge. */
+function SlipArt({ incident }: { incident: Exclude<Incident, "WHALE"> }) {
+  const slip = SLIPS[incident];
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: 536,
+        top: 470,
+        width: 184,
+        height: 150,
+        display: "flex",
+        flexDirection: "column",
+        padding: "16px 14px 10px",
+        backgroundColor: slip.bg,
+        color: "#2a2522",
+        fontFamily: "Courier Prime",
+        border: incident === "LIQUIDATED" ? "1px solid #c4c4c4" : "none",
+        transform: "rotate(7deg)",
+        boxShadow: "0 12px 22px rgba(0,0,0,0.45)",
+      }}
+    >
+      <div
+        style={{
+          position: "absolute",
+          left: 22,
+          top: -5,
+          width: 50,
+          height: 9,
+          borderRadius: 4,
+          backgroundImage: "linear-gradient(#f4f4f4, #9aa0a6 45%, #5f656b 55%, #d9dde0)",
+          boxShadow: "0 1px 2px rgba(0,0,0,0.5)",
+          transform: "rotate(-5deg)",
+        }}
+      />
+      <div style={{ display: "flex", fontSize: 15, fontWeight: 700, letterSpacing: 1 }}>{slip.title}</div>
+      <div style={{ display: "flex", fontSize: 13, lineHeight: 1.2, marginTop: 5 }}>{slip.body}</div>
+      <div style={{ display: "flex", fontFamily: "Nanum Pen Script", fontSize: 27, lineHeight: 0.95, color: C.pen, marginTop: 6 }}>
+        {slip.pen}
       </div>
     </div>
   );
@@ -398,12 +589,14 @@ function Paper({ card, paper }: { card: ReportCard; paper: string }) {
 function Hype({ card }: { card: ReportCard }) {
   const theme = statusTheme(card.status);
   const { kicker, main } = statusLines(card.status);
-  const worst = worstSubject(card.subjects);
+  const lead = leadSubject(card);
   const name = customName(card);
   // Whatever height the chips below don't need goes to the status.
   const chipRows = Math.ceil(card.incidents.length / 2);
-  const room = 530 - 30 - (kicker ? 52 : 14) - (worst ? 118 : 0) - (chipRows ? 16 + chipRows * 42 : 0) - 96;
+  const room = 530 - 30 - (kicker ? 52 : 14) - (lead ? 118 : 0) - (chipRows ? 16 + chipRows * 42 : 0) - 96;
   const fit = fitStatus(main, 460, room, 170);
+  const subject = lead ? `IN ${lead.name.toUpperCase()}` : "";
+  const subjectSize = Math.min(40, Math.floor(336 / (textWidth(subject) * 0.47)));
   return (
     <div
       style={{
@@ -429,7 +622,8 @@ function Hype({ card }: { card: ReportCard }) {
         <div
           style={{ width: 12, height: 12, borderRadius: 6, backgroundColor: C.hazard, marginRight: 10 }}
         />
-        {`OFFICIAL RESULT · ${name ? name.toUpperCase() : shortAddress(card.address)}`}
+        OFFICIAL RESULT ·&nbsp;
+        {name ? name.toUpperCase() : <Addr value={shortAddress(card.address)} size={17} />}
       </div>
       {kicker && (
         <div
@@ -464,7 +658,7 @@ function Hype({ card }: { card: ReportCard }) {
           </div>
         ))}
       </div>
-      {worst && (
+      {lead && (
         <div style={{ display: "flex", alignItems: "center", marginTop: 22 }}>
           <div
             style={{
@@ -477,20 +671,22 @@ function Hype({ card }: { card: ReportCard }) {
               backgroundColor: C.paper,
               color: C.pen,
               fontFamily: "Permanent Marker",
-              fontSize: worst.grade.length > 1 ? 54 : 66,
+              fontSize: lead.grade.length > 1 ? 54 : 66,
               lineHeight: 1,
               transform: "rotate(-6deg)",
               boxShadow: "6px 6px 0 #000",
             }}
           >
-            {worst.grade}
+            {lead.grade}
           </div>
           <div style={{ display: "flex", flexDirection: "column", marginLeft: 22, fontFamily: "Anton", lineHeight: 1 }}>
             <div style={{ display: "flex", fontSize: 22, letterSpacing: 2, color: C.hazard }}>
-              {isBackhanded(worst) ? "WORST GRADE (NOT A COMPLIMENT)" : "WORST GRADE"}
+              {isBackhanded(lead) ? "NOT A COMPLIMENT" : "WORST GRADE"}
             </div>
-            <div style={{ display: "flex", fontSize: 40, color: "#fff", marginTop: 4, textShadow: "3px 3px 0 #000" }}>
-              {`IN ${worst.name.toUpperCase()}`}
+            <div
+              style={{ display: "flex", fontSize: subjectSize, color: "#fff", marginTop: 4, textShadow: "3px 3px 0 #000" }}
+            >
+              {subject}
             </div>
           </div>
         </div>
@@ -542,10 +738,12 @@ function Hype({ card }: { card: ReportCard }) {
 
 /** Headline for the tape: "EXPELLED ■ AN F IN TAKING PROFIT ■ SHOW ME YOUR GRADES". */
 function tape(card: ReportCard): string {
-  const worst = worstSubject(card.subjects);
+  const lead = leadSubject(card);
   const bits = [
     card.status,
-    worst ? `${withArticle(worst.grade).toUpperCase()} IN ${worst.name.toUpperCase()}` : "ALL INCOMPLETE",
+    lead
+      ? `${withArticle(lead.grade).toUpperCase()} IN ${lead.name.toUpperCase()}${isBackhanded(lead) ? " (NOT A COMPLIMENT)" : ""}`
+      : "ALL INCOMPLETE",
     "SHOW ME YOUR GRADES",
     "REPORT CARDS",
     "RETURN SIGNED BY MONDAY",
@@ -556,6 +754,7 @@ function tape(card: ReportCard): string {
 export async function renderCardImage(card: ReportCard, init?: ResponseInit): Promise<ImageResponse> {
   const { fonts, paper } = await ogAssets();
   const theme = statusTheme(card.status);
+  const slip = SLIP_ORDER.find((i): i is Exclude<Incident, "WHALE"> => i !== "WHALE" && card.incidents.includes(i));
   return new ImageResponse(
     (
       <div
@@ -618,6 +817,8 @@ export async function renderCardImage(card: ReportCard, init?: ResponseInit): Pr
         </div>
         <Paper card={card} paper={paper} />
         <Hype card={card} />
+        {slip && <SlipArt incident={slip} />}
+        {card.incidents.includes("WHALE") && <WhaleSeal />}
       </div>
     ),
     { ...OG_SIZE, fonts, ...init },

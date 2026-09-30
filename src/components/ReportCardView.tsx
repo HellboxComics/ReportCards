@@ -1,7 +1,8 @@
 import type { CSSProperties } from "react";
-import { FORM_TITLES, SCHOOL_NAMES } from "@/lib/paperwork";
+import { isGoodFail, marginNotes } from "@/lib/notes";
+import { FORM_TITLES, SCHOOL_NAMES, headlineComment } from "@/lib/paperwork";
 import { shortAddress } from "@/lib/reportCard";
-import { isBackhanded, statusLines, textWidth, worstSubject } from "@/lib/share";
+import { leadSubject, statusLines, textWidth, worstSubject } from "@/lib/share";
 import { statusTheme } from "@/lib/theme";
 import type { Incident, LetterGrade, ReportCard } from "@/lib/types";
 import { Moon, Rocket, UpCandles, Wagmi } from "./Doodles";
@@ -31,6 +32,40 @@ function PenCircle() {
   );
 }
 
+/**
+ * Margin notes live between the subject name and the grade column; long ones
+ * shrink (in cqi, like everything on the paper) instead of running into the name.
+ */
+function noteSize(subject: string, text: string, check: boolean): number {
+  const room = 76 - subject.length * 2.5 - (check ? 6.5 : 0);
+  return Math.min(5.6, Math.max(3.8, room / (text.length * 0.4)));
+}
+
+/** A green-pen check mark for the good kind of F. */
+function PenCheck() {
+  return (
+    <svg className="pen-check" viewBox="0 0 30 24" aria-hidden>
+      <path d="M3 13 C 7 15, 9 18, 11 21 C 15 12, 21 6, 28 2" pathLength={1} />
+    </svg>
+  );
+}
+
+/**
+ * "0x0000…0002" with the ellipsis lifted to the middle of the line: on the
+ * baseline, in a typewriter face, it reads as an underscore.
+ */
+export function ShortAddr({ value }: { value: string }) {
+  const [a, b] = value.split("…");
+  if (b === undefined) return <>{value}</>;
+  return (
+    <span className="addr">
+      {a}
+      <span className="addr-ell">…</span>
+      {b}
+    </span>
+  );
+}
+
 function PenArrow() {
   return (
     <svg className="pen-arrow" viewBox="0 0 60 24" aria-hidden>
@@ -47,7 +82,7 @@ function Slip({ incident }: { incident: Incident }) {
           <span className="clip" aria-hidden />
           <strong>NURSE&apos;S OFFICE PASS</strong>
           <p>Dizzy. The floor was pulled out.</p>
-          <p className="slip-pen">Ice pack. Back to class. — RN</p>
+          <p className="slip-pen">Ice pack. Back to class.{"\u00a0—\u00a0RN"}</p>
         </div>
       );
     case "LIQUIDATED":
@@ -77,13 +112,18 @@ function Slip({ incident }: { incident: Incident }) {
 
 export function ReportCardView({ card, animate = true }: { card: ReportCard; animate?: boolean }) {
   const worst = worstSubject(card.subjects);
+  const notes = marginNotes(card, { skip: worst?.key, prefer: leadSubject(card)?.key });
   const stamp = statusLines(card.status);
   const theme = statusTheme(card.status);
   const nameIsAddress = card.studentName === shortAddress(card.address);
   const whale = card.incidents.includes("WHALE");
+  const honor = card.status === "HONOR ROLL";
   const slips = card.incidents.filter((i) => i !== "WHALE");
   const title = FORM_TITLES[card.school];
   const att = card.attendance.label;
+  // The line quoted in the unfurl is the one printed first (a phone may only show one).
+  const headline = headlineComment(card.teacherComments);
+  const comments = [headline, ...card.teacherComments.filter((c) => c !== headline)];
 
   return (
     <article
@@ -120,6 +160,14 @@ export function ReportCardView({ card, animate = true }: { card: ReportCard; ani
         </p>
       )}
 
+      {whale && (
+        <div className="whale-sticker" role="img" aria-label="Gifted and Talented sticker, whale division">
+          <span>GIFTED &amp; TALENTED</span>
+          <b>WHALE</b>
+          <small>DIVISION</small>
+        </div>
+      )}
+
       <header className="rc-head">
         <div className="rc-head-main">
           <p className="dept">{SCHOOL_NAMES[card.school]}</p>
@@ -127,16 +175,8 @@ export function ReportCardView({ card, animate = true }: { card: ReportCard; ani
             {title}
           </h1>
         </div>
-        <div className="corner" aria-hidden={!whale}>
-          {whale ? (
-            <div className="whale-sticker" aria-label="Gifted and Talented sticker, whale division">
-              <span>GIFTED &amp; TALENTED</span>
-              <b>WHALE</b>
-              <small>DIVISION</small>
-            </div>
-          ) : (
-            <UpCandles className="doodle d-candles" />
-          )}
+        <div className="corner" aria-hidden>
+          {!whale && <UpCandles className="doodle d-candles" />}
         </div>
       </header>
 
@@ -144,7 +184,7 @@ export function ReportCardView({ card, animate = true }: { card: ReportCard; ani
         <span>
           STUDENT:{" "}
           <b className={nameIsAddress ? "is-addr" : undefined}>
-            {nameIsAddress ? card.studentName : card.studentName.toUpperCase()}
+            {nameIsAddress ? <ShortAddr value={card.studentName} /> : card.studentName.toUpperCase()}
           </b>
         </span>
         <span>
@@ -160,7 +200,7 @@ export function ReportCardView({ card, animate = true }: { card: ReportCard; ani
         </li>
         {card.subjects.map((s, i) => {
           const isWorst = s === worst;
-          const backhanded = isBackhanded(s);
+          const note = notes[s.key];
           return (
             <li
               key={s.key}
@@ -177,9 +217,17 @@ export function ReportCardView({ card, animate = true }: { card: ReportCard; ani
                   <PenArrow />
                 </span>
               ) : (
-                backhanded && <span className="not-comp">not a compliment</span>
+                note && (
+                  <span
+                    className={`margin-note mn-${note.tone}`}
+                    style={{ "--nfs": `${noteSize(s.name, note.text, note.tone === "green")}cqi` } as Vars}
+                  >
+                    {note.tone === "green" && <PenCheck />}
+                    {note.text}
+                  </span>
+                )
               )}
-              <span className={`g ${gradeTone(s.grade)}`}>
+              <span className={`g ${gradeTone(s.grade)}${isGoodFail(s) ? " g-good" : ""}`}>
                 <span className="g-letter">{s.grade}</span>
                 {isWorst && <PenCircle />}
               </span>
@@ -214,11 +262,17 @@ export function ReportCardView({ card, animate = true }: { card: ReportCard; ani
             </span>
           </span>
         </div>
+        {honor && (
+          <>
+            <i className="gold-star star-big" aria-label="Gold star" />
+            <i className="gold-star star-small" aria-hidden />
+          </>
+        )}
       </div>
 
       <section className="comments">
         <h2>TEACHER COMMENTS</h2>
-        {card.teacherComments.map((c, i) => (
+        {comments.map((c, i) => (
           <p key={c} className={`pen-line${i > 0 ? " pen-line-2" : ""}`}>
             {c}
           </p>

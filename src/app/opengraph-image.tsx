@@ -7,7 +7,7 @@ export const contentType = "image/png";
 
 const STAMPS = [
   { kicker: "MOST LIKELY TO BECOME", main: "EXIT LIQUIDITY", color: "#ff2a9d", rot: -7, top: 96, left: 742, size: 58 },
-  { main: "HONOR ROLL", color: "#c8ff3d", rot: 5, top: 262, left: 812, size: 56 },
+  { main: "HONOR ROLL", color: "#ffd23f", rot: 5, top: 262, left: 812, size: 56 },
   { main: "EXPELLED", color: "#ff3b3b", rot: -4, top: 408, left: 734, size: 70 },
 ];
 

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { letter } from "./grading";
-import { mockActivity } from "./providers/mock";
+import { DEMO_STUDENTS, mockActivity } from "./providers/mock";
 import { buildReportCard } from "./reportCard";
 import { semesterByIndex } from "./semester";
 import {
@@ -10,7 +10,11 @@ import {
   customName,
   gradeRank,
   isBackhanded,
+  leadSubject,
+  SHARE_HOOKS,
+  shareLead,
   shareText,
+  shareTitle,
   statusLines,
   statusTone,
   tickerItems,
@@ -119,33 +123,80 @@ describe("shareText / xIntentUrl", () => {
   const addr = "0x0000000000000000000000000000000000000001";
   const card = buildReportCard(mockActivity(addr, s, now), s, { now });
 
-  it("reads like a post: worst grade, the backhanded A, the status and the hook", () => {
+  it("reads like a post: the funniest grade, the circled one, the status and a hook", () => {
     const text = shareText(card);
+    const lines = text.split("\n");
+    const lead = leadSubject(card)!;
     const worst = worstSubject(card.subjects)!;
-    expect(text.startsWith(`My wallet got ${withArticle(worst.grade)} in ${worst.name}`)).toBe(true);
+    // EXIT LIQUIDITY leads with the backhanded grade that earned it...
+    expect(isBackhanded(lead)).toBe(true);
+    expect(["buyingTheTop", "chasingMemes"]).toContain(lead.key);
+    expect(lines[0]).toContain(`${lead.grade} in ${lead.name}`);
+    // ...and still owns up to the circled F.
+    expect(lines[1]).toContain(`${withArticle(worst.grade)} in ${worst.name}`);
     expect(text).toContain("MOST LIKELY TO BECOME EXIT LIQUIDITY");
-    expect(text).toContain("Show me your grades");
+    expect(SHARE_HOOKS).toContain(lines.at(-1));
     expect(text.length).toBeLessThan(250);
   });
 
-  it("pairs a failing virtue grade with the A in a vice", () => {
+  it("leads with the backhanded A, then the failing virtue grade", () => {
     const text = shareText({
       subjects: subjects({ takingProfit: 5, holdingBags: 99, riskManagement: 70 }),
-      status: "MOST LIKELY TO BECOME EXIT LIQUIDITY",
+      status: "HELD BACK",
       incidents: [],
+      address: "0xabc",
     });
-    expect(text.split("\n")[0]).toBe("My wallet got an F in Taking Profit and an A+ in Holding Bags.");
-    expect(text.split("\n")[1]).toBe("Voted MOST LIKELY TO BECOME EXIT LIQUIDITY.");
+    const [first, second] = text.split("\n");
+    expect(first).toMatch(/A\+ in Holding Bags/);
+    expect(second).toMatch(/^(And|Plus) an F in Taking Profit/);
+    expect(text).toContain("HELD BACK");
   });
 
-  it("flags a circled vice A as not a compliment and brags about incidents", () => {
+  it("brags about incidents", () => {
     const text = shareText({
       subjects: subjects({ takingProfit: 90, riskManagement: 85, buyingTheTop: 98 }),
       status: "NEEDS IMPROVEMENT",
       incidents: ["WHALE", "FIGHT_IN_CAFETERIA"],
     });
-    expect(text).toContain("an A+ in Buying the Top. Not a compliment.");
+    expect(text.split("\n")[0]).toContain("A+ in Buying the Top");
     expect(text).toContain("gifted program");
+  });
+
+  it("leads an honor-roll post with the honor roll, not a D", () => {
+    const honor = shareText({
+      subjects: subjects({ takingProfit: 68, riskManagement: 85, buyingTheTop: 5, holdingBags: 0 }),
+      status: "HONOR ROLL",
+      incidents: [],
+    });
+    expect(honor.split("\n")[0]).toMatch(/HONOR ROLL/);
+    expect(honor).toContain("a D+ in Taking Profit");
+    expect(honor.match(/HONOR ROLL/g)).toHaveLength(1);
+  });
+
+  it("gives different demo wallets different opening lines, hooks and headlines", () => {
+    const cards = DEMO_STUDENTS.map((d) => buildReportCard(mockActivity(d.address, s, now), s, { now }));
+    const leads = cards.map(shareLead);
+    // the four screenshot demos (expelled, exit liquidity, honor roll, whale) never share a lead
+    expect(new Set([0, 1, 2, 5].map((i) => leads[i])).size).toBe(4);
+    expect(new Set(leads).size).toBeGreaterThanOrEqual(6);
+    // and they don't all lead with the same subject
+    expect(new Set(cards.map((c) => leadSubject(c)?.key)).size).toBeGreaterThanOrEqual(3);
+    expect(new Set(cards.map((c) => shareText(c).split("\n").at(-1))).size).toBeGreaterThanOrEqual(3);
+    expect(new Set(cards.map(shareTitle)).size).toBeGreaterThanOrEqual(6);
+    for (const c of cards) expect(shareText(c).length).toBeLessThan(250);
+  });
+
+  it("rotates between tied backhanded grades by wallet, and is stable per wallet", () => {
+    const sub = subjects({ buyingTheTop: 95, holdingBags: 95, chasingMemes: 95, takingProfit: 0 });
+    const picks = new Set<string>();
+    for (let i = 0; i < 40; i++) {
+      const c = { subjects: sub, status: "HELD BACK" as const, incidents: [], address: `0x${i}` };
+      picks.add(leadSubject(c)!.key);
+      expect(shareText(c)).toBe(shareText({ ...c }));
+    }
+    expect(picks.size).toBe(3);
+    // SEE ME stays on the true worst grade
+    expect(worstSubject(sub)?.key).toBe("takingProfit");
   });
 
   it("encodes text and url for the X intent", () => {
@@ -158,11 +209,13 @@ describe("shareText / xIntentUrl", () => {
     expect(url).not.toContain("#");
   });
 
-  it("builds ticker items that lead with the verdict and the worst grade", () => {
+  it("builds ticker items that lead with the verdict, the lead grade and the circled one", () => {
     const items = tickerItems(card);
+    const lead = leadSubject(card)!;
     expect(items[0]).toBe(card.status);
-    expect(items[1]).toContain("IN TAKING PROFIT");
+    expect(items[1]).toContain(`IN ${lead.name.toUpperCase()} (NOT A COMPLIMENT)`);
     expect(items).toContain("SHOW ME YOUR GRADES");
+    expect(items.some((i) => i.includes("IN TAKING PROFIT") && i.includes("SEE ME"))).toBe(true);
   });
 });
 
