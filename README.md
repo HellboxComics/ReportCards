@@ -64,10 +64,22 @@ Code map:
 - `src/lib/semester.ts` — 44-day semesters from genesis (2026-01-01 UTC)
 - `src/lib/reportCard.ts` — assembles a card (era, school, comments)
 - `src/lib/providers/` — where wallet activity comes from
-- `src/lib/share.ts` — which grade gets circled ("SEE ME"), stamp line breaks, the prefilled post
-- `src/components/ReportCardView.tsx`, `src/app/globals.css` — the paperwork and the stage around it
-- `src/app/card/[address]/opengraph-image.tsx` — the card as a 1200x630 unfurl image (also "SAVE IMAGE")
-- `assets/fonts/` — self-hosted fonts, used by the pages (`next/font/local`) and the OG renderer
+- `src/lib/share.ts` — which grade gets circled ("SEE ME"), the prefilled post, share links
+  (always pinned to a term), the card page ticker
+- `src/lib/theme.ts` — the stage color per status (red EXPELLED, pink/purple EXIT LIQUIDITY, …)
+- `src/lib/sample.ts` — the landing page's sample cards (always demo data)
+- `src/components/ReportCardView.tsx`, `src/app/styles/paper.css` — the paperwork
+- `src/app/styles/` — `base.css` (tokens, tickers, stickers, form), `card-page.css`, `landing.css`
+- `src/components/og/CardImage.tsx` — the card as a 1200x630 share image, served by
+  `src/app/card/[address]/opengraph-image/route.tsx` (reads `?term=` and `?name=`, so a shared
+  link unfurls as exactly that card; also what SAVE IMAGE downloads)
+- `src/app/opengraph-image.tsx` — the landing page's share image
+- `assets/fonts/`, `assets/og/` — self-hosted fonts and the paper texture, used by the pages
+  (`next/font/local`) and the image renderer
+
+The circled grade follows one rule: a D or F in Taking Profit or Risk Management first, then an
+A-range grade in a vice subject ("A+ in Buying the Top" — not a compliment), then the weakest
+virtue grade. An F in Buying the Top is good behavior and is never circled.
 
 ## Data providers
 
@@ -75,7 +87,10 @@ Set `DATA_PROVIDER` (see `.env.example`):
 
 - `mock` (default) — deterministic fake activity per address, drawn from trader archetypes
   (degen, honor student, bagholder, paper hands, cafeteria-fighting whale, liquidated).
-  Cards are stamped **SAMPLE — DEMO DATA**.
+  Cards are stamped **SAMPLE — DEMO DATA**. The pinned demo students `0x000…0000` to
+  `0x000…0007` land the same status every semester: EXPELLED (rugged + liquidated), EXIT
+  LIQUIDITY, HONOR ROLL, SUSPENDED (rugged), ACADEMIC PROBATION, WHALE + FIGHT IN CAFETERIA,
+  NEEDS IMPROVEMENT, HELD BACK. The landing page links to them.
 - `blockscout` — reads a Blockscout API v2 explorer (`BLOCKSCOUT_API_URL`). Swaps are inferred
   from token transfers in the same transaction. v1 limits: USD uses current exchange rates, no
   historical prices (Buying the Top / Selling Too Early are Incomplete), no cost basis (PnL
@@ -90,8 +105,13 @@ npm test
 npm run typecheck
 ```
 
-- `/card/<address>?name=<display name>&term=<n>` — the report card
+- `/card/<address>?term=<n>&name=<display name>` — the report card
+- `/card/<address>/opengraph-image?term=<n>&name=<display name>` — its 1200x630 share image
 - `/api/card/<address>` — the same card as JSON
+
+Set `NEXT_PUBLIC_SITE_URL` in production (e.g. `https://reportcards.example`) so share links and
+`og:image` URLs are absolute and stable; without it they are built from the request's
+`x-forwarded-host` / `x-forwarded-proto`.
 
 ## Roadmap
 

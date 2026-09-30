@@ -1,6 +1,6 @@
 import { lookup } from "@/app/actions";
 
-/** The "mint box": paste a wallet, get graded. */
+/** Paste a wallet, get graded. The name is optional and tucked away. */
 export function WalletForm({
   error = false,
   compact = false,
@@ -12,16 +12,13 @@ export function WalletForm({
 }) {
   return (
     <form action={lookup} className={`mint${compact ? " mint-compact" : ""}`} id={id}>
-      <div className="mint-bar" aria-hidden>
-        <span className="mint-dot" />
-        <span>ENROLL_WALLET.EXE</span>
-        <span className="mint-net">ROBINHOOD CHAIN</span>
-      </div>
       <label className="mint-field">
-        <span className="mint-label">STUDENT WALLET</span>
+        <span className="mint-label">
+          STUDENT WALLET <em>· Robinhood Chain</em>
+        </span>
         <input
           name="address"
-          placeholder="0x… paste wallet address"
+          placeholder="0x… paste a wallet address"
           autoComplete="off"
           autoCapitalize="off"
           spellCheck={false}
@@ -31,25 +28,23 @@ export function WalletForm({
           required
         />
       </label>
-      {!compact && (
-        <label className="mint-field mint-name">
-          <span className="mint-label">
-            NAME ON CARD <em>optional</em>
-          </span>
-          <input name="name" placeholder="Jamie Doe" autoComplete="off" maxLength={40} />
-        </label>
-      )}
       {error && <p className="mint-error">That is not a wallet. See me after class.</p>}
-      <button type="submit" className="btn btn-mint">
+      <button type="submit" className="btn btn-hot btn-mint">
         GET MY GRADES <span aria-hidden>→</span>
       </button>
       {!compact && (
-        <ul className="mint-chips" aria-label="Fine print">
-          <li>READ-ONLY</li>
-          <li>NO WALLET CONNECT</li>
-          <li>GRADES ARE FINAL</li>
-          <li className="chip-red">NO RETAKES</li>
-        </ul>
+        <>
+          <details className="mint-name">
+            <summary>+ write a student name on it (optional)</summary>
+            <input name="name" placeholder="Jamie Doe" autoComplete="off" maxLength={40} aria-label="Name on card" />
+          </details>
+          <ul className="mint-chips" aria-label="Fine print">
+            <li>READ-ONLY</li>
+            <li>NO WALLET CONNECT</li>
+            <li>GRADES ARE FINAL</li>
+            <li className="chip-red">NO RETAKES</li>
+          </ul>
+        </>
       )}
     </form>
   );

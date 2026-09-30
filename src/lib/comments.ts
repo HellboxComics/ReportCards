@@ -2,8 +2,9 @@ import { pick } from "./random";
 import type { Incident, Status, SubjectGrade, SubjectKey } from "./types";
 
 /**
- * Harrow's comment bank. `{name}` is replaced with the student's first name.
- * Triggered pools are tried first; the generic pool fills the rest.
+ * Harrow's comment bank. `{name}` is replaced with the student's first name,
+ * or "this student" when the card has no name. Triggered pools are tried
+ * first; the generic pool fills the rest.
  */
 
 const HIGH: Partial<Record<SubjectKey, string[]>> = {
@@ -17,7 +18,7 @@ const HIGH: Partial<Record<SubjectKey, string[]>> = {
     "Locker contains several positions that should have been thrown out in September.",
   ],
   chasingMemes: [
-    "Would benefit from spending less time with @bankrbot.",
+    "Would benefit from spending less time in the group chat.",
     "Please stop drawing rockets on the desk.",
     "{name} cannot be left alone near anything with a dog on it.",
   ],
@@ -66,9 +67,20 @@ const GENERIC = [
   "Would do better if {name} slept at night.",
 ];
 
+/**
+ * Fill `{name}`. Without a name Harrow falls back to "this student" (never the
+ * raw wallet address), capitalized when it starts a sentence.
+ */
+export function fillName(line: string, name?: string): string {
+  if (name) return line.replaceAll("{name}", name);
+  return line
+    .replace(/(^|[.!?]\s+)\{name\}/g, "$1This student")
+    .replaceAll("{name}", "this student");
+}
+
 export function teacherComments(
   rand: () => number,
-  name: string,
+  name: string | undefined,
   subjects: SubjectGrade[],
   status: Status,
   incidents: Incident[],
@@ -96,5 +108,5 @@ export function teacherComments(
   while (chosen.length < count) {
     chosen.push(generic.splice(Math.floor(rand() * generic.length), 1)[0]);
   }
-  return chosen.map((c) => c.replaceAll("{name}", name));
+  return chosen.map((c) => fillName(c, name));
 }

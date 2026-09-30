@@ -2,26 +2,33 @@ import type { Metadata } from "next";
 import { cache, type CSSProperties } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Candles } from "@/components/Candles";
+import { ReplayShow, Replayable } from "@/components/Replay";
 import { ReportCardView } from "@/components/ReportCardView";
 import { ShareBar } from "@/components/ShareBar";
+import { DESK, Stickers } from "@/components/Stickers";
 import { Ticker } from "@/components/Ticker";
 import { TopBar } from "@/components/TopBar";
 import { WalletForm } from "@/components/WalletForm";
 import { loadReportCard } from "@/lib/load";
+import { headlineComment } from "@/lib/paperwork";
 import { isAddress } from "@/lib/providers";
-import { hashString } from "@/lib/random";
 import { shortAddress } from "@/lib/reportCard";
 import {
+  INCIDENT_LABEL,
+  cardImagePath,
+  cardPath,
+  customName,
   gradeLine,
+  isBackhanded,
   shareText,
   statusLines,
-  statusTone,
+  textWidth,
   tickerItems,
   widestWord,
   worstSubject,
   xIntentUrl,
 } from "@/lib/share";
+import { statusTheme } from "@/lib/theme";
 import { siteOrigin } from "../../site";
 
 type Props = {
@@ -34,40 +41,28 @@ const getCard = cache((address: string, name?: string, term?: string) =>
   loadReportCard(address, { name, term }),
 );
 
-function cardQuery(sp: { name?: string; term?: string }) {
-  const q = new URLSearchParams();
-  if (sp.name) q.set("name", sp.name);
-  if (sp.term) q.set("term", sp.term);
-  const s = q.toString();
-  return s ? `?${s}` : "";
-}
-
 export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
   const { address } = await params;
-  if (!isAddress(address)) return {};
+  if (!isAddress(address)) return { title: "Hall pass denied — Report Cards" };
   const sp = await searchParams;
   const card = await getCard(address, sp.name, sp.term);
   const worst = worstSubject(card.subjects);
-  const title = `${worst ? `${gradeLine(worst)} · ` : ""}${card.status}`;
-  const description = `“${card.teacherComments[0]}” — Harrow. Show me your grades.`;
+  const name = customName(card);
   const origin = await siteOrigin();
+  const title = `${worst ? `${gradeLine(worst)} · ` : ""}${card.status}`;
+  const description = `“${headlineComment(card.teacherComments)}” — Harrow. Show me your grades.`;
+  const url = origin + cardPath(address, card.semester.term, name);
   const image = {
-    url: `${origin}/card/${address}/opengraph-image`,
+    url: origin + cardImagePath(address, card.semester.term, name),
     width: 1200,
     height: 630,
-    alt: `Report card for ${shortAddress(address)}: ${title}`,
+    alt: `Report card for ${name ?? shortAddress(address)}: ${title}`,
   };
   return {
     title: `${title} — Report Card`,
     description,
-    alternates: { canonical: `/card/${address}${cardQuery(sp)}` },
-    openGraph: {
-      type: "website",
-      siteName: "Report Cards",
-      title,
-      description,
-      url: `/card/${address}${cardQuery(sp)}`,
-    },
+    alternates: { canonical: url },
+    openGraph: { type: "website", siteName: "Report Cards", title, description, url, images: [image] },
     twitter: { card: "summary_large_image", title, description, images: [image] },
   };
 }
@@ -79,17 +74,28 @@ export default async function CardPage({ params, searchParams }: Props) {
   const card = await getCard(address, sp.name, sp.term);
   const origin = await siteOrigin();
 
-  const cardUrl = `${origin}/card/${address}${cardQuery(sp)}`;
-  const imageUrl = `/card/${address}/opengraph-image`;
+  const name = customName(card);
+  const term = card.semester.term;
+  const cardUrl = origin + cardPath(address, term, name);
+  const imageUrl = cardImagePath(address, term, name);
+  const theme = statusTheme(card.status);
   const worst = worstSubject(card.subjects);
   const stamp = statusLines(card.status);
-  const tone = statusTone(card.status);
-  const who = shortAddress(address);
-  const prev = (term: number) =>
-    `?term=${term}${sp.name ? `&name=${encodeURIComponent(sp.name)}` : ""}`;
+  const who = name?.toUpperCase() ?? shortAddress(address);
+  const quote = headlineComment(card.teacherComments);
 
   return (
-    <main className="card-page">
+    <main
+      className={`card-page st-${theme.key}`}
+      style={
+        {
+          "--st-bg": theme.bg,
+          "--st-bg2": theme.bg2,
+          "--st-hot": theme.hot,
+          "--hole": theme.bg2,
+        } as CSSProperties
+      }
+    >
       <TopBar
         right={
           <Link className="btn btn-small" href="/#enroll">
@@ -97,38 +103,48 @@ export default async function CardPage({ params, searchParams }: Props) {
           </Link>
         }
       />
-      <Ticker items={tickerItems(card)} seconds={34} />
+      <Ticker variant="verdict" items={tickerItems(card)} seconds={32} />
 
       <div className="card-layout">
         <section className="card-stage">
-          <Candles
-            className="stage-candles"
-            seed={hashString(address)}
-            shape={tone === "good" ? "chop" : "pump-dump"}
-          />
-          <div className="spotlight" aria-hidden />
-          <span className="stage-sticker ss-final" aria-hidden>
+          <Stickers items={DESK} />
+          <span className="tag tag-burst ss-final" aria-hidden>
             GRADES
             <br />
             ARE FINAL
           </span>
-          <ReportCardView card={card} />
+          <Replayable>
+            <ReportCardView card={card} />
+          </Replayable>
         </section>
 
-        <aside className={`verdict tone-${tone}`}>
+        <aside className="verdict">
           <div className="verdict-hype">
             <p className="v-kicker">
               <span className="v-live" /> OFFICIAL RESULT · {who} · {card.semester.label}
             </p>
             {stamp.kicker && <p className="v-status-kicker">{stamp.kicker}</p>}
-            <h2 className="v-status" style={{ "--w": widestWord(stamp.main) } as CSSProperties}>
+            <h2
+              className="v-status"
+              style={{ "--w": widestWord(stamp.main), "--tw": textWidth(stamp.main) } as CSSProperties}
+            >
               {stamp.main}
             </h2>
             {worst && (
               <p className="v-worst">
-                WORST GRADE <span className="v-grade">{worst.grade}</span>
+                <span className="v-worst-label">
+                  {isBackhanded(worst) ? "NOT A COMPLIMENT" : "WORST GRADE"}
+                </span>
+                <span className="v-grade">{worst.grade}</span>
                 <span className="v-subject">IN {worst.name.toUpperCase()}</span>
               </p>
+            )}
+            {card.incidents.length > 0 && (
+              <ul className="v-incidents" aria-label="Incidents">
+                {card.incidents.map((i) => (
+                  <li key={i}>+ {INCIDENT_LABEL[i]}</li>
+                ))}
+              </ul>
             )}
           </div>
 
@@ -136,16 +152,16 @@ export default async function CardPage({ params, searchParams }: Props) {
             intentUrl={xIntentUrl(shareText(card), cardUrl)}
             cardUrl={cardUrl}
             imageUrl={imageUrl}
-            fileName={`report-card-${address.slice(0, 8)}.png`}
+            fileName={`report-card-${theme.key}-${address.slice(0, 8).toLowerCase()}.png`}
           />
 
           <blockquote className="v-harrow">
-            “{card.teacherComments[0]}”<cite>— HARROW, HOMEROOM</cite>
+            “{quote}”<cite>— HARROW, HOMEROOM</cite>
           </blockquote>
 
           <nav className="v-nav">
-            {card.semester.term > 1 && (
-              <Link href={prev(card.semester.term - 1)}>← TERM {card.semester.term - 1} TRANSCRIPT</Link>
+            {term > 1 && (
+              <Link href={cardPath(address, term - 1, name)}>← TERM {term - 1} TRANSCRIPT</Link>
             )}
             <Link href="/">WHAT IS THIS?</Link>
           </nav>
@@ -156,6 +172,15 @@ export default async function CardPage({ params, searchParams }: Props) {
           </div>
         </aside>
       </div>
+
+      <ReplayShow
+        grade={worst?.grade}
+        subject={worst?.name}
+        backhanded={worst ? isBackhanded(worst) : false}
+        kicker={stamp.kicker}
+        status={stamp.main}
+        quote={quote}
+      />
     </main>
   );
 }

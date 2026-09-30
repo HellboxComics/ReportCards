@@ -1,20 +1,21 @@
 import { ImageResponse } from "next/og";
-import { ogFonts } from "./og-fonts";
+import { ogAssets } from "@/components/og/assets";
 
-export const alt = "Report Cards — your wallet got graded. Show me your grades.";
+export const alt = "Report Cards: your wallet got graded. Show me your grades.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 const STAMPS = [
-  { kicker: "MOST LIKELY TO BECOME", main: "EXIT LIQUIDITY", color: "#ff2e3b", rot: -7, top: 84, left: 736, size: 60 },
-  { main: "HONOR ROLL", color: "#b8ff1f", rot: 5, top: 262, left: 790, size: 58 },
-  { main: "EXPELLED", color: "#ff2e3b", rot: -4, top: 420, left: 730, size: 66 },
+  { kicker: "MOST LIKELY TO BECOME", main: "EXIT LIQUIDITY", color: "#ff2a9d", rot: -7, top: 96, left: 742, size: 58 },
+  { main: "HONOR ROLL", color: "#c8ff3d", rot: 5, top: 262, left: 812, size: 56 },
+  { main: "EXPELLED", color: "#ff3b3b", rot: -4, top: 408, left: 734, size: 70 },
 ];
 
+/** The landing page's unfurl. No dates or counts, so it can be prerendered. */
 export default async function Image() {
-  const fonts = await ogFonts();
+  const { fonts, paper } = await ogAssets();
   const tape =
-    "LOCAL WALLET GETS F IN TAKING PROFIT ■ PARENTS ADVISED TO HIDE THEIR WALLETS ■ RETURN SIGNED BY MONDAY ■ ";
+    "LOCAL WALLET GETS F IN TAKING PROFIT  ■  PARENTS ADVISED TO HIDE THEIR WALLETS  ■  RETURN SIGNED BY MONDAY  ■  ";
   return new ImageResponse(
     (
       <div
@@ -23,11 +24,8 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           position: "relative",
-          background: "#060708",
-          backgroundImage:
-            "linear-gradient(rgba(184,255,31,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(184,255,31,0.06) 1px, transparent 1px)",
-          backgroundSize: "40px 40px",
-          color: "#ecf7dc",
+          backgroundColor: "#0b0610",
+          color: "#fff",
           fontFamily: "Anton",
         }}
       >
@@ -37,11 +35,35 @@ export default async function Image() {
             left: 0,
             top: 0,
             width: 1200,
-            height: 44,
+            height: 630,
+            display: "flex",
+            backgroundImage: "radial-gradient(circle at 80% 55%, #c2126f 0%, #3a0d6b 45%, #0b0610 80%)",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 0,
+            width: 1200,
+            height: 630,
+            display: "flex",
+            backgroundImage:
+              "linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px)",
+            backgroundSize: "40px 40px",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 0,
+            width: 1200,
+            height: 46,
             display: "flex",
             alignItems: "center",
-            paddingLeft: 16,
-            background: "#ffd400",
+            paddingLeft: 14,
+            backgroundColor: "#ffd400",
             color: "#000",
             fontSize: 24,
             letterSpacing: 1,
@@ -53,23 +75,44 @@ export default async function Image() {
           {tape + tape}
         </div>
 
-        <div style={{ position: "absolute", left: 60, top: 92, display: "flex", flexDirection: "column" }}>
-          <div style={{ display: "flex", alignItems: "center", fontFamily: "Space Mono", fontSize: 22, color: "#b8ff1f", letterSpacing: 3 }}>
-            <div style={{ display: "flex", background: "#ffd400", color: "#000", fontFamily: "Anton", padding: "2px 10px", marginRight: 14, letterSpacing: 2 }}>
-              WARNING
+        <div style={{ position: "absolute", left: 60, top: 96, display: "flex", flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              fontFamily: "Space Mono",
+              fontSize: 22,
+              letterSpacing: 3,
+              color: "#fff",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                backgroundColor: "#ff2e3b",
+                color: "#fff",
+                fontFamily: "Anton",
+                padding: "2px 10px",
+                marginRight: 14,
+                letterSpacing: 2,
+              }}
+            >
+              BREAKING
             </div>
             REPORT CARDS ARE OUT
           </div>
-          <div style={{ display: "flex", fontSize: 132, lineHeight: 0.88, marginTop: 18 }}>YOUR WALLET</div>
-          <div style={{ display: "flex", fontSize: 132, lineHeight: 0.88 }}>
-            GOT&nbsp;<span style={{ color: "#b8ff1f", textShadow: "0 0 36px #b8ff1f" }}>GRADED.</span>
+          <div style={{ display: "flex", fontSize: 140, lineHeight: 0.88, marginTop: 22, textShadow: "6px 6px 0 #000" }}>
+            YOUR WALLET
           </div>
-          <div style={{ display: "flex", alignItems: "center", marginTop: 40 }}>
+          <div style={{ display: "flex", fontSize: 140, lineHeight: 0.88, textShadow: "6px 6px 0 #000" }}>
+            GOT&nbsp;<span style={{ color: "#ffe600" }}>GRADED.</span>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", marginTop: 38 }}>
             <div
               style={{
                 display: "flex",
                 padding: "14px 22px 10px",
-                background: "#b8ff1f",
+                backgroundColor: "#ffd400",
                 color: "#000",
                 fontSize: 44,
                 lineHeight: 1,
@@ -80,7 +123,16 @@ export default async function Image() {
               SHOW ME YOUR GRADES →
             </div>
           </div>
-          <div style={{ display: "flex", marginTop: 30, fontFamily: "Space Mono", fontSize: 20, color: "#b7c5b0", letterSpacing: 2 }}>
+          <div
+            style={{
+              display: "flex",
+              marginTop: 30,
+              fontFamily: "Space Mono",
+              fontSize: 20,
+              color: "#f4dcff",
+              letterSpacing: 2,
+            }}
+          >
             PASTE A ROBINHOOD CHAIN WALLET · GET YOUR REPORT CARD
           </div>
         </div>
@@ -97,7 +149,7 @@ export default async function Image() {
               border: `7px solid ${s.color}`,
               borderRadius: 12,
               transform: `rotate(${s.rot}deg)`,
-              boxShadow: `0 0 30px ${s.color}55`,
+              backgroundColor: "rgba(0,0,0,0.35)",
             }}
           >
             <div
@@ -110,7 +162,6 @@ export default async function Image() {
                 borderRadius: 6,
                 color: s.color,
                 lineHeight: 0.95,
-                textShadow: `0 0 20px ${s.color}`,
               }}
             >
               {s.kicker && <div style={{ display: "flex", fontSize: 20, letterSpacing: 3 }}>{s.kicker}</div>}
@@ -122,22 +173,23 @@ export default async function Image() {
         <div
           style={{
             position: "absolute",
-            left: 1050,
-            top: 404,
-            width: 110,
-            height: 110,
+            left: 1036,
+            top: 398,
+            width: 124,
+            height: 124,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            paddingTop: 10,
-            background: "#f4efdd",
+            paddingTop: 14,
             color: "#d3170f",
             fontFamily: "Permanent Marker",
-            fontSize: 84,
+            fontSize: 92,
             transform: "rotate(10deg)",
             boxShadow: "6px 6px 0 #000",
           }}
         >
+          {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+          <img src={paper} width={124} height={124} style={{ position: "absolute", left: 0, top: 0 }} />
           F
         </div>
       </div>

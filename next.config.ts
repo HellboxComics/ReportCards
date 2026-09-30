@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // The OG image renderers read the self-hosted fonts from disk.
+  // The share-image renderers read the self-hosted fonts and paper texture
+  // from disk; make sure serverless bundles ship them.
   outputFileTracingIncludes: {
-    "/opengraph-image": ["./assets/fonts/**/*"],
-    "/card/[address]/opengraph-image": ["./assets/fonts/**/*"],
+    "/opengraph-image": ["./assets/**/*"],
+    "/card/[address]/opengraph-image": ["./assets/**/*"],
   },
 };
 

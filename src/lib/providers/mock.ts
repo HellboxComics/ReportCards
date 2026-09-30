@@ -1,6 +1,20 @@
+import {
+  academicStanding,
+  detectIncidents,
+  determineStatus,
+  gradeSubjects,
+} from "../grading";
 import { hashString, mulberry32, pick } from "../random";
 import { daysInSession } from "../semester";
-import type { Position, Semester, TokenCategory, Trade, WalletActivity } from "../types";
+import type {
+  Incident,
+  Position,
+  Semester,
+  Status,
+  TokenCategory,
+  Trade,
+  WalletActivity,
+} from "../types";
 
 /**
  * Deterministic fake activity so the card can be designed and demoed before
@@ -45,9 +59,82 @@ const ARCHETYPES: Archetype[] = [
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
+/**
+ * Pinned demo students. These addresses always print the same kind of card
+ * (status and incidents) in every semester, so demos, links and screenshots can
+ * rely on them. Every other address is hashed to an archetype.
+ */
+export interface DemoStudent {
+  address: string;
+  /** What the card is known for, for "try a demo wallet" links. */
+  label: string;
+  archetype: number;
+  wants: { status?: Status; incidents?: Incident[] };
+}
+
+const pinned = (n: number) => `0x${n.toString(16).padStart(40, "0")}`;
+
+export const DEMO_STUDENTS: DemoStudent[] = [
+  { address: pinned(0), label: "EXPELLED", archetype: 5, wants: { status: "EXPELLED", incidents: ["RUGGED", "LIQUIDATED"] } },
+  { address: pinned(1), label: "EXIT LIQUIDITY", archetype: 0, wants: { status: "MOST LIKELY TO BECOME EXIT LIQUIDITY" } },
+  { address: pinned(2), label: "HONOR ROLL", archetype: 1, wants: { status: "HONOR ROLL" } },
+  { address: pinned(3), label: "SUSPENDED", archetype: 2, wants: { status: "SUSPENDED", incidents: ["RUGGED"] } },
+  { address: pinned(4), label: "PROBATION", archetype: 3, wants: { status: "ACADEMIC PROBATION" } },
+  { address: pinned(5), label: "WHALE", archetype: 4, wants: { incidents: ["WHALE", "FIGHT_IN_CAFETERIA"] } },
+  { address: pinned(6), label: "NEEDS IMPROVEMENT", archetype: 3, wants: { status: "NEEDS IMPROVEMENT" } },
+  { address: pinned(7), label: "HELD BACK", archetype: 2, wants: { status: "HELD BACK" } },
+];
+
+/** Does this semester land the promised card? `complete` also wants no Incompletes. */
+function satisfies(a: WalletActivity, wants: DemoStudent["wants"], complete: boolean): boolean {
+  const incidents = detectIncidents(a);
+  if (wants.incidents?.some((i) => !incidents.includes(i))) return false;
+  const subjects = gradeSubjects(a);
+  if (complete && subjects.some((s) => s.score === null)) return false;
+  if (!wants.status) return true;
+  const status = determineStatus(subjects, academicStanding(subjects), incidents, a.trades.length);
+  return status === wants.status;
+}
+
+const pinnedCache = new Map<string, WalletActivity>();
+
 export function mockActivity(address: string, semester: Semester, now: number): WalletActivity {
-  const rand = mulberry32(hashString(`mock:${address.toLowerCase()}:${semester.index}`));
-  const arch = ARCHETYPES[hashString(address.toLowerCase()) % ARCHETYPES.length];
+  const addr = address.toLowerCase();
+  const seed = `mock:${addr}:${semester.index}`;
+  const demo = DEMO_STUDENTS.find((d) => d.address === addr);
+  if (!demo) {
+    return generate(address, semester, now, ARCHETYPES[hashString(addr) % ARCHETYPES.length], seed);
+  }
+  // Re-roll the pinned student's semester until it lands the promised card.
+  const key = `${addr}:${semester.index}:${daysInSession(semester, now)}`;
+  const hit = pinnedCache.get(key);
+  if (hit) return { ...hit, address };
+  // Prefer a fully graded card; settle for the promised status if the
+  // archetype never turns in some subject (bagholders never sell).
+  const arch = ARCHETYPES[demo.archetype];
+  const roll = (salt: number) => generate(address, semester, now, arch, salt ? `${seed}:${salt}` : seed);
+  let found: WalletActivity | null = null;
+  for (const complete of [true, false]) {
+    for (let salt = 0; salt < 600 && !found; salt++) {
+      const a = roll(salt);
+      if (satisfies(a, demo.wants, complete)) found = a;
+    }
+    if (found) break;
+  }
+  found ??= roll(0);
+  if (pinnedCache.size > 200) pinnedCache.clear();
+  pinnedCache.set(key, found);
+  return { ...found, address };
+}
+
+function generate(
+  address: string,
+  semester: Semester,
+  now: number,
+  arch: Archetype,
+  seed: string,
+): WalletActivity {
+  const rand = mulberry32(hashString(seed));
   const days = daysInSession(semester, now);
   const between = (lo: number, hi: number) => lo + rand() * (hi - lo);
 

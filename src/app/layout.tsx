@@ -1,20 +1,27 @@
 import type { Metadata, Viewport } from "next";
 import { fontVars } from "./fonts";
 import { siteOrigin } from "./site";
-import "./globals.css";
+import "./styles/base.css";
+import "./styles/paper.css";
+import "./styles/card-page.css";
+import "./styles/landing.css";
+
+const title = "Report Cards — your wallet got graded";
+const description =
+  "Paste a Robinhood Chain wallet. Get the report card your parents never saw. Show me your grades.";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL(await siteOrigin()),
-    title: "Report Cards — your wallet got graded",
-    description:
-      "Paste a Robinhood Chain wallet. Get the report card your parents never saw. Show me your grades.",
-    twitter: { card: "summary_large_image" },
+    title,
+    description,
+    openGraph: { type: "website", siteName: "Report Cards", title, description, url: "/" },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
 export const viewport: Viewport = {
-  themeColor: "#060708",
+  themeColor: "#07060a",
   colorScheme: "dark",
 };
 

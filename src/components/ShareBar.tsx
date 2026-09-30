@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { ReplayButton } from "./Replay";
 
 /**
- * POST YOUR GRADES (X intent), SAVE IMAGE (the OG card PNG), COPY LINK.
- * Every action degrades to a plain link when the browser API is missing.
+ * POST YOUR GRADES (X intent), SAVE IMAGE (the share image PNG), COPY LINK,
+ * REPLAY. Every action degrades to a plain link when a browser API is missing.
  */
 export function ShareBar({
   intentUrl,
@@ -43,8 +44,7 @@ export function ShareBar({
     try {
       const res = await fetch(imageUrl);
       if (!res.ok) throw new Error(String(res.status));
-      const blob = await res.blob();
-      const href = URL.createObjectURL(blob);
+      const href = URL.createObjectURL(await res.blob());
       const a = document.createElement("a");
       a.href = href;
       a.download = fileName;
@@ -61,7 +61,7 @@ export function ShareBar({
 
   return (
     <div className="share">
-      <a className="btn btn-post" href={intentUrl} target="_blank" rel="noopener noreferrer">
+      <a className="btn btn-hot btn-post" href={intentUrl} target="_blank" rel="noopener noreferrer">
         <span className="btn-post-label">POST YOUR GRADES</span>
         <span className="btn-post-sub">on X — make them show theirs</span>
       </a>
@@ -70,8 +70,9 @@ export function ShareBar({
           {saving ? "PRINTING…" : "SAVE IMAGE"}
         </a>
         <button type="button" className="btn btn-ghost" onClick={copy} aria-live="polite">
-          {copied ? "LINK COPIED ✓" : "COPY LINK"}
+          {copied ? "COPIED ✓" : "COPY LINK"}
         </button>
+        <ReplayButton className="btn btn-ghost btn-replay" />
       </div>
     </div>
   );

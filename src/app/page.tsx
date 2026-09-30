@@ -1,24 +1,28 @@
 import type { CSSProperties } from "react";
+import Link from "next/link";
 import { Candles } from "@/components/Candles";
 import { ReportCardView } from "@/components/ReportCardView";
+import { HERO_DESK, Stickers } from "@/components/Stickers";
 import { Quote, Ticker } from "@/components/Ticker";
 import { TopBar } from "@/components/TopBar";
 import { WalletForm } from "@/components/WalletForm";
+import { DEMO_STUDENTS } from "@/lib/providers/mock";
 import { sampleCard } from "@/lib/sample";
 import { daysUntilLock, semesterAt, SEMESTER_DAYS } from "@/lib/semester";
-import { statusLines, statusTone } from "@/lib/share";
+import { cardPath, statusLines } from "@/lib/share";
+import { STATUS_THEME } from "@/lib/theme";
 import type { Status } from "@/lib/types";
 
 /** Jokes, not metrics. */
 const HEADLINES = [
   "LOCAL WALLET GETS F IN TAKING PROFIT",
-  "0x7a…3f EXPELLED AFTER CAFETERIA INCIDENT",
   "HONOR ROLL STUDENT ACCUSED OF COPYING TRADES",
   "PARENTS ADVISED TO HIDE THEIR WALLETS",
   "BAGHOLDER RECEIVES A+, ASKS IF THAT IS GOOD",
   "STUDENT INSISTS THE TEST IS “STILL EARLY”",
   "NURSE RUNS OUT OF ICE PACKS",
-  "0xb4…91 MOST LIKELY TO BECOME EXIT LIQUIDITY",
+  "WHALE SENT TO GIFTED PROGRAM",
+  "CAFETERIA FIGHT: TWELVE TRADES, ONE HOUR",
   "REPORT CARDS GO HOME MONDAY",
 ];
 
@@ -32,27 +36,29 @@ const QUOTES: [string, string, boolean][] = [
   ["ATTENDANCE", "PERFECT", true],
 ];
 
-const CURRICULUM: { name: string; how: string; grade: string; quip: string }[] = [
-  { name: "BUYING THE TOP", grade: "A+", how: "Share of your buys within 10% of the 7-day high.", quip: "An A+ means you're elite at it. Congrats?" },
-  { name: "TAKING PROFIT", grade: "F", how: "Sells that made money, scaled by how much you ever sold.", quip: "Never sold? Automatic F." },
-  { name: "RISK MANAGEMENT", grade: "D-", how: "Diversification, meme exposure, keeping some stables.", quip: "Liquidated? Automatic F." },
-  { name: "HOLDING BAGS", grade: "A", how: "Share of your bags down 40% or more.", quip: "Strong back. Weak portfolio." },
-  { name: "CHASING MEMES", grade: "A+", how: "Meme share of everything you bought.", quip: "Anything with a dog on it." },
-  { name: "SELLING TOO EARLY", grade: "B", how: "Sells followed by a 30%+ run within a week.", quip: "Left before dessert." },
-  { name: "ATTENDANCE", grade: "PERFECT", how: "Days you showed up to trade.", quip: "Trading during the fire drill counts." },
+const SYLLABUS: { name: string; grade: string; how: string }[] = [
+  { name: "BUYING THE TOP", grade: "A+", how: "Buys within 10% of the 7-day high." },
+  { name: "TAKING PROFIT", grade: "F", how: "Sells that made money. Never sold? F." },
+  { name: "RISK MANAGEMENT", grade: "D-", how: "Spread out, low memes, some stables." },
+  { name: "HOLDING BAGS", grade: "A", how: "Bags down 40% or more." },
+  { name: "CHASING MEMES", grade: "A+", how: "Anything with a dog on it." },
+  { name: "SELLING TOO EARLY", grade: "B", how: "Sold, then it ran 30%+ that week." },
+  { name: "ATTENDANCE", grade: "PERFECT", how: "Trading during the fire drill counts." },
 ];
 
 const STATUSES: Status[] = [
-  "HONOR ROLL",
   "MOST LIKELY TO BECOME EXIT LIQUIDITY",
-  "NEEDS IMPROVEMENT",
+  "HONOR ROLL",
   "EXPELLED",
-  "ACADEMIC PROBATION",
+  "NEEDS IMPROVEMENT",
   "SUSPENDED",
+  "ACADEMIC PROBATION",
   "HELD BACK",
 ];
 
-const TILT = [-6, 3, -2, 5, -4, 2, -7];
+const TILT = [-5, 4, -3, 6, -6, 2, -4];
+
+const demo = (label: string) => DEMO_STUDENTS.find((d) => d.label === label)!.address;
 
 export default async function Home({
   searchParams,
@@ -63,15 +69,19 @@ export default async function Home({
   const now = Date.now();
   const semester = semesterAt(now);
   const left = daysUntilLock(semester, now);
-  const sample = sampleCard(now);
+  const term = semester.term;
+  const front = sampleCard(now);
+  const behindL = sampleCard(now, "EXPELLED");
+  const behindR = sampleCard(now, "HONOR ROLL");
+  const link = (label: string) => cardPath(demo(label), term);
 
   return (
     <main className="home">
-      <Ticker items={HEADLINES} seconds={60} />
+      <Ticker badge="BREAKING" items={HEADLINES} seconds={70} />
       <TopBar
         right={
           <span className="term-pill">
-            <i aria-hidden /> TERM {semester.term}
+            <i aria-hidden /> TERM {term}
             <span className="hide-sm"> IN SESSION</span> · LOCKS IN {left}D
           </span>
         }
@@ -81,30 +91,45 @@ export default async function Home({
         <Candles className="hero-candles" seed={1987} count={44} annotate />
         <div className="hero-copy">
           <p className="hero-kicker">
-            <span className="hazard-chip">WARNING</span> {semester.label} REPORT CARDS ARE OUT
+            <span className="hazard-chip">{semester.label}</span> REPORT CARDS ARE OUT
           </p>
           <h1 className="hero-h1">
-            <span className="h1-a">YOUR WALLET</span>
-            <span className="h1-b">
+            <span>YOUR WALLET</span>
+            <span>
               GOT <em>GRADED.</em>
             </span>
           </h1>
           <p className="hero-sub">
-            Paste a <b>Robinhood Chain</b> wallet. Get the brutally honest school report card of
-            everything it did onchain. <span className="hl">Parents will be notified.</span>
+            Paste a <b>Robinhood Chain</b> wallet. Harrow grades what it <u>actually did</u>{" "}
+            onchain. <span className="hl">Parents will be notified.</span>
           </p>
           <WalletForm error={!!error} id="enroll" />
+          <p className="demo-links">
+            OR TRY A DEMO:
+            <Link href={link("EXPELLED")}>EXPELLED</Link>
+            <Link href={link("HONOR ROLL")}>HONOR ROLL</Link>
+            <Link href={link("WHALE")}>WHALE</Link>
+          </p>
         </div>
 
-        <div className="hero-card">
-          <span className="sticker st-sample">
-            SAMPLE
-            <br />
-            STUDENT
-          </span>
-          <span className="sticker st-worse">YOURS IS PROBABLY WORSE</span>
-          <div className="spotlight" aria-hidden />
-          <ReportCardView card={sample} />
+        <div className="hero-cards" aria-label="Sample report cards">
+          <Stickers items={HERO_DESK} className="hero-stickers" />
+          <div className="fan fan-l" aria-hidden>
+            <ReportCardView card={behindL} animate={false} />
+          </div>
+          <div className="fan fan-r" aria-hidden>
+            <ReportCardView card={behindR} animate={false} />
+          </div>
+          <div className="fan fan-c">
+            <ReportCardView card={front} />
+            <span className="tag tag-burst st-exhibit" aria-hidden>
+              EXHIBIT
+              <br />A
+            </span>
+            <span className="tag tag-box st-worse" aria-hidden>
+              YOURS IS PROBABLY WORSE
+            </span>
+          </div>
         </div>
       </section>
 
@@ -119,92 +144,92 @@ export default async function Home({
       />
 
       <section className="shout" aria-label="Show me your grades">
-        <Ticker variant="acid" seconds={22} items={["SHOW ME YOUR GRADES", "POST YOUR REPORT CARD"]} />
+        <Ticker variant="shout" seconds={22} items={["SHOW ME YOUR GRADES", "POST YOUR REPORT CARD"]} />
       </section>
 
-      <section className="block curriculum">
-        <div className="block-head">
-          <div>
-            <p className="block-kicker">THE CURRICULUM</p>
-            <h2 className="block-h">
-              7 SUBJECTS.
+      <section className="block syllabus">
+        <div className="chalkboard">
+          <p className="chalk-kicker">THE SYLLABUS · 7 SUBJECTS · ZERO MERCY</p>
+          <h2 className="chalk-h">
+            An <span className="chalk-a">A+</span> in Buying the Top means you are really good at
+            buying the top.
+          </h2>
+          <ol className="chalk-list">
+            {SYLLABUS.map((c) => (
+              <li key={c.name}>
+                <span className="chalk-name">{c.name}</span>
+                <span className="chalk-how">{c.how}</span>
+                <span className={`chalk-grade${c.grade.length > 2 ? " long" : ""}`}>{c.grade}</span>
+              </li>
+            ))}
+            <li className="chalk-note">
+              Personality test,
               <br />
-              <span className="red">ZERO MERCY.</span>
-            </h2>
-          </div>
-          <p className="block-sub">
-            Every grade measures how much your wallet <b>does the thing</b>. An A+ in Buying the
-            Top means you are extremely good at buying the top.{" "}
-            <span className="pen-note">That is not a compliment.</span>
-          </p>
-        </div>
-        <ol className="subjects">
-          {CURRICULUM.map((c, i) => (
-            <li key={c.name} className="subject">
-              <span className="subject-n">{String(i + 1).padStart(2, "0")}</span>
-              <span className="subject-body">
-                <span className="subject-name">{c.name}</span>
-                <span className="subject-how">{c.how}</span>
-                <span className="subject-quip">{c.quip}</span>
-              </span>
-              <span className={`subject-grade${c.grade.length > 2 ? " long" : ""}`}>{c.grade}</span>
+              but it&apos;s your PnL.
             </li>
-          ))}
-        </ol>
+          </ol>
+          <span className="chalk-eraser" aria-hidden />
+        </div>
       </section>
 
       <section className="block statuses">
-        <div>
+        <div className="statuses-copy">
           <p className="block-kicker">PERMANENT RECORD</p>
           <h2 className="block-h">
             WHICH ONE
             <br />
-            <span className="acid">ARE YOU?</span>
+            <span className="yolk">ARE YOU?</span>
           </h2>
           <p className="block-sub">
-            Seven possible outcomes. The stamp goes on your permanent record. Your parents will
-            see it. So will the timeline.
+            Seven possible stamps. It goes on your permanent record, your parents will see it, and so
+            will the timeline. Tap one to see a sample card.
           </p>
         </div>
-        <div className="stamp-cloud">
+        <div className="stamp-wall">
           {STATUSES.map((s, i) => {
             const l = statusLines(s);
+            const t = STATUS_THEME[s];
+            const d = DEMO_STUDENTS.find((x) => x.wants.status === s)!;
             return (
-              <span
+              <Link
                 key={s}
-                className={`neon-stamp tone-${statusTone(s)}${s.length > 20 ? " wide" : ""}`}
-                style={{ "--tilt": `${TILT[i]}deg` } as CSSProperties}
+                href={cardPath(d.address, term)}
+                className={`neon-stamp${s.length > 20 ? " wide" : ""}`}
+                style={{ "--tilt": `${TILT[i]}deg`, "--tone": t.key === "honor" ? t.hot : t.bg } as CSSProperties}
               >
                 {l.kicker && <small>{l.kicker}</small>}
                 {l.main}
-              </span>
+              </Link>
             );
           })}
         </div>
       </section>
 
       <section className="block incidents">
-        <p className="block-kicker">RARE INCIDENTS</p>
-        <h2 className="block-h">
-          SOME CARDS COME
-          <br />
-          <span className="hazard">HOME DAMAGED.</span>
-        </h2>
+        <div className="block-head">
+          <p className="block-kicker">RARE DROPS</p>
+          <h2 className="block-h">
+            SOME CARDS COME
+            <br />
+            <span className="pink">HOME DAMAGED.</span>
+          </h2>
+        </div>
         <div className="incident-grid">
-          <article className="incident">
+          <Link className="incident" href={link("WHALE")}>
             <span className="rare">RARE</span>
             <div className="inc-art art-whale">
               <span className="mini-sticker">
                 GIFTED &amp;
                 <br />
                 TALENTED
+                <b>WHALE</b>
               </span>
             </div>
             <h3>WHALE</h3>
-            <p className="inc-what">Gifted-program sticker</p>
+            <p className="inc-what">Gold gifted-program sticker</p>
             <p>Move $1M+ and the district refers you to Gifted &amp; Talented. Parents are advised to hide their wallets.</p>
-          </article>
-          <article className="incident">
+          </Link>
+          <Link className="incident" href={link("SUSPENDED")}>
             <span className="rare">RARE</span>
             <div className="inc-art art-nurse">
               <span className="mini-slip pink">
@@ -213,10 +238,10 @@ export default async function Home({
               </span>
             </div>
             <h3>RUGGED</h3>
-            <p className="inc-what">Nurse&apos;s office pass</p>
+            <p className="inc-what">Paper-clipped nurse&apos;s pass</p>
             <p>Hold a meme that went -90% and the floor gets pulled out from under you.</p>
-          </article>
-          <article className="incident">
+          </Link>
+          <Link className="incident" href={link("EXPELLED")}>
             <span className="rare">RARE</span>
             <div className="inc-art art-withdrawal">
               <span className="mini-slip white">
@@ -227,8 +252,8 @@ export default async function Home({
             <h3>LIQUIDATED</h3>
             <p className="inc-what">Withdrawal paperwork</p>
             <p>Automatic EXPELLED. Please collect your belongings from the front office.</p>
-          </article>
-          <article className="incident">
+          </Link>
+          <Link className="incident" href={link("WHALE")}>
             <span className="rare">RARE</span>
             <div className="inc-art art-fight">
               <span className="mini-slip orange">
@@ -240,7 +265,56 @@ export default async function Home({
             <h3>FIGHT IN CAFETERIA</h3>
             <p className="inc-what">Stapled disciplinary referral</p>
             <p>Twelve trades inside one hour. That&apos;s not a strategy, that&apos;s a fight.</p>
-          </article>
+          </Link>
+        </div>
+      </section>
+
+      <section className="block tabloid" aria-label="The Daily Detention">
+        <div className="paper-news">
+          <header className="news-mast">
+            <span className="news-ear">
+              PRICE:
+              <br />
+              ONE HALL PASS
+            </span>
+            <h2>The Daily Detention</h2>
+            <span className="news-ear">
+              FORECAST:
+              <br />
+              RED CANDLES. CHANCE OF RUG.
+            </span>
+          </header>
+          <p className="news-dateline">
+            {semester.label} · ROBINHOOD CHAIN UNIFIED SCHOOL DISTRICT · TERM {term}
+          </p>
+          <div className="news-cols">
+            <article>
+              <h3>HONOR ROLL ANNOUNCED. FACULTY “FRANKLY SUSPICIOUS.”</h3>
+              <p>
+                Students who took profit and wore a helmet were recognized at assembly. Harrow has
+                asked to see their notes.
+              </p>
+            </article>
+            <article>
+              <h3>STUDENT BUYS TOP, CALLS IT “CONVICTION”</h3>
+              <p>
+                An A+ in Buying the Top was entered into the permanent record today. The student
+                asked if that was good. It was not.
+              </p>
+            </article>
+            <article className="classifieds">
+              <h3>CLASSIFIEDS</h3>
+              <p>
+                <b>LOST:</b> 40% of portfolio. Last seen near the top. No reward.
+              </p>
+              <p>
+                <b>FOR SALE:</b> Diamond hands. Barely used.
+              </p>
+              <p>
+                <b>WANTED:</b> Exit liquidity. Ask at lunch.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -250,7 +324,7 @@ export default async function Home({
           <span className="cd-label">
             DAYS UNTIL
             <br />
-            TERM {semester.term} LOCKS
+            TERM {term} LOCKS
           </span>
         </div>
         <div className="semester-copy">
@@ -263,13 +337,12 @@ export default async function Home({
           <p className="block-sub">
             Every {SEMESTER_DAYS} days the bell rings, your card is locked as a permanent snapshot,
             and the next semester starts blank. Old cards become your transcript:{" "}
-            <span className="transcript-line">FALL 2026 — EXPELLED. WINTER 2027 — HONOR ROLL?</span>
+            <span className="transcript-line">Fall 2026: EXPELLED. Winter 2027: honor roll?</span>
           </p>
         </div>
       </section>
 
       <section className="final">
-        <Candles className="final-candles" seed={44} count={36} shape="dump" />
         <h2 className="final-h">
           SHOW ME
           <br />
@@ -279,9 +352,7 @@ export default async function Home({
       </section>
 
       <footer className="site-foot">
-        <p>
-          REPORT CARDS · GRADED FROM ROBINHOOD CHAIN ACTIVITY · TEACHER: HARROW
-        </p>
+        <p>REPORT CARDS · GRADED FROM ROBINHOOD CHAIN ACTIVITY · TEACHER: HARROW</p>
         <p className="foot-fine">
           Not financial advice. Barely educational advice. Not affiliated with any brokerage or
           school district. Grades are final.

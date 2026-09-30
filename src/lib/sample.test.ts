@@ -18,6 +18,12 @@ describe("sampleCard", () => {
     expect(card.status).toBe("MOST LIKELY TO BECOME EXIT LIQUIDITY");
   });
 
+  it("lands every status it is asked for", () => {
+    for (const want of ["HONOR ROLL", "EXPELLED", "HELD BACK"] as const) {
+      expect(sampleCard(now, want).status).toBe(want);
+    }
+  });
+
   it("is deterministic", () => {
     expect(sampleCard(now)).toEqual(sampleCard(now));
   });

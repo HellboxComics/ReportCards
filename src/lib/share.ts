@@ -1,6 +1,6 @@
 import { SUBJECTS } from "./grading";
 import { shortAddress } from "./reportCard";
-import type { LetterGrade, ReportCard, Status, SubjectGrade } from "./types";
+import type { Incident, LetterGrade, ReportCard, Status, SubjectGrade } from "./types";
 
 /**
  * Helpers for the share loop: which grade Harrow circles, how the status stamp
@@ -104,24 +104,67 @@ export function gradeLine(s: SubjectGrade): string {
   return `${s.grade} in ${s.name}`;
 }
 
-/** The prefilled post. Short, lowercase, built to make replies post their own. */
-export function shareText(card: ReportCard): string {
+/** "an F", "an A+", "a B-", "a D". */
+export function withArticle(grade: LetterGrade): string {
+  return `${/^[AFI]/.test(grade) ? "an" : "a"} ${grade}`;
+}
+
+/** True for an A-range grade in a subject you should be bad at. */
+export function isBackhanded(s: SubjectGrade): boolean {
+  return isVice(s) && (gradeRank(s.grade) ?? 0) >= gradeRank("A-")!;
+}
+
+const STATUS_LINE: Record<Status, string> = {
+  "HONOR ROLL": "Somehow made HONOR ROLL. The teacher is suspicious.",
+  "NEEDS IMPROVEMENT": "Status: NEEDS IMPROVEMENT.",
+  "ACADEMIC PROBATION": "Now on ACADEMIC PROBATION.",
+  "HELD BACK": "Got HELD BACK a semester.",
+  SUSPENDED: "Got SUSPENDED.",
+  EXPELLED: "Got EXPELLED.",
+  "MOST LIKELY TO BECOME EXIT LIQUIDITY": "Voted MOST LIKELY TO BECOME EXIT LIQUIDITY.",
+};
+
+const INCIDENT_LINE: Record<Incident, string> = {
+  WHALE: "Also got put in the gifted program (whale).",
+  RUGGED: "Also got sent to the nurse after a rug.",
+  LIQUIDATED: "Withdrawn from school. Reason: liquidated.",
+  FIGHT_IN_CAFETERIA: "Also got written up for a fight in the cafeteria.",
+};
+
+/** Short labels for chips and tickers. */
+export const INCIDENT_LABEL: Record<Incident, string> = {
+  WHALE: "GIFTED & TALENTED (WHALE)",
+  RUGGED: "SENT TO THE NURSE (RUGGED)",
+  LIQUIDATED: "WITHDRAWN (LIQUIDATED)",
+  FIGHT_IN_CAFETERIA: "FIGHT IN CAFETERIA",
+};
+
+/**
+ * The prefilled post, written the way people actually post it:
+ * "My wallet got an F in Taking Profit and an A+ in Holding Bags." The card
+ * link is passed to the intent separately.
+ */
+export function shareText(card: Pick<ReportCard, "subjects" | "status" | "incidents">): string {
   const worst = worstSubject(card.subjects);
   const vice = bestVice(card.subjects);
-  const lines: string[] = [];
-  if (card.status === "HONOR ROLL") {
-    lines.push("my wallet made HONOR ROLL. the teacher is \"frankly suspicious\"");
-  } else {
-    lines.push("my wallet just got its report card");
-  }
-  lines.push("");
-  if (worst) lines.push(gradeLine(worst));
-  if (vice && vice !== worst) lines.push(gradeLine(vice));
-  if (!worst) lines.push("Incomplete in every subject");
-  lines.push(`status: ${card.status}`);
-  lines.push("");
-  lines.push("show me your grades");
-  return lines.join("\n");
+  let lead: string;
+  if (!worst) lead = "My wallet's report card came back all Incompletes.";
+  else if (isBackhanded(worst)) {
+    lead = `My wallet got ${withArticle(worst.grade)} in ${worst.name}. Not a compliment.`;
+  } else if (vice && vice !== worst) {
+    lead =
+      `My wallet got ${withArticle(worst.grade)} in ${worst.name}` +
+      ` and ${withArticle(vice.grade)} in ${vice.name}.`;
+  } else lead = `My wallet got ${withArticle(worst.grade)} in ${worst.name}.`;
+
+  // Liquidation already explains an EXPELLED; otherwise brag about the rarest thing.
+  const incident =
+    card.incidents.find((i) => i === "WHALE" || i === "FIGHT_IN_CAFETERIA") ??
+    card.incidents.find((i) => i === "RUGGED") ??
+    card.incidents.find((i) => i === "LIQUIDATED");
+  return [lead, STATUS_LINE[card.status], incident && INCIDENT_LINE[incident], "", "Show me your grades \u{1F447}"]
+    .filter((l): l is string => l !== undefined)
+    .join("\n");
 }
 
 /** X post intent with the text and the card link, both encoded. */
@@ -129,16 +172,43 @@ export function xIntentUrl(text: string, url: string): string {
   return `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
 }
 
-/** Tape items for the card page ticker. */
+function cardQuery(term: number, name?: string): string {
+  const q = new URLSearchParams({ term: String(term) });
+  if (name?.trim()) q.set("name", name.trim());
+  return q.toString();
+}
+
+/**
+ * The shareable card path. Always carries the term, so a posted link keeps
+ * showing the same card after the semester rolls over.
+ */
+export function cardPath(address: string, term: number, name?: string): string {
+  return `/card/${address}?${cardQuery(term, name)}`;
+}
+
+/** The share image for that exact card (same term and name). */
+export function cardImagePath(address: string, term: number, name?: string): string {
+  return `/card/${address}/opengraph-image?${cardQuery(term, name)}`;
+}
+
+/** The name the viewer typed, if the card has one (not the short address). */
+export function customName(card: Pick<ReportCard, "studentName" | "address">): string | undefined {
+  return card.studentName === shortAddress(card.address) ? undefined : card.studentName;
+}
+
+/** Tape items for the card page ticker: this card's verdict, over and over. */
 export function tickerItems(card: ReportCard): string[] {
-  const who = shortAddress(card.address);
   const worst = worstSubject(card.subjects);
   const vice = bestVice(card.subjects);
-  const items = [
-    worst ? `${who} — ${worst.grade} IN ${worst.name.toUpperCase()} — ${card.status}` : `${who} — ${card.status}`,
-    "SHOW ME YOUR GRADES",
-  ];
-  if (vice && vice !== worst) items.push(`${vice.grade} IN ${vice.name.toUpperCase()} (NOT A COMPLIMENT)`);
-  items.push("PARENTS HAVE BEEN NOTIFIED", `${card.semester.label} — TERM ${card.semester.term}`, "RETURN SIGNED BY MONDAY");
+  const items: string[] = [card.status];
+  if (worst) {
+    items.push(
+      `${withArticle(worst.grade).toUpperCase()} IN ${worst.name.toUpperCase()}${isBackhanded(worst) ? " (NOT A COMPLIMENT)" : ""}`,
+    );
+  }
+  items.push("SHOW ME YOUR GRADES");
+  if (vice && vice !== worst) items.push(`${withArticle(vice.grade).toUpperCase()} IN ${vice.name.toUpperCase()} (NOT A COMPLIMENT)`);
+  for (const i of card.incidents) items.push(INCIDENT_LABEL[i]);
+  items.push(`${card.semester.label} · TERM ${card.semester.term}`, "PARENTS HAVE BEEN NOTIFIED");
   return items;
 }

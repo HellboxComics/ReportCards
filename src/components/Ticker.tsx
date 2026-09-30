@@ -10,12 +10,16 @@ export function Ticker({
   seconds = 40,
   reverse = false,
   label,
+  badge,
 }: {
   items: ReactNode[];
-  variant?: "hazard" | "tape" | "alarm" | "acid";
+  variant?: "hazard" | "tape" | "verdict" | "shout";
   seconds?: number;
   reverse?: boolean;
+  /** Accessible name when the items are not plain text. */
   label?: string;
+  /** A fixed tag at the left edge, e.g. BREAKING. */
+  badge?: string;
 }) {
   // Repeat short lists so one sequence is always wider than the screen.
   const reps = Math.max(1, Math.ceil(8 / items.length));
@@ -36,9 +40,12 @@ export function Ticker({
       role="marquee"
       aria-label={label ?? items.filter((i) => typeof i === "string").join(". ")}
     >
-      <div className="tk-track" style={{ "--dur": `${seconds}s` } as CSSProperties}>
-        {row(false)}
-        {row(true)}
+      {badge && <span className="tk-label">{badge}</span>}
+      <div className="tk-window">
+        <div className="tk-track" style={{ "--dur": `${seconds}s` } as CSSProperties}>
+          {row(false)}
+          {row(true)}
+        </div>
       </div>
     </div>
   );

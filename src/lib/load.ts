@@ -12,5 +12,7 @@ export async function loadReportCard(address: string, opts: { name?: string; ter
       ? semesterByIndex(term - 1)
       : current;
   const activity = await getActivity(address, semester, now);
-  return buildReportCard(activity, semester, { now, studentName: opts.name });
+  // Names come from URLs; keep them card-sized.
+  const name = opts.name?.replace(/\s+/g, " ").trim().slice(0, 40) || undefined;
+  return buildReportCard(activity, semester, { now, studentName: name });
 }

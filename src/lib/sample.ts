@@ -1,4 +1,4 @@
-import { mockActivity } from "./providers/mock";
+import { DEMO_STUDENTS, mockActivity } from "./providers/mock";
 import { hashString } from "./random";
 import { buildReportCard } from "./reportCard";
 import { semesterAt } from "./semester";
@@ -14,23 +14,16 @@ export function demoAddress(i: number): string {
 }
 
 /**
- * The landing page's sample card. Always mock data (and stamped as such), and
- * picks the first demo wallet that lands the wanted status this semester.
+ * A sample card for the landing page, always mock data (and stamped as such).
+ * It borrows a pinned demo student's semester, so it lands the wanted status
+ * every time, and prints under a plausible-looking address.
  */
 export function sampleCard(
   now: number,
   want: Status = "MOST LIKELY TO BECOME EXIT LIQUIDITY",
 ): ReportCard {
   const semester = semesterAt(now);
-  let first: ReportCard | null = null;
-  for (let i = 0; i < 48; i++) {
-    const address = demoAddress(i);
-    const card = buildReportCard(mockActivity(address, semester, now), semester, {
-      now,
-      studentName: SAMPLE_NAME,
-    });
-    if (card.status === want) return card;
-    first ??= card;
-  }
-  return first!;
+  const i = Math.max(0, DEMO_STUDENTS.findIndex((d) => d.wants.status === want));
+  const activity = { ...mockActivity(DEMO_STUDENTS[i].address, semester, now), address: demoAddress(i) };
+  return buildReportCard(activity, semester, { now, studentName: SAMPLE_NAME });
 }

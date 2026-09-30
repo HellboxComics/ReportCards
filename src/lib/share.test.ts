@@ -5,7 +5,11 @@ import { buildReportCard } from "./reportCard";
 import { semesterByIndex } from "./semester";
 import {
   bestVice,
+  cardImagePath,
+  cardPath,
+  customName,
   gradeRank,
+  isBackhanded,
   shareText,
   statusLines,
   statusTone,
@@ -13,6 +17,7 @@ import {
   textWidth,
   widestWord,
   worstSubject,
+  withArticle,
   xIntentUrl,
 } from "./share";
 import type { SubjectGrade, SubjectKey } from "./types";
@@ -114,13 +119,33 @@ describe("shareText / xIntentUrl", () => {
   const addr = "0x0000000000000000000000000000000000000001";
   const card = buildReportCard(mockActivity(addr, s, now), s, { now });
 
-  it("names the worst grade, the status and the hook", () => {
+  it("reads like a post: worst grade, the backhanded A, the status and the hook", () => {
     const text = shareText(card);
     const worst = worstSubject(card.subjects)!;
-    expect(text).toContain(`${worst.grade} in ${worst.name}`);
-    expect(text).toContain(`status: ${card.status}`);
-    expect(text).toContain("show me your grades");
+    expect(text.startsWith(`My wallet got ${withArticle(worst.grade)} in ${worst.name}`)).toBe(true);
+    expect(text).toContain("MOST LIKELY TO BECOME EXIT LIQUIDITY");
+    expect(text).toContain("Show me your grades");
     expect(text.length).toBeLessThan(250);
+  });
+
+  it("pairs a failing virtue grade with the A in a vice", () => {
+    const text = shareText({
+      subjects: subjects({ takingProfit: 5, holdingBags: 99, riskManagement: 70 }),
+      status: "MOST LIKELY TO BECOME EXIT LIQUIDITY",
+      incidents: [],
+    });
+    expect(text.split("\n")[0]).toBe("My wallet got an F in Taking Profit and an A+ in Holding Bags.");
+    expect(text.split("\n")[1]).toBe("Voted MOST LIKELY TO BECOME EXIT LIQUIDITY.");
+  });
+
+  it("flags a circled vice A as not a compliment and brags about incidents", () => {
+    const text = shareText({
+      subjects: subjects({ takingProfit: 90, riskManagement: 85, buyingTheTop: 98 }),
+      status: "NEEDS IMPROVEMENT",
+      incidents: ["WHALE", "FIGHT_IN_CAFETERIA"],
+    });
+    expect(text).toContain("an A+ in Buying the Top. Not a compliment.");
+    expect(text).toContain("gifted program");
   });
 
   it("encodes text and url for the X intent", () => {
@@ -133,9 +158,37 @@ describe("shareText / xIntentUrl", () => {
     expect(url).not.toContain("#");
   });
 
-  it("builds ticker items that lead with the worst grade", () => {
+  it("builds ticker items that lead with the verdict and the worst grade", () => {
     const items = tickerItems(card);
-    expect(items[0]).toContain(card.status);
+    expect(items[0]).toBe(card.status);
+    expect(items[1]).toContain("IN TAKING PROFIT");
     expect(items).toContain("SHOW ME YOUR GRADES");
+  });
+});
+
+describe("share links", () => {
+  it("always pins the term, and carries the name for both the page and its image", () => {
+    expect(cardPath("0xabc", 7)).toBe("/card/0xabc?term=7");
+    expect(cardPath("0xabc", 7, "Jamie Doe")).toBe("/card/0xabc?term=7&name=Jamie+Doe");
+    expect(cardImagePath("0xabc", 6, "  ")).toBe("/card/0xabc/opengraph-image?term=6");
+    const u = new URL(cardImagePath("0xabc", 6, "Jamie & Co"), "https://x.test");
+    expect(u.searchParams.get("name")).toBe("Jamie & Co");
+  });
+
+  it("knows when the student name is just the short address", () => {
+    const s = semesterByIndex(3);
+    const now = s.end + 1;
+    const addr = "0x0000000000000000000000000000000000000002";
+    expect(customName(buildReportCard(mockActivity(addr, s, now), s, { now }))).toBeUndefined();
+    expect(
+      customName(buildReportCard(mockActivity(addr, s, now), s, { now, studentName: "Jamie Doe" })),
+    ).toBe("Jamie Doe");
+  });
+
+  it("marks A-range vice grades as backhanded", () => {
+    const s = subjects({ buyingTheTop: 97, takingProfit: 99, holdingBags: 70 });
+    expect(isBackhanded(s[0])).toBe(true);
+    expect(isBackhanded(s[1])).toBe(false);
+    expect(isBackhanded(s[3])).toBe(false);
   });
 });
